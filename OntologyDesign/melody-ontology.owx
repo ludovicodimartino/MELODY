@@ -1,0 +1,551 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.dei.unipd.it/~gdb/ontology/melody"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.dei.unipd.it/~gdb/ontology/melody">
+    <Prefix name="" IRI="http://www.dei.unipd.it/~gdb/ontology/melody/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.w3.org/TR/skos-reference/skos-owl1-dl.rdf</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">The goal of the project is to create a graph database containing information about the most popular weekly songs from 1958 to the present. This data will be gathered from various datasets and Spotify. With this information, it will be possible to make evaluations, for example, on song duration, key used, etc.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <Literal xml:lang="en">Di Martino Ludovico, 2104292
+Galli Filippo, 2120826
+Rigobello Manuel, 2103374</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Album"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BillboardHot100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CollaborativeSong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grammy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GrammyCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Membership"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Popularity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoloSong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SongHot100"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#candidated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#classified"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#classifiedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#containsSong"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPopularity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInAlbum"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLessPopularThan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isMorePopularThan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRemixOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sungBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#winner"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#acousticness"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#artistType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#bpm"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#danceability"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#duration"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#followers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#key"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#totalTracks"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#valence"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#CollaborativeSong"/>
+        <Class IRI="#SongHot100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoloSong"/>
+        <Class IRI="#SongHot100"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#CollaborativeSong"/>
+        <Class IRI="#SoloSong"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#candidated"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#classified"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#classifiedIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#containsSong"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCategory"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGenre"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPopularity"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isInAlbum"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isLessPopularThan"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isMorePopularThan"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sing"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sungBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#winner"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#containsSong"/>
+        <ObjectProperty IRI="#isInAlbum"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#isLessPopularThan"/>
+        <ObjectProperty IRI="#isMorePopularThan"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#sing"/>
+        <ObjectProperty IRI="#sungBy"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#isRemixOf"/>
+    </FunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isLessPopularThan"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isMorePopularThan"/>
+    </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#isLessPopularThan"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#isMorePopularThan"/>
+    </ReflexiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty IRI="#isRemixOf"/>
+    </ReflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#candidated"/>
+        <ObjectUnionOf>
+            <Class IRI="#Album"/>
+            <Class IRI="#Artist"/>
+            <Class IRI="#SongHot100"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#classified"/>
+        <Class IRI="#SongHot100"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#classifiedIn"/>
+        <Class IRI="#Membership"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#containsSong"/>
+        <Class IRI="#Album"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCategory"/>
+        <Class IRI="#Grammy"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Artist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInAlbum"/>
+        <Class IRI="#Album"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLessPopularThan"/>
+        <Class IRI="#Popularity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isMorePopularThan"/>
+        <Class IRI="#Popularity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRemixOf"/>
+        <Class IRI="#SongHot100"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sing"/>
+        <Class IRI="#Artist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sungBy"/>
+        <Class IRI="#Artist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#winner"/>
+        <ObjectUnionOf>
+            <Class IRI="#Album"/>
+            <Class IRI="#Artist"/>
+            <Class IRI="#SongHot100"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#candidated"/>
+        <Class IRI="#Grammy"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#classified"/>
+        <Class IRI="#Membership"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#classifiedIn"/>
+        <Class IRI="#BillboardHot100"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsSong"/>
+        <Class IRI="#SongHot100"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCategory"/>
+        <Class IRI="#GrammyCategory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInAlbum"/>
+        <Class IRI="#SongHot100"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLessPopularThan"/>
+        <Class IRI="#Popularity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isMorePopularThan"/>
+        <Class IRI="#Popularity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRemixOf"/>
+        <Class IRI="#SongHot100"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sing"/>
+        <Class IRI="#SongHot100"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sungBy"/>
+        <Class IRI="#SongHot100"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#winner"/>
+        <Class IRI="#Grammy"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#acousticness"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#artistType"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#bpm"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#danceability"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#date"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#duration"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#followers"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#key"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#valence"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#acousticness"/>
+        <Class IRI="#SongHot100"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#artistType"/>
+        <Class IRI="#Artist"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#bpm"/>
+        <Class IRI="#SongHot100"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#danceability"/>
+        <Class IRI="#SongHot100"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#date"/>
+        <Class IRI="#BillboardHot100"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#duration"/>
+        <Class IRI="#SongHot100"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#followers"/>
+        <Class IRI="#Artist"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#key"/>
+        <Class IRI="#SongHot100"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#valence"/>
+        <Class IRI="#SongHot100"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Class IRI="#Album"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#acousticness"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#artistType"/>
+        <DataOneOf>
+            <Literal>DJ</Literal>
+            <Literal>band</Literal>
+            <Literal>duo</Literal>
+            <Literal>rapper</Literal>
+            <Literal>singer</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#bpm"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#danceability"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#duration"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#followers"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#key"/>
+        <DataOneOf>
+            <Literal>A</Literal>
+            <Literal>A#</Literal>
+            <Literal>A#m</Literal>
+            <Literal>Am</Literal>
+            <Literal>B</Literal>
+            <Literal>Bm</Literal>
+            <Literal>C</Literal>
+            <Literal>C#</Literal>
+            <Literal>C#m</Literal>
+            <Literal>Cm</Literal>
+            <Literal>D</Literal>
+            <Literal>D#</Literal>
+            <Literal>D#m</Literal>
+            <Literal>Dm</Literal>
+            <Literal>E</Literal>
+            <Literal>Em</Literal>
+            <Literal>F</Literal>
+            <Literal>F#</Literal>
+            <Literal>F#m</Literal>
+            <Literal>Fm</Literal>
+            <Literal>G</Literal>
+            <Literal>G#</Literal>
+            <Literal>G#m</Literal>
+            <Literal>Gm</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#valence"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Album</IRI>
+        <Literal xml:lang="en">The class representing the albums</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Artist</IRI>
+        <Literal xml:lang="en">The class representing the Artists</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#BillboardHot100</IRI>
+        <Literal xml:lang="en">The class representing the Billboard Hot 100</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CollaborativeSong</IRI>
+        <Literal xml:lang="en">The class representing the Song Sung by multiple Artist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Genre</IRI>
+        <Literal xml:lang="en">The class representing the Genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Grammy</IRI>
+        <Literal xml:lang="en">The class representing the Grammy Award</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GrammyCategory</IRI>
+        <Literal xml:lang="en">The class representing the Grammy Award category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Membership</IRI>
+        <Literal xml:lang="en">The class representing the Membership between the Song and its position in the Billboard Hot 100 in the specified date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Popularity</IRI>
+        <Literal xml:lang="en">The class representing the Popularity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SoloSong</IRI>
+        <Literal xml:lang="en">The class representing the Song sung by an Artist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SongHot100</IRI>
+        <Literal xml:lang="en">The class representing the Song in the Billboard Hot 100</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
