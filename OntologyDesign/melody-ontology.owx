@@ -131,6 +131,27 @@ Rigobello Manuel, 2103374</Literal>
     <Declaration>
         <DataProperty IRI="#valence"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Album"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#containsSong"/>
+            <Class IRI="#SongHot100"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Artist"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#sing"/>
+            <Class IRI="#SongHot100"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SongHot100"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#sungBy"/>
+            <Class IRI="#Artist"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#CollaborativeSong"/>
         <Class IRI="#SongHot100"/>
@@ -216,15 +237,6 @@ Rigobello Manuel, 2103374</Literal>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#isMorePopularThan"/>
     </TransitiveObjectProperty>
-    <ReflexiveObjectProperty>
-        <ObjectProperty IRI="#isLessPopularThan"/>
-    </ReflexiveObjectProperty>
-    <ReflexiveObjectProperty>
-        <ObjectProperty IRI="#isMorePopularThan"/>
-    </ReflexiveObjectProperty>
-    <ReflexiveObjectProperty>
-        <ObjectProperty IRI="#isRemixOf"/>
-    </ReflexiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#candidated"/>
         <ObjectUnionOf>
@@ -254,8 +266,8 @@ Rigobello Manuel, 2103374</Literal>
         <Class IRI="#Artist"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isInAlbum"/>
-        <Class IRI="#Album"/>
+        <ObjectProperty IRI="#hasPopularity"/>
+        <Class IRI="#Artist"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isLessPopularThan"/>
@@ -275,7 +287,7 @@ Rigobello Manuel, 2103374</Literal>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#sungBy"/>
-        <Class IRI="#Artist"/>
+        <Class IRI="#SongHot100"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#winner"/>
@@ -310,8 +322,8 @@ Rigobello Manuel, 2103374</Literal>
         <Class IRI="#Genre"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#isInAlbum"/>
-        <Class IRI="#SongHot100"/>
+        <ObjectProperty IRI="#hasPopularity"/>
+        <Class IRI="#Popularity"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isLessPopularThan"/>
@@ -331,7 +343,7 @@ Rigobello Manuel, 2103374</Literal>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#sungBy"/>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#Artist"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#winner"/>
@@ -542,6 +554,32 @@ Rigobello Manuel, 2103374</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#SongHot100</IRI>
         <Literal xml:lang="en">The class representing the Song in the Billboard Hot 100</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#acousticness</IRI>
+        <Literal xml:lang="en">A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#bpm</IRI>
+        <Literal xml:lang="en">The overall estimated tempo of a track in beats per minute.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#danceability</IRI>
+        <Literal xml:lang="en">Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. 
+A value of 0.0 is least danceable and 1.0 is most danceable.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#duration</IRI>
+        <Literal xml:lang="en">The duration of the track in milliseconds.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#key</IRI>
+        <Literal xml:lang="en">The estimated overall key and modality (major or minor) of the track. Integers map to pitches using standard Pitch Class notation.</Literal>
     </AnnotationAssertion>
 </Ontology>
 
