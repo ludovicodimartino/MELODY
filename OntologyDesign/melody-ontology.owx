@@ -214,7 +214,7 @@ Rigobello Manuel, 2103374</Literal>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#winner"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+        <ObjectProperty IRI="#candidated"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#containsSong"/>
@@ -228,14 +228,14 @@ Rigobello Manuel, 2103374</Literal>
         <ObjectProperty IRI="#sing"/>
         <ObjectProperty IRI="#sungBy"/>
     </InverseObjectProperties>
-    <FunctionalObjectProperty>
-        <ObjectProperty IRI="#isRemixOf"/>
-    </FunctionalObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#isLessPopularThan"/>
     </TransitiveObjectProperty>
     <TransitiveObjectProperty>
         <ObjectProperty IRI="#isMorePopularThan"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isRemixOf"/>
     </TransitiveObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#candidated"/>
@@ -284,10 +284,6 @@ Rigobello Manuel, 2103374</Literal>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#sing"/>
         <Class IRI="#Artist"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#sungBy"/>
-        <Class IRI="#SongHot100"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#winner"/>
@@ -342,10 +338,6 @@ Rigobello Manuel, 2103374</Literal>
         <Class IRI="#SongHot100"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#sungBy"/>
-        <Class IRI="#Artist"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#winner"/>
         <Class IRI="#Grammy"/>
     </ObjectPropertyRange>
@@ -389,6 +381,36 @@ Rigobello Manuel, 2103374</Literal>
         <DataProperty IRI="#valence"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#acousticness"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#artistType"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#bpm"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#danceability"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#date"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#duration"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#followers"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#key"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#valence"/>
+    </FunctionalDataProperty>
     <DataPropertyDomain>
         <DataProperty IRI="#acousticness"/>
         <Class IRI="#SongHot100"/>
@@ -506,14 +528,29 @@ Rigobello Manuel, 2103374</Literal>
         <Literal xml:lang="en">The class representing the albums</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Album</IRI>
+        <Literal xml:lang="en">Album</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Artist</IRI>
         <Literal xml:lang="en">The class representing the Artists</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Artist</IRI>
+        <Literal xml:lang="en">Artist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#BillboardHot100</IRI>
         <Literal xml:lang="en">The class representing the Billboard Hot 100</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BillboardHot100</IRI>
+        <Literal xml:lang="en">BillboardHot100</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -524,6 +561,11 @@ Rigobello Manuel, 2103374</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Genre</IRI>
         <Literal xml:lang="en">The class representing the Genre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Genre</IRI>
+        <Literal xml:lang="en">Genre</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
