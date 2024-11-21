@@ -6,6 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.dei.unipd.it/~gdb/ontology/melody">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="mel" IRI="http://www.dei.unipd.it/~gdb/ontology/melody#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -33,9 +34,6 @@ Rigobello Manuel, 2103374</Literal>
         <Class IRI="#BillboardHot100"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CollaborativeSong"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Genre"/>
     </Declaration>
     <Declaration>
@@ -51,10 +49,7 @@ Rigobello Manuel, 2103374</Literal>
         <Class IRI="#Popularity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SoloSong"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#candidated"/>
@@ -132,6 +127,9 @@ Rigobello Manuel, 2103374</Literal>
         <DataProperty IRI="#valence"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="/songType"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#High"/>
     </Declaration>
     <Declaration>
@@ -144,14 +142,14 @@ Rigobello Manuel, 2103374</Literal>
         <Class IRI="#Album"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#containsSong"/>
-            <Class IRI="#SongHot100"/>
+            <Class IRI="#SongHot200"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#Artist"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#sing"/>
-            <Class IRI="#SongHot100"/>
+            <Class IRI="#SongHot200"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -163,24 +161,12 @@ Rigobello Manuel, 2103374</Literal>
         </ObjectOneOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#sungBy"/>
             <Class IRI="#Artist"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
-    <SubClassOf>
-        <Class IRI="#CollaborativeSong"/>
-        <Class IRI="#SongHot100"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SoloSong"/>
-        <Class IRI="#SongHot100"/>
-    </SubClassOf>
-    <DisjointClasses>
-        <Class IRI="#CollaborativeSong"/>
-        <Class IRI="#SoloSong"/>
-    </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#Popularity"/>
         <NamedIndividual IRI="#High"/>
@@ -291,12 +277,12 @@ Rigobello Manuel, 2103374</Literal>
         <ObjectUnionOf>
             <Class IRI="#Album"/>
             <Class IRI="#Artist"/>
-            <Class IRI="#SongHot100"/>
+            <Class IRI="#SongHot200"/>
         </ObjectUnionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#classified"/>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#classifiedIn"/>
@@ -328,7 +314,7 @@ Rigobello Manuel, 2103374</Literal>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#isRemixOf"/>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#sing"/>
@@ -339,7 +325,7 @@ Rigobello Manuel, 2103374</Literal>
         <ObjectUnionOf>
             <Class IRI="#Album"/>
             <Class IRI="#Artist"/>
-            <Class IRI="#SongHot100"/>
+            <Class IRI="#SongHot200"/>
         </ObjectUnionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
@@ -356,7 +342,7 @@ Rigobello Manuel, 2103374</Literal>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#containsSong"/>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasCategory"/>
@@ -380,11 +366,11 @@ Rigobello Manuel, 2103374</Literal>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isRemixOf"/>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#sing"/>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#winner"/>
@@ -458,11 +444,17 @@ Rigobello Manuel, 2103374</Literal>
         <DataProperty IRI="#name"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
+        <DataProperty IRI="#totalTracks"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
         <DataProperty IRI="#valence"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="/songType"/>
     </FunctionalDataProperty>
     <DataPropertyDomain>
         <DataProperty IRI="#acousticness"/>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#artistType"/>
@@ -470,11 +462,11 @@ Rigobello Manuel, 2103374</Literal>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#bpm"/>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#danceability"/>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#date"/>
@@ -482,7 +474,7 @@ Rigobello Manuel, 2103374</Literal>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#duration"/>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#followers"/>
@@ -490,15 +482,27 @@ Rigobello Manuel, 2103374</Literal>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#key"/>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <ObjectUnionOf>
+            <Class IRI="#Album"/>
+            <Class IRI="#Artist"/>
+            <Class IRI="#SongHot200"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#totalTracks"/>
+        <Class IRI="#Album"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#valence"/>
-        <Class IRI="#SongHot100"/>
+        <Class IRI="#SongHot200"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-        <Class IRI="#Album"/>
+        <DataProperty IRI="/songType"/>
+        <Class IRI="#SongHot200"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#acousticness"/>
@@ -564,17 +568,28 @@ Rigobello Manuel, 2103374</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#totalTracks"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#valence"/>
         <Datatype abbreviatedIRI="xsd:float"/>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
-        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+        <DataProperty IRI="/songType"/>
+        <DataOneOf>
+            <Literal>Collaboration</Literal>
+            <Literal>Solo</Literal>
+        </DataOneOf>
     </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Album</IRI>
-        <Literal xml:lang="en">The class representing the albums</Literal>
+        <Literal xml:lang="en">The class representing the albums.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -584,7 +599,7 @@ Rigobello Manuel, 2103374</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Artist</IRI>
-        <Literal xml:lang="en">The class representing the Artists</Literal>
+        <Literal xml:lang="en">The class representing the artists.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -594,22 +609,17 @@ Rigobello Manuel, 2103374</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#BillboardHot100</IRI>
-        <Literal xml:lang="en">The class representing the Billboard Hot 100</Literal>
+        <Literal xml:lang="en">The class representing the Billboard Hot 200.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#BillboardHot100</IRI>
-        <Literal xml:lang="en">BillboardHot100</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#CollaborativeSong</IRI>
-        <Literal xml:lang="en">The class representing the Song Sung by multiple Artist</Literal>
+        <Literal xml:lang="en">BillboardHot200</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Genre</IRI>
-        <Literal xml:lang="en">The class representing the Genre</Literal>
+        <Literal xml:lang="en">The class representing the genre.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -619,32 +629,52 @@ Rigobello Manuel, 2103374</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Grammy</IRI>
-        <Literal xml:lang="en">The class representing the Grammy Award</Literal>
+        <Literal xml:lang="en">The class representing the Grammy Award.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Grammy</IRI>
+        <Literal xml:lang="en">Grammy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#GrammyCategory</IRI>
-        <Literal xml:lang="en">The class representing the Grammy Award category</Literal>
+        <Literal xml:lang="en">The class representing the Grammy Award category.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#GrammyCategory</IRI>
+        <Literal xml:lang="en">GrammyCategory</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Membership</IRI>
-        <Literal xml:lang="en">The class representing the Membership between the Song and its position in the Billboard Hot 100 in the specified date</Literal>
+        <Literal xml:lang="en">The class representing the Membership between the song and its position in the Billboard Hot 200 in the specified date.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Membership</IRI>
+        <Literal xml:lang="en">Membership</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Popularity</IRI>
-        <Literal xml:lang="en">The class representing the Popularity</Literal>
+        <Literal xml:lang="en">The class representing the popularity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Popularity</IRI>
+        <Literal xml:lang="en">Popularity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#SoloSong</IRI>
-        <Literal xml:lang="en">The class representing the Song sung by an Artist</Literal>
+        <IRI>#SongHot200</IRI>
+        <Literal xml:lang="en">The class representing the song in the Billboard Hot 200.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#SongHot100</IRI>
-        <Literal xml:lang="en">The class representing the Song in the Billboard Hot 100</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SongHot200</IRI>
+        <Literal xml:lang="en">SongHot200</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -652,9 +682,69 @@ Rigobello Manuel, 2103374</Literal>
         <Literal xml:lang="en">A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#acousticness</IRI>
+        <Literal xml:lang="en">acousticness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#artistType</IRI>
+        <Literal xml:lang="en">Whether the artist is a DJ  or a band or a duo or a rapper or a singer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#artistType</IRI>
+        <Literal xml:lang="en">artistType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#bpm</IRI>
         <Literal xml:lang="en">The overall estimated tempo of a track in beats per minute.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#bpm</IRI>
+        <Literal xml:lang="en">bpm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#candidated</IRI>
+        <Literal xml:lang="en">This property describes the Album, the Artists and the Songs candidated  for a Grammy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#candidated</IRI>
+        <Literal xml:lang="en">candidated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#classified</IRI>
+        <Literal xml:lang="en">This property links a song to the Membership class that specifies the position in the Billboard 200.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#classified</IRI>
+        <Literal xml:lang="en">classified</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#classifiedIn</IRI>
+        <Literal xml:lang="en">This property links the position of a song to the Billboard of a certain week.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#classifiedIn</IRI>
+        <Literal xml:lang="en">classifiedIn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#containsSong</IRI>
+        <Literal xml:lang="en">This property describes an album that contains a song.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#containsSong</IRI>
+        <Literal xml:lang="en">containsSong</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -663,14 +753,189 @@ Rigobello Manuel, 2103374</Literal>
 A value of 0.0 is least danceable and 1.0 is most danceable.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#danceability</IRI>
+        <Literal xml:lang="en">danceability</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#date</IRI>
+        <Literal xml:lang="en">The date when a song billboard 200 was released.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#date</IRI>
+        <Literal xml:lang="en">date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#duration</IRI>
         <Literal xml:lang="en">The duration of the track in milliseconds.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#duration</IRI>
+        <Literal xml:lang="en">duration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#followers</IRI>
+        <Literal xml:lang="en">The number of followers of an artist.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#followers</IRI>
+        <Literal xml:lang="en">followers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCategory</IRI>
+        <Literal xml:lang="en">This property describes the category of a Grammy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasCategory</IRI>
+        <Literal xml:lang="en">hasCategory</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasGenre</IRI>
+        <Literal xml:lang="en">This property links an artist to its genre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasGenre</IRI>
+        <Literal xml:lang="en">hasGenre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPopularity</IRI>
+        <Literal xml:lang="en">This property links an artist to its popularity (low, medium or high).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPopularity</IRI>
+        <Literal xml:lang="en">hasPopularity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isInAlbum</IRI>
+        <Literal xml:lang="en">This property links a song to its album.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isInAlbum</IRI>
+        <Literal xml:lang="en">isInAlbum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isLessPopularThan</IRI>
+        <Literal xml:lang="en">This property states whether a certain polpolarity (low, medium or high) is less than another popularity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isLessPopularThan</IRI>
+        <Literal xml:lang="en">isLessPopularThan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isMorePopularThan</IRI>
+        <Literal xml:lang="en">This property states whether a certain polpolarity (low, medium or high) is more than another popularity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isMorePopularThan</IRI>
+        <Literal xml:lang="en">isMorePopularThan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#isRemixOf</IRI>
+        <Literal xml:lang="en">This property links a song to its remix.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isRemixOf</IRI>
+        <Literal xml:lang="en">isRemixOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#key</IRI>
-        <Literal xml:lang="en">The estimated overall key and modality (major or minor) of the track. Integers map to pitches using standard Pitch Class notation.</Literal>
+        <Literal xml:lang="en">The estimated overall key and modality (major or minor) of the track.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#key</IRI>
+        <Literal xml:lang="en">key</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#name</IRI>
+        <Literal xml:lang="en">The name of an artist a song or an album.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#name</IRI>
+        <Literal xml:lang="en">name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#sing</IRI>
+        <Literal xml:lang="en">This property links an artist to a song that he/she sang.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sing</IRI>
+        <Literal xml:lang="en">sing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sungBy</IRI>
+        <Literal xml:lang="en">This property links a song to an artist that sings that song.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sungBy</IRI>
+        <Literal xml:lang="en">sungBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#totalTracks</IRI>
+        <Literal xml:lang="en">The total number of tracks contained in an album.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#totalTracks</IRI>
+        <Literal xml:lang="en">totalTracks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#valence</IRI>
+        <Literal xml:lang="en">A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#valence</IRI>
+        <Literal xml:lang="en">valence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#winner</IRI>
+        <Literal xml:lang="en">This property describes the Albums, the Artists and the Songs that won a Grammy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#winner</IRI>
+        <Literal xml:lang="en">winner</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/songType</IRI>
+        <Literal xml:lang="en">Whether a song is a solo song or a collaboration.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/songType</IRI>
+        <Literal xml:lang="en">songType</Literal>
     </AnnotationAssertion>
 </Ontology>
 
