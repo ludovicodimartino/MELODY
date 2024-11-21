@@ -131,6 +131,15 @@ Rigobello Manuel, 2103374</Literal>
     <Declaration>
         <DataProperty IRI="#valence"/>
     </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#High"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Low"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Medium"/>
+    </Declaration>
     <EquivalentClasses>
         <Class IRI="#Album"/>
         <ObjectSomeValuesFrom>
@@ -144,6 +153,14 @@ Rigobello Manuel, 2103374</Literal>
             <ObjectProperty IRI="#sing"/>
             <Class IRI="#SongHot100"/>
         </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Popularity"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#High"/>
+            <NamedIndividual IRI="#Low"/>
+            <NamedIndividual IRI="#Medium"/>
+        </ObjectOneOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#SongHot100"/>
@@ -164,6 +181,38 @@ Rigobello Manuel, 2103374</Literal>
         <Class IRI="#CollaborativeSong"/>
         <Class IRI="#SoloSong"/>
     </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Popularity"/>
+        <NamedIndividual IRI="#High"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Popularity"/>
+        <NamedIndividual IRI="#Low"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Popularity"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMorePopularThan"/>
+        <NamedIndividual IRI="#High"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLessPopularThan"/>
+        <NamedIndividual IRI="#Low"/>
+        <NamedIndividual IRI="#Medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isLessPopularThan"/>
+        <NamedIndividual IRI="#Medium"/>
+        <NamedIndividual IRI="#High"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isMorePopularThan"/>
+        <NamedIndividual IRI="#Medium"/>
+        <NamedIndividual IRI="#Low"/>
+    </ObjectPropertyAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#candidated"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
