@@ -1,0 +1,484 @@
+@prefix : <http://www.w3.org/2002/07/owl#> .
+@prefix mel: <http://www.dei.unipd.it/~gdb/ontology/melody#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+<http://www.dei.unipd.it/~gdb/ontology/melody> rdf:type owl:Ontology ;
+                                                owl:imports <http://www.w3.org/TR/skos-reference/skos-owl1-dl.rdf> ;
+                                                rdfs:comment "The goal of the project is to create a graph database containing information about the most popular weekly songs from 1958 to the present. This data will be gathered from various datasets and Spotify. With this information, it will be possible to make evaluations, for example, on song duration, key used, etc."@en ;
+                                                rdfs:isDefinedBy """Di Martino Ludovico, 2104292
+Galli Filippo, 2120826
+Rigobello Manuel, 2103374"""@en .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#candidated
+mel:candidated rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain [ rdf:type owl:Class ;
+                             owl:unionOf ( mel:Album
+                                           mel:Artist
+                                           mel:SongHot200
+                                         )
+                           ] ;
+               rdfs:range mel:Grammy ;
+               rdfs:comment "This property describes the Album, the Artists and the Songs candidated  for a Grammy."@en ;
+               rdfs:label "candidated"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#classified
+mel:classified rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf owl:topObjectProperty ;
+               rdfs:domain mel:SongHot200 ;
+               rdfs:range mel:Membership ;
+               rdfs:comment "This property links a song to the Membership class that specifies the position in the Billboard 200."@en ;
+               rdfs:label "classified"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#classifiedIn
+mel:classifiedIn rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 rdfs:domain mel:Membership ;
+                 rdfs:range mel:BillboardHot100 ;
+                 rdfs:comment "This property links the position of a song to the Billboard of a certain week."@en ;
+                 rdfs:label "classifiedIn"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#containsSong
+mel:containsSong rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 owl:inverseOf mel:isInAlbum ;
+                 rdfs:domain mel:Album ;
+                 rdfs:range mel:SongHot200 ;
+                 rdfs:comment "This property describes an album that contains a song."@en ;
+                 rdfs:label "containsSong"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#hasCategory
+mel:hasCategory rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain mel:Grammy ;
+                rdfs:range mel:GrammyCategory ;
+                rdfs:comment "This property describes the category of a Grammy."@en ;
+                rdfs:label "hasCategory"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#hasGenre
+mel:hasGenre rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain mel:Artist ;
+             rdfs:range mel:Genre ;
+             rdfs:comment "This property links an artist to its genre."@en ;
+             rdfs:label "hasGenre"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#hasPopularity
+mel:hasPopularity rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdfs:domain mel:Artist ;
+                  rdfs:range mel:Popularity ;
+                  rdfs:comment "This property links an artist to its popularity (low, medium or high)."@en ;
+                  rdfs:label "hasPopularity"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#isInAlbum
+mel:isInAlbum rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:comment "This property links a song to its album."@en ;
+              rdfs:label "isInAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#isLessPopularThan
+mel:isLessPopularThan rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      owl:inverseOf mel:isMorePopularThan ;
+                      rdf:type owl:TransitiveProperty ;
+                      rdfs:domain mel:Popularity ;
+                      rdfs:range mel:Popularity ;
+                      rdfs:comment "This property states whether a certain polpolarity (low, medium or high) is less than another popularity."@en ;
+                      rdfs:label "isLessPopularThan"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#isMorePopularThan
+mel:isMorePopularThan rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf owl:topObjectProperty ;
+                      rdf:type owl:TransitiveProperty ;
+                      rdfs:domain mel:Popularity ;
+                      rdfs:range mel:Popularity ;
+                      rdfs:comment "This property states whether a certain polpolarity (low, medium or high) is more than another popularity."@en ;
+                      rdfs:label "isMorePopularThan"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#isRemixOf
+mel:isRemixOf rdf:type owl:ObjectProperty ,
+                       owl:TransitiveProperty ;
+              rdfs:domain mel:SongHot200 ;
+              rdfs:range mel:SongHot200 ;
+              rdfs:comment "This property links a song to its remix."@en ;
+              rdfs:label "isRemixOf"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#sing
+mel:sing rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         owl:inverseOf mel:sungBy ;
+         rdfs:domain mel:Artist ;
+         rdfs:range mel:SongHot200 ;
+         rdfs:comment "This property links an artist to a song that he/she sang."@en ;
+         rdfs:label "sing"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#sungBy
+mel:sungBy rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty ;
+           rdfs:label "This property links a song to an artist that sings that song."@en ,
+                      "sungBy"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#winner
+mel:winner rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf mel:candidated ;
+           rdfs:domain [ rdf:type owl:Class ;
+                         owl:unionOf ( mel:Album
+                                       mel:Artist
+                                       mel:SongHot200
+                                     )
+                       ] ;
+           rdfs:range mel:Grammy ;
+           rdfs:comment "This property describes the Albums, the Artists and the Songs that won a Grammy."@en ;
+           rdfs:label "winner"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#acousticness
+mel:acousticness rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdf:type owl:FunctionalProperty ;
+                 rdfs:domain mel:SongHot200 ;
+                 rdfs:range xsd:float ;
+                 rdfs:comment "A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic."@en ;
+                 rdfs:label "acousticness"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#artistType
+mel:artistType rdf:type owl:DatatypeProperty ;
+               rdfs:subPropertyOf owl:topDataProperty ;
+               rdf:type owl:FunctionalProperty ;
+               rdfs:domain mel:Artist ;
+               rdfs:range [ rdf:type rdfs:Datatype ;
+                            owl:oneOf [ rdf:type rdf:List ;
+                                        rdf:first "DJ" ;
+                                        rdf:rest [ rdf:type rdf:List ;
+                                                   rdf:first "band" ;
+                                                   rdf:rest [ rdf:type rdf:List ;
+                                                              rdf:first "duo" ;
+                                                              rdf:rest [ rdf:type rdf:List ;
+                                                                         rdf:first "rapper" ;
+                                                                         rdf:rest [ rdf:type rdf:List ;
+                                                                                    rdf:first "singer" ;
+                                                                                    rdf:rest rdf:nil
+                                                                                  ]
+                                                                       ]
+                                                            ]
+                                                 ]
+                                      ]
+                          ] ;
+               rdfs:comment "Whether the artist is a DJ  or a band or a duo or a rapper or a singer."@en ;
+               rdfs:label "artistType"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#bpm
+mel:bpm rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdf:type owl:FunctionalProperty ;
+        rdfs:domain mel:SongHot200 ;
+        rdfs:range xsd:positiveInteger ;
+        rdfs:comment "The overall estimated tempo of a track in beats per minute."@en ;
+        rdfs:label "bpm"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#danceability
+mel:danceability rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdf:type owl:FunctionalProperty ;
+                 rdfs:domain mel:SongHot200 ;
+                 rdfs:range xsd:float ;
+                 rdfs:comment """Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. 
+A value of 0.0 is least danceable and 1.0 is most danceable."""@en ;
+                 rdfs:label "danceability"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#date
+mel:date rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdf:type owl:FunctionalProperty ;
+         rdfs:domain mel:BillboardHot100 ;
+         rdfs:range xsd:dateTime ;
+         rdfs:comment "The date when a song billboard 200 was released."@en ;
+         rdfs:label "date"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#duration
+mel:duration rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:domain mel:SongHot200 ;
+             rdfs:range xsd:positiveInteger ;
+             rdfs:comment "The duration of the track in milliseconds."@en ;
+             rdfs:label "duration"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#followers
+mel:followers rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain mel:Artist ;
+              rdfs:range xsd:positiveInteger ;
+              rdfs:comment "The number of followers of an artist."@en ;
+              rdfs:label "followers"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#key
+mel:key rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdf:type owl:FunctionalProperty ;
+        rdfs:domain mel:SongHot200 ;
+        rdfs:range [ rdf:type rdfs:Datatype ;
+                     owl:oneOf [ rdf:type rdf:List ;
+                                 rdf:first "A" ;
+                                 rdf:rest [ rdf:type rdf:List ;
+                                            rdf:first "A#" ;
+                                            rdf:rest [ rdf:type rdf:List ;
+                                                       rdf:first "A#m" ;
+                                                       rdf:rest [ rdf:type rdf:List ;
+                                                                  rdf:first "Am" ;
+                                                                  rdf:rest [ rdf:type rdf:List ;
+                                                                             rdf:first "B" ;
+                                                                             rdf:rest [ rdf:type rdf:List ;
+                                                                                        rdf:first "Bm" ;
+                                                                                        rdf:rest [ rdf:type rdf:List ;
+                                                                                                   rdf:first "C" ;
+                                                                                                   rdf:rest [ rdf:type rdf:List ;
+                                                                                                              rdf:first "C#" ;
+                                                                                                              rdf:rest [ rdf:type rdf:List ;
+                                                                                                                         rdf:first "C#m" ;
+                                                                                                                         rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                    rdf:first "Cm" ;
+                                                                                                                                    rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                               rdf:first "D" ;
+                                                                                                                                               rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                          rdf:first "D#" ;
+                                                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                     rdf:first "D#m" ;
+                                                                                                                                                                     rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                                rdf:first "Dm" ;
+                                                                                                                                                                                rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                                           rdf:first "E" ;
+                                                                                                                                                                                           rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                                                      rdf:first "Em" ;
+                                                                                                                                                                                                      rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                                                                 rdf:first "F" ;
+                                                                                                                                                                                                                 rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                                                                            rdf:first "F#" ;
+                                                                                                                                                                                                                            rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                                                                                       rdf:first "F#m" ;
+                                                                                                                                                                                                                                       rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                                                                                                  rdf:first "Fm" ;
+                                                                                                                                                                                                                                                  rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                                                                                                             rdf:first "G" ;
+                                                                                                                                                                                                                                                             rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                                                                                                                        rdf:first "G#" ;
+                                                                                                                                                                                                                                                                        rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                                                                                                                                   rdf:first "G#m" ;
+                                                                                                                                                                                                                                                                                   rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                                                                                                                                                                              rdf:first "Gm" ;
+                                                                                                                                                                                                                                                                                              rdf:rest rdf:nil
+                                                                                                                                                                                                                                                                                            ]
+                                                                                                                                                                                                                                                                                 ]
+                                                                                                                                                                                                                                                                      ]
+                                                                                                                                                                                                                                                           ]
+                                                                                                                                                                                                                                                ]
+                                                                                                                                                                                                                                     ]
+                                                                                                                                                                                                                          ]
+                                                                                                                                                                                                               ]
+                                                                                                                                                                                                    ]
+                                                                                                                                                                                         ]
+                                                                                                                                                                              ]
+                                                                                                                                                                   ]
+                                                                                                                                                        ]
+                                                                                                                                             ]
+                                                                                                                                  ]
+                                                                                                                       ]
+                                                                                                            ]
+                                                                                                 ]
+                                                                                      ]
+                                                                           ]
+                                                                ]
+                                                     ]
+                                          ]
+                               ]
+                   ] ;
+        rdfs:comment "The estimated overall key and modality (major or minor) of the track."@en ;
+        rdfs:label "key"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#name
+mel:name rdf:type owl:DatatypeProperty ;
+         rdfs:subPropertyOf owl:topDataProperty ;
+         rdf:type owl:FunctionalProperty ;
+         rdfs:domain [ rdf:type owl:Class ;
+                       owl:unionOf ( mel:Album
+                                     mel:Artist
+                                     mel:SongHot200
+                                   )
+                     ] ;
+         rdfs:range xsd:string ;
+         rdfs:comment "The name of an artist a song or an album."@en ;
+         rdfs:label "name"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#totalTracks
+mel:totalTracks rdf:type owl:DatatypeProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain mel:Album ;
+                rdfs:range xsd:positiveInteger ;
+                rdfs:comment "The total number of tracks contained in an album."@en ;
+                rdfs:label "totalTracks"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#valence
+mel:valence rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain mel:SongHot200 ;
+            rdfs:range xsd:float ;
+            rdfs:comment "A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry)."@en ;
+            rdfs:label "valence"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody/songType
+<http://www.dei.unipd.it/~gdb/ontology/melody/songType> rdf:type owl:DatatypeProperty ,
+                                                                 owl:FunctionalProperty ;
+                                                        rdfs:domain mel:SongHot200 ;
+                                                        rdfs:range [ rdf:type rdfs:Datatype ;
+                                                                     owl:oneOf [ rdf:type rdf:List ;
+                                                                                 rdf:first "Collaboration" ;
+                                                                                 rdf:rest [ rdf:type rdf:List ;
+                                                                                            rdf:first "Solo" ;
+                                                                                            rdf:rest rdf:nil
+                                                                                          ]
+                                                                               ]
+                                                                   ] ;
+                                                        rdfs:comment "Whether a song is a solo song or a collaboration."@en ;
+                                                        rdfs:label "songType"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#Album
+mel:Album rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Restriction ;
+                                owl:onProperty mel:containsSong ;
+                                owl:someValuesFrom mel:SongHot200
+                              ] ;
+          rdfs:comment "The class representing the albums."@en ;
+          rdfs:label "Album"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#Artist
+mel:Artist rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty mel:sing ;
+                                 owl:someValuesFrom mel:SongHot200
+                               ] ;
+           rdfs:comment "The class representing the artists."@en ;
+           rdfs:label "Artist"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BillboardHot100
+mel:BillboardHot100 rdf:type owl:Class ;
+                    rdfs:comment "The class representing the Billboard Hot 200."@en ;
+                    rdfs:label "BillboardHot200"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#Genre
+mel:Genre rdf:type owl:Class ;
+          rdfs:comment "The class representing the genre."@en ;
+          rdfs:label "Genre"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#Grammy
+mel:Grammy rdf:type owl:Class ;
+           rdfs:comment "The class representing the Grammy Award."@en ;
+           rdfs:label "Grammy"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#GrammyCategory
+mel:GrammyCategory rdf:type owl:Class ;
+                   rdfs:comment "The class representing the Grammy Award category."@en ;
+                   rdfs:label "GrammyCategory"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#Membership
+mel:Membership rdf:type owl:Class ;
+               rdfs:comment "The class representing the Membership between the song and its position in the Billboard Hot 200 in the specified date."@en ;
+               rdfs:label "Membership"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#Popularity
+mel:Popularity rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Class ;
+                                     owl:oneOf ( mel:High
+                                                 mel:Low
+                                                 mel:Medium
+                                               )
+                                   ] ;
+               rdfs:comment "The class representing the popularity."@en ;
+               rdfs:label "Popularity"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#SongHot200
+mel:SongHot200 rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                     owl:onProperty mel:sungBy ;
+                                     owl:someValuesFrom mel:Artist
+                                   ] ;
+               rdfs:comment "The class representing the song in the Billboard Hot 200."@en ;
+               rdfs:label "SongHot200"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#High
+mel:High rdf:type owl:NamedIndividual ,
+                  mel:Popularity ;
+         mel:isMorePopularThan mel:Medium .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#Low
+mel:Low rdf:type owl:NamedIndividual ,
+                 mel:Popularity ;
+        mel:isLessPopularThan mel:Medium .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#Medium
+mel:Medium rdf:type owl:NamedIndividual ,
+                    mel:Popularity ;
+           mel:isLessPopularThan mel:High ;
+           mel:isMorePopularThan mel:Low .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
