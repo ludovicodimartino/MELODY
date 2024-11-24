@@ -365,6 +365,15 @@ mel:valence rdf:type owl:DatatypeProperty ;
             rdfs:label "valence"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#year
+mel:year rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
+         rdfs:domain mel:Grammy ;
+         rdfs:range xsd:dateTime ;
+         rdfs:comment "The year of a grammy"@en ;
+         rdfs:label "year"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody/songType
 <http://www.dei.unipd.it/~gdb/ontology/melody/songType> rdf:type owl:DatatypeProperty ,
                                                                  owl:FunctionalProperty ;
