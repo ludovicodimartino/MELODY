@@ -1,1 +1,0 @@
-{"Collections":[{"sheetName":"Sheet1","startColumn":"A","endColumn":"D","startRow":"2","endRow":"+","comment":"","rule":"Individual: @A*\nTypes: @B*, @C*\nFacts: \u0027has broader transitive\u0027 @D*","active":true}]}
