@@ -15,12 +15,23 @@ Galli Filippo, 2120826
 Rigobello Manuel, 2103374"""@en .
 
 #################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#gYear
+xsd:gYear rdf:type rdfs:Datatype .
+
+
+#################################################################
 #    Object Properties
 #################################################################
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#candidated
 mel:candidated rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf owl:topObjectProperty ;
                rdfs:domain [ rdf:type owl:Class ;
                              owl:unionOf ( mel:Album
                                            mel:Artist
@@ -34,7 +45,6 @@ mel:candidated rdf:type owl:ObjectProperty ;
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#classified
 mel:classified rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf owl:topObjectProperty ;
                rdfs:domain mel:SongHot200 ;
                rdfs:range mel:Membership ;
                rdfs:comment "This property links a song to the Membership class that specifies the position in the Billboard 200."@en ;
@@ -43,7 +53,6 @@ mel:classified rdf:type owl:ObjectProperty ;
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#classifiedIn
 mel:classifiedIn rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf owl:topObjectProperty ;
                  rdfs:domain mel:Membership ;
                  rdfs:range mel:BillboardHot100 ;
                  rdfs:comment "This property links the position of a song to the Billboard of a certain week."@en ;
@@ -52,7 +61,6 @@ mel:classifiedIn rdf:type owl:ObjectProperty ;
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#containsSong
 mel:containsSong rdf:type owl:ObjectProperty ;
-                 rdfs:subPropertyOf owl:topObjectProperty ;
                  owl:inverseOf mel:isInAlbum ;
                  rdfs:domain mel:Album ;
                  rdfs:range mel:SongHot200 ;
@@ -62,7 +70,6 @@ mel:containsSong rdf:type owl:ObjectProperty ;
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#hasCategory
 mel:hasCategory rdf:type owl:ObjectProperty ;
-                rdfs:subPropertyOf owl:topObjectProperty ;
                 rdfs:domain mel:Grammy ;
                 rdfs:range mel:GrammyCategory ;
                 rdfs:comment "This property describes the category of a Grammy."@en ;
@@ -71,7 +78,6 @@ mel:hasCategory rdf:type owl:ObjectProperty ;
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#hasGenre
 mel:hasGenre rdf:type owl:ObjectProperty ;
-             rdfs:subPropertyOf owl:topObjectProperty ;
              rdfs:domain mel:Artist ;
              rdfs:range mel:Genre ;
              rdfs:comment "This property links an artist to its genre."@en ;
@@ -80,7 +86,6 @@ mel:hasGenre rdf:type owl:ObjectProperty ;
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#hasPopularity
 mel:hasPopularity rdf:type owl:ObjectProperty ;
-                  rdfs:subPropertyOf owl:topObjectProperty ;
                   rdfs:domain mel:Artist ;
                   rdfs:range mel:Popularity ;
                   rdfs:comment "This property links an artist to its popularity (low, medium or high)."@en ;
@@ -89,14 +94,12 @@ mel:hasPopularity rdf:type owl:ObjectProperty ;
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#isInAlbum
 mel:isInAlbum rdf:type owl:ObjectProperty ;
-              rdfs:subPropertyOf owl:topObjectProperty ;
               rdfs:comment "This property links a song to its album."@en ;
               rdfs:label "isInAlbum"@en .
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#isLessPopularThan
 mel:isLessPopularThan rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf owl:topObjectProperty ;
                       owl:inverseOf mel:isMorePopularThan ;
                       rdf:type owl:TransitiveProperty ;
                       rdfs:domain mel:Popularity ;
@@ -106,9 +109,8 @@ mel:isLessPopularThan rdf:type owl:ObjectProperty ;
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#isMorePopularThan
-mel:isMorePopularThan rdf:type owl:ObjectProperty ;
-                      rdfs:subPropertyOf owl:topObjectProperty ;
-                      rdf:type owl:TransitiveProperty ;
+mel:isMorePopularThan rdf:type owl:ObjectProperty ,
+                               owl:TransitiveProperty ;
                       rdfs:domain mel:Popularity ;
                       rdfs:range mel:Popularity ;
                       rdfs:comment "This property states whether a certain polpolarity (low, medium or high) is more than another popularity."@en ;
@@ -126,7 +128,6 @@ mel:isRemixOf rdf:type owl:ObjectProperty ,
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#sing
 mel:sing rdf:type owl:ObjectProperty ;
-         rdfs:subPropertyOf owl:topObjectProperty ;
          owl:inverseOf mel:sungBy ;
          rdfs:domain mel:Artist ;
          rdfs:range mel:SongHot200 ;
@@ -136,7 +137,6 @@ mel:sing rdf:type owl:ObjectProperty ;
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#sungBy
 mel:sungBy rdf:type owl:ObjectProperty ;
-           rdfs:subPropertyOf owl:topObjectProperty ;
            rdfs:label "This property links a song to an artist that sings that song."@en ,
                       "sungBy"@en .
 
@@ -160,9 +160,8 @@ mel:winner rdf:type owl:ObjectProperty ;
 #################################################################
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#acousticness
-mel:acousticness rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf owl:topDataProperty ;
-                 rdf:type owl:FunctionalProperty ;
+mel:acousticness rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
                  rdfs:domain mel:SongHot200 ;
                  rdfs:range xsd:float ;
                  rdfs:comment "A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic."@en ;
@@ -170,9 +169,8 @@ mel:acousticness rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#artistType
-mel:artistType rdf:type owl:DatatypeProperty ;
-               rdfs:subPropertyOf owl:topDataProperty ;
-               rdf:type owl:FunctionalProperty ;
+mel:artistType rdf:type owl:DatatypeProperty ,
+                        owl:FunctionalProperty ;
                rdfs:domain mel:Artist ;
                rdfs:range [ rdf:type rdfs:Datatype ;
                             owl:oneOf [ rdf:type rdf:List ;
@@ -197,9 +195,8 @@ mel:artistType rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#bpm
-mel:bpm rdf:type owl:DatatypeProperty ;
-        rdfs:subPropertyOf owl:topDataProperty ;
-        rdf:type owl:FunctionalProperty ;
+mel:bpm rdf:type owl:DatatypeProperty ,
+                 owl:FunctionalProperty ;
         rdfs:domain mel:SongHot200 ;
         rdfs:range xsd:positiveInteger ;
         rdfs:comment "The overall estimated tempo of a track in beats per minute."@en ;
@@ -207,9 +204,8 @@ mel:bpm rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#danceability
-mel:danceability rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf owl:topDataProperty ;
-                 rdf:type owl:FunctionalProperty ;
+mel:danceability rdf:type owl:DatatypeProperty ,
+                          owl:FunctionalProperty ;
                  rdfs:domain mel:SongHot200 ;
                  rdfs:range xsd:float ;
                  rdfs:comment """Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. 
@@ -218,19 +214,17 @@ A value of 0.0 is least danceable and 1.0 is most danceable."""@en ;
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#date
-mel:date rdf:type owl:DatatypeProperty ;
-         rdfs:subPropertyOf owl:topDataProperty ;
-         rdf:type owl:FunctionalProperty ;
+mel:date rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
          rdfs:domain mel:BillboardHot100 ;
-         rdfs:range xsd:dateTime ;
+         rdfs:range xsd:date ;
          rdfs:comment "The date when a song billboard 200 was released."@en ;
          rdfs:label "date"@en .
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#duration
-mel:duration rdf:type owl:DatatypeProperty ;
-             rdfs:subPropertyOf owl:topDataProperty ;
-             rdf:type owl:FunctionalProperty ;
+mel:duration rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
              rdfs:domain mel:SongHot200 ;
              rdfs:range xsd:positiveInteger ;
              rdfs:comment "The duration of the track in milliseconds."@en ;
@@ -238,9 +232,8 @@ mel:duration rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#followers
-mel:followers rdf:type owl:DatatypeProperty ;
-              rdfs:subPropertyOf owl:topDataProperty ;
-              rdf:type owl:FunctionalProperty ;
+mel:followers rdf:type owl:DatatypeProperty ,
+                       owl:FunctionalProperty ;
               rdfs:domain mel:Artist ;
               rdfs:range xsd:positiveInteger ;
               rdfs:comment "The number of followers of an artist."@en ;
@@ -248,9 +241,8 @@ mel:followers rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#key
-mel:key rdf:type owl:DatatypeProperty ;
-        rdfs:subPropertyOf owl:topDataProperty ;
-        rdf:type owl:FunctionalProperty ;
+mel:key rdf:type owl:DatatypeProperty ,
+                 owl:FunctionalProperty ;
         rdfs:domain mel:SongHot200 ;
         rdfs:range [ rdf:type rdfs:Datatype ;
                      owl:oneOf [ rdf:type rdf:List ;
@@ -332,9 +324,8 @@ mel:key rdf:type owl:DatatypeProperty ;
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#name
-mel:name rdf:type owl:DatatypeProperty ;
-         rdfs:subPropertyOf owl:topDataProperty ;
-         rdf:type owl:FunctionalProperty ;
+mel:name rdf:type owl:DatatypeProperty ,
+                  owl:FunctionalProperty ;
          rdfs:domain [ rdf:type owl:Class ;
                        owl:unionOf ( mel:Album
                                      mel:Artist
@@ -356,9 +347,8 @@ mel:totalTracks rdf:type owl:DatatypeProperty ,
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#valence
-mel:valence rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf owl:topDataProperty ;
-            rdf:type owl:FunctionalProperty ;
+mel:valence rdf:type owl:DatatypeProperty ,
+                     owl:FunctionalProperty ;
             rdfs:domain mel:SongHot200 ;
             rdfs:range xsd:float ;
             rdfs:comment "A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry)."@en ;
@@ -369,7 +359,7 @@ mel:valence rdf:type owl:DatatypeProperty ;
 mel:year rdf:type owl:DatatypeProperty ,
                   owl:FunctionalProperty ;
          rdfs:domain mel:Grammy ;
-         rdfs:range xsd:dateTime ;
+         rdfs:range xsd:gYear ;
          rdfs:comment "The year of a grammy"@en ;
          rdfs:label "year"@en .
 
@@ -441,7 +431,11 @@ mel:GrammyCategory rdf:type owl:Class ;
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#Membership
 mel:Membership rdf:type owl:Class ;
-               rdfs:comment "The class representing the Membership between the song and its position in the Billboard Hot 200 in the specified date."@en ;
+               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                     owl:onProperty mel:classifiedIn ;
+                                     owl:someValuesFrom mel:BillboardHot100
+                                   ] ;
+               rdfs:comment "The class representing the Membership between the song and its position in a Billboard Hot 200."@en ;
                rdfs:label "Membership"@en .
 
 
@@ -459,9 +453,16 @@ mel:Popularity rdf:type owl:Class ;
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#SongHot200
 mel:SongHot200 rdf:type owl:Class ;
-               owl:equivalentClass [ rdf:type owl:Restriction ;
-                                     owl:onProperty mel:sungBy ;
-                                     owl:someValuesFrom mel:Artist
+               owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                            owl:onProperty mel:classified ;
+                                                            owl:someValuesFrom mel:Membership
+                                                          ]
+                                                          [ rdf:type owl:Restriction ;
+                                                            owl:onProperty mel:sungBy ;
+                                                            owl:someValuesFrom mel:Artist
+                                                          ]
+                                                        ) ;
+                                     rdf:type owl:Class
                                    ] ;
                rdfs:comment "The class representing the song in the Billboard Hot 200."@en ;
                rdfs:label "SongHot200"@en .
