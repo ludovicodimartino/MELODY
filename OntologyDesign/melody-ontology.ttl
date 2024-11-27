@@ -174,15 +174,15 @@ mel:artistType rdf:type owl:DatatypeProperty ,
                rdfs:domain mel:Artist ;
                rdfs:range [ rdf:type rdfs:Datatype ;
                             owl:oneOf [ rdf:type rdf:List ;
-                                        rdf:first "DJ" ;
+                                        rdf:first "DJ"@en ;
                                         rdf:rest [ rdf:type rdf:List ;
-                                                   rdf:first "band" ;
+                                                   rdf:first "band"@en ;
                                                    rdf:rest [ rdf:type rdf:List ;
-                                                              rdf:first "duo" ;
+                                                              rdf:first "duo"@en ;
                                                               rdf:rest [ rdf:type rdf:List ;
-                                                                         rdf:first "rapper" ;
+                                                                         rdf:first "rapper"@en ;
                                                                          rdf:rest [ rdf:type rdf:List ;
-                                                                                    rdf:first "singer" ;
+                                                                                    rdf:first "singer"@en ;
                                                                                     rdf:rest rdf:nil
                                                                                   ]
                                                                        ]
@@ -246,53 +246,53 @@ mel:key rdf:type owl:DatatypeProperty ,
         rdfs:domain mel:SongHot200 ;
         rdfs:range [ rdf:type rdfs:Datatype ;
                      owl:oneOf [ rdf:type rdf:List ;
-                                 rdf:first "A" ;
+                                 rdf:first "A"@en ;
                                  rdf:rest [ rdf:type rdf:List ;
-                                            rdf:first "A#" ;
+                                            rdf:first "A#"@en ;
                                             rdf:rest [ rdf:type rdf:List ;
-                                                       rdf:first "A#m" ;
+                                                       rdf:first "A#m"@en ;
                                                        rdf:rest [ rdf:type rdf:List ;
-                                                                  rdf:first "Am" ;
+                                                                  rdf:first "Am"@en ;
                                                                   rdf:rest [ rdf:type rdf:List ;
-                                                                             rdf:first "B" ;
+                                                                             rdf:first "B"@en ;
                                                                              rdf:rest [ rdf:type rdf:List ;
-                                                                                        rdf:first "Bm" ;
+                                                                                        rdf:first "Bm"@en ;
                                                                                         rdf:rest [ rdf:type rdf:List ;
-                                                                                                   rdf:first "C" ;
+                                                                                                   rdf:first "C"@en ;
                                                                                                    rdf:rest [ rdf:type rdf:List ;
-                                                                                                              rdf:first "C#" ;
+                                                                                                              rdf:first "C#"@en ;
                                                                                                               rdf:rest [ rdf:type rdf:List ;
-                                                                                                                         rdf:first "C#m" ;
+                                                                                                                         rdf:first "C#m"@en ;
                                                                                                                          rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                    rdf:first "Cm" ;
+                                                                                                                                    rdf:first "Cm"@en ;
                                                                                                                                     rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                               rdf:first "D" ;
+                                                                                                                                               rdf:first "D"@en ;
                                                                                                                                                rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                          rdf:first "D#" ;
+                                                                                                                                                          rdf:first "D#"@en ;
                                                                                                                                                           rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                                     rdf:first "D#m" ;
+                                                                                                                                                                     rdf:first "D#m"@en ;
                                                                                                                                                                      rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                                                rdf:first "Dm" ;
+                                                                                                                                                                                rdf:first "Dm"@en ;
                                                                                                                                                                                 rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                                                           rdf:first "E" ;
+                                                                                                                                                                                           rdf:first "E"@en ;
                                                                                                                                                                                            rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                                                                      rdf:first "Em" ;
+                                                                                                                                                                                                      rdf:first "Em"@en ;
                                                                                                                                                                                                       rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                                                                                 rdf:first "F" ;
+                                                                                                                                                                                                                 rdf:first "F"@en ;
                                                                                                                                                                                                                  rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                                                                                            rdf:first "F#" ;
+                                                                                                                                                                                                                            rdf:first "F#"@en ;
                                                                                                                                                                                                                             rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                                                                                                       rdf:first "F#m" ;
+                                                                                                                                                                                                                                       rdf:first "F#m"@en ;
                                                                                                                                                                                                                                        rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                                                                                                                  rdf:first "Fm" ;
+                                                                                                                                                                                                                                                  rdf:first "Fm"@en ;
                                                                                                                                                                                                                                                   rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                                                                                                                             rdf:first "G" ;
+                                                                                                                                                                                                                                                             rdf:first "G"@en ;
                                                                                                                                                                                                                                                              rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                                                                                                                                        rdf:first "G#" ;
+                                                                                                                                                                                                                                                                        rdf:first "G#"@en ;
                                                                                                                                                                                                                                                                         rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                                                                                                                                                   rdf:first "G#m" ;
+                                                                                                                                                                                                                                                                                   rdf:first "G#m"@en ;
                                                                                                                                                                                                                                                                                    rdf:rest [ rdf:type rdf:List ;
-                                                                                                                                                                                                                                                                                              rdf:first "Gm" ;
+                                                                                                                                                                                                                                                                                              rdf:first "Gm"@en ;
                                                                                                                                                                                                                                                                                               rdf:rest rdf:nil
                                                                                                                                                                                                                                                                                             ]
                                                                                                                                                                                                                                                                                  ]
@@ -370,9 +370,9 @@ mel:year rdf:type owl:DatatypeProperty ,
                                                         rdfs:domain mel:SongHot200 ;
                                                         rdfs:range [ rdf:type rdfs:Datatype ;
                                                                      owl:oneOf [ rdf:type rdf:List ;
-                                                                                 rdf:first "Collaboration" ;
+                                                                                 rdf:first "Collaboration"@en ;
                                                                                  rdf:rest [ rdf:type rdf:List ;
-                                                                                            rdf:first "Solo" ;
+                                                                                            rdf:first "Solo"@en ;
                                                                                             rdf:rest rdf:nil
                                                                                           ]
                                                                                ]
