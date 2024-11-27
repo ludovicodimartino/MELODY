@@ -2,11 +2,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#-> a mel:Genre,
-        skos:Concept ;
-    rdfs:label "-"@en ;
-    skos:broader mel:Unclassified .
-
 mel:8-Bit a mel:Genre,
         skos:Concept ;
     rdfs:label "8-Bit"@en ;
@@ -182,10 +177,10 @@ mel:AlternativePopRock a mel:Genre,
     rdfs:label "Alternative Pop Rock"@en ;
     skos:broader mel:Rock .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#AlternativeR&B> a mel:Genre,
+mel:AlternativeRnB a mel:Genre,
         skos:Concept ;
     rdfs:label "Alternative R&B"@en ;
-    skos:broader <http://www.dei.unipd.it/~gdb/ontology/melody#R&B> .
+    skos:broader mel:RnB .
 
 mel:AlternativeRock a mel:Genre,
         skos:Concept ;
@@ -402,10 +397,10 @@ mel:AustralianAmericana a mel:Genre,
     rdfs:label "Australian Americana"@en ;
     skos:broader mel:Unclassified .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#AustralianChildren'SMusic> a mel:Genre,
+mel:AustralianChildrenSMusic a mel:Genre,
         skos:Concept ;
     rdfs:label "Australian Children'S Music"@en ;
-    skos:broader <http://www.dei.unipd.it/~gdb/ontology/melody#Children'SMusic> .
+    skos:broader mel:ChildrenSMusic .
 
 mel:AustralianCountry a mel:Genre,
         skos:Concept ;
@@ -467,15 +462,15 @@ mel:AustralianPsych a mel:Genre,
     rdfs:label "Australian Psych"@en ;
     skos:broader mel:Unclassified .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#AustralianR&B> a mel:Genre,
-        skos:Concept ;
-    rdfs:label "Australian R&B"@en ;
-    skos:broader <http://www.dei.unipd.it/~gdb/ontology/melody#R&B> .
-
 mel:AustralianReggaeFusion a mel:Genre,
         skos:Concept ;
     rdfs:label "Australian Reggae Fusion"@en ;
     skos:broader mel:Reggae .
+
+mel:AustralianRnB a mel:Genre,
+        skos:Concept ;
+    rdfs:label "Australian R&B"@en ;
+    skos:broader mel:RnB .
 
 mel:AustralianRock a mel:Genre,
         skos:Concept ;
@@ -1092,7 +1087,7 @@ mel:CanadianContemporaryCountry a mel:Genre,
     rdfs:label "Canadian Contemporary Country"@en ;
     skos:broader mel:Contemporary .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#CanadianContemporaryR&B> a mel:Genre,
+mel:CanadianContemporaryRnB a mel:Genre,
         skos:Concept ;
     rdfs:label "Canadian Contemporary R&B"@en ;
     skos:broader mel:Contemporary .
@@ -1992,15 +1987,15 @@ mel:DcHardcore a mel:Genre,
     rdfs:label "Dc Hardcore"@en ;
     skos:broader mel:Hardcore .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#Death'N'Roll> a mel:Genre,
-        skos:Concept ;
-    rdfs:label "Death 'N' Roll"@en ;
-    skos:broader mel:Unclassified .
-
 mel:DeathMetal a mel:Genre,
         skos:Concept ;
     rdfs:label "Death Metal"@en ;
     skos:broader mel:Metal .
+
+mel:DeathNRoll a mel:Genre,
+        skos:Concept ;
+    rdfs:label "Death 'N' Roll"@en ;
+    skos:broader mel:Unclassified .
 
 mel:Deathcore a mel:Genre,
         skos:Concept ;
@@ -2197,7 +2192,7 @@ mel:DeepPopEdm a mel:Genre,
     rdfs:label "Deep Pop Edm"@en ;
     skos:broader mel:Pop .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#DeepPopR&B> a mel:Genre,
+mel:DeepPopRnB a mel:Genre,
         skos:Concept ;
     rdfs:label "Deep Pop R&B"@en ;
     skos:broader mel:Pop .
@@ -3262,11 +3257,6 @@ mel:Goregrind a mel:Genre,
     rdfs:label "Goregrind"@en ;
     skos:broader mel:Unclassified .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#GospelR&B> a mel:Genre,
-        skos:Concept ;
-    rdfs:label "Gospel R&B"@en ;
-    skos:broader mel:Gospel .
-
 mel:GospelRap a mel:Genre,
         skos:Concept ;
     rdfs:label "Gospel Rap"@en ;
@@ -3276,6 +3266,11 @@ mel:GospelReggae a mel:Genre,
         skos:Concept ;
     rdfs:label "Gospel Reggae"@en ;
     skos:broader mel:Reggae .
+
+mel:GospelRnB a mel:Genre,
+        skos:Concept ;
+    rdfs:label "Gospel R&B"@en ;
+    skos:broader mel:Gospel .
 
 mel:GospelSingers a mel:Genre,
         skos:Concept ;
@@ -3687,7 +3682,7 @@ mel:IndiePunk a mel:Genre,
     rdfs:label "Indie Punk"@en ;
     skos:broader mel:Indie .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#IndieR&B> a mel:Genre,
+mel:IndieRnB a mel:Genre,
         skos:Concept ;
     rdfs:label "Indie R&B"@en ;
     skos:broader mel:Indie .
@@ -3952,10 +3947,10 @@ mel:JapaneseHeavyMetal a mel:Genre,
     rdfs:label "Japanese Heavy Metal"@en ;
     skos:broader mel:Metal .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#JapaneseR&B> a mel:Genre,
+mel:JapaneseRnB a mel:Genre,
         skos:Concept ;
     rdfs:label "Japanese R&B"@en ;
-    skos:broader <http://www.dei.unipd.it/~gdb/ontology/melody#R&B> .
+    skos:broader mel:RnB .
 
 mel:Jawaiian a mel:Genre,
         skos:Concept ;
@@ -4202,10 +4197,10 @@ mel:KoreanPop a mel:Genre,
     rdfs:label "Korean Pop"@en ;
     skos:broader mel:Pop .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#KoreanR&B> a mel:Genre,
+mel:KoreanRnB a mel:Genre,
         skos:Concept ;
     rdfs:label "Korean R&B"@en ;
-    skos:broader <http://www.dei.unipd.it/~gdb/ontology/melody#R&B> .
+    skos:broader mel:RnB .
 
 mel:Krautrock a mel:Genre,
         skos:Concept ;
@@ -4337,7 +4332,7 @@ mel:LexingtonKyIndie a mel:Genre,
     rdfs:label "Lexington Ky Indie"@en ;
     skos:broader mel:Indie .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#Lgbtq+HipHop> a mel:Genre,
+mel:LgbtqHipHop a mel:Genre,
         skos:Concept ;
     rdfs:label "Lgbtq+ Hip Hop"@en ;
     skos:broader mel:HipHop .
@@ -4947,10 +4942,10 @@ mel:NeoMellow a mel:Genre,
     rdfs:label "Neo Mellow"@en ;
     skos:broader mel:Unclassified .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#NeoR&B> a mel:Genre,
+mel:NeoRnB a mel:Genre,
         skos:Concept ;
     rdfs:label "Neo R&B"@en ;
-    skos:broader <http://www.dei.unipd.it/~gdb/ontology/melody#R&B> .
+    skos:broader mel:RnB .
 
 mel:NeoSoul a mel:Genre,
         skos:Concept ;
@@ -5240,6 +5235,11 @@ mel:NorwegianRock a mel:Genre,
 mel:NorwegianSpaceDisco a mel:Genre,
         skos:Concept ;
     rdfs:label "Norwegian Space Disco"@en ;
+    skos:broader mel:Unclassified .
+
+mel:NotAvailable a mel:Genre,
+        skos:Concept ;
+    rdfs:label "-"@en ;
     skos:broader mel:Unclassified .
 
 mel:NottinghamIndie a mel:Genre,
@@ -5977,11 +5977,6 @@ mel:QuietStorm a mel:Genre,
     rdfs:label "Quiet Storm"@en ;
     skos:broader mel:Unclassified .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#R&BBrasileiro> a mel:Genre,
-        skos:Concept ;
-    rdfs:label "R&B Brasileiro"@en ;
-    skos:broader <http://www.dei.unipd.it/~gdb/ontology/melody#R&B> .
-
 mel:RadioSymphony a mel:Genre,
         skos:Concept ;
     rdfs:label "Radio Symphony"@en ;
@@ -6151,6 +6146,11 @@ mel:RiotGrrrl a mel:Genre,
         skos:Concept ;
     rdfs:label "Riot Grrrl"@en ;
     skos:broader mel:Unclassified .
+
+mel:RnBBrasileiro a mel:Genre,
+        skos:Concept ;
+    rdfs:label "R&B Brasileiro"@en ;
+    skos:broader mel:RnB .
 
 mel:RochesterNyIndie a mel:Genre,
         skos:Concept ;
@@ -6327,10 +6327,10 @@ mel:SaskatchewanIndie a mel:Genre,
     rdfs:label "Saskatchewan Indie"@en ;
     skos:broader mel:Indie .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#ScandinavianR&B> a mel:Genre,
+mel:ScandinavianRnB a mel:Genre,
         skos:Concept ;
     rdfs:label "Scandinavian R&B"@en ;
-    skos:broader <http://www.dei.unipd.it/~gdb/ontology/melody#R&B> .
+    skos:broader mel:RnB .
 
 mel:Scandipop a mel:Genre,
         skos:Concept ;
@@ -7277,7 +7277,7 @@ mel:UkAmericana a mel:Genre,
     rdfs:label "Uk Americana"@en ;
     skos:broader mel:Unclassified .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#UkContemporaryR&B> a mel:Genre,
+mel:UkContemporaryRnB a mel:Genre,
         skos:Concept ;
     rdfs:label "Uk Contemporary R&B"@en ;
     skos:broader mel:Contemporary .
@@ -7682,10 +7682,10 @@ mel:Zydeco a mel:Genre,
     rdfs:label "Zydeco"@en ;
     skos:broader mel:Unclassified .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#Children'SMusic> a mel:Genre,
+mel:ChildrenSMusic a mel:Genre,
         skos:Concept ;
     rdfs:label "Children'S Music"@en ;
-    skos:broader <http://www.dei.unipd.it/~gdb/ontology/melody#Children'SMusic> ;
+    skos:broader mel:ChildrenSMusic ;
     skos:inScheme mel:GenreSchema .
 
 mel:Noise a mel:Genre,
@@ -7728,10 +7728,10 @@ mel:Romantic a mel:Genre,
     rdfs:label "Romantic"@en ;
     skos:inScheme mel:GenreSchema .
 
-<http://www.dei.unipd.it/~gdb/ontology/melody#R&B> a mel:Genre,
+mel:RnB a mel:Genre,
         skos:Concept ;
     rdfs:label "R&B"@en ;
-    skos:broader <http://www.dei.unipd.it/~gdb/ontology/melody#R&B> ;
+    skos:broader mel:RnB ;
     skos:inScheme mel:GenreSchema .
 
 mel:Modern a mel:Genre,
