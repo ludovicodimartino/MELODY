@@ -647,6 +647,22 @@ mel:AlbertaCountry rdf:type owl:NamedIndividual ,
                    rdfs:label "Alberta Country"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#AlbumOfTheYear
+mel:AlbumOfTheYear rdf:type owl:NamedIndividual ,
+                            mel:GrammyCategory ,
+                            skos:Concept ;
+                   skos:broader mel:OfTheYear ;
+                   rdfs:label "AlbumOfTheYear"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#AlbumOfTheYearClassical
+mel:AlbumOfTheYearClassical rdf:type owl:NamedIndividual ,
+                                     mel:GrammyCategory ,
+                                     skos:Concept ;
+                            skos:broader mel:OfTheYear ;
+                            rdfs:label "AlbumOfTheYearClassical"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#AlbumRock
 mel:AlbumRock rdf:type owl:NamedIndividual ,
                        mel:Genre ,
@@ -1575,6 +1591,1382 @@ mel:BergenIndie rdf:type owl:NamedIndividual ,
                          skos:Concept ;
                 skos:broader mel:Indie ;
                 rdfs:label "Bergen Indie"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestAlbumForChildren
+mel:BestAlbumForChildren rdf:type owl:NamedIndividual ,
+                                  mel:GrammyCategory ,
+                                  skos:Concept ;
+                         skos:broader mel:ChildrensComedyAudioBooksVisualMediaMusicVideoFilm ;
+                         rdfs:label "BestAlbumForChildren"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestAlbumNotes
+mel:BestAlbumNotes rdf:type owl:NamedIndividual ,
+                            mel:GrammyCategory ,
+                            skos:Concept ;
+                   skos:broader mel:PackageNotesHistorical ;
+                   rdfs:label "BestAlbumNotes"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestAlternativeMusicAlbum
+mel:BestAlternativeMusicAlbum rdf:type owl:NamedIndividual ,
+                                       mel:GrammyCategory ,
+                                       skos:Concept ;
+                              skos:broader mel:RockMetalAlternative ;
+                              rdfs:label "BestAlternativeMusicAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestAlternativeMusicPerformance
+mel:BestAlternativeMusicPerformance rdf:type owl:NamedIndividual ,
+                                             mel:GrammyCategory ,
+                                             skos:Concept ;
+                                    skos:broader mel:RockMetalAlternative ;
+                                    rdfs:label "BestAlternativeMusicPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestAmericanRootsPerformance
+mel:BestAmericanRootsPerformance rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:Other ;
+                                 rdfs:label "BestAmericanRootsPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestAmericanRootsSong
+mel:BestAmericanRootsSong rdf:type owl:NamedIndividual ,
+                                   mel:GrammyCategory ,
+                                   skos:Concept ;
+                          skos:broader mel:Other ;
+                          rdfs:label "BestAmericanRootsSong"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestAmericanaAlbum
+mel:BestAmericanaAlbum rdf:type owl:NamedIndividual ,
+                                mel:GrammyCategory ,
+                                skos:Concept ;
+                       skos:broader mel:CountryAmericanRoots ;
+                       rdfs:label "BestAmericanaAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestArrangement
+mel:BestArrangement rdf:type owl:NamedIndividual ,
+                             mel:GrammyCategory ,
+                             skos:Concept ;
+                    skos:broader mel:ProductionEngineeringCompositionArrangement ;
+                    rdfs:label "BestArrangement"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestArrangementForVoices
+mel:BestArrangementForVoices rdf:type owl:NamedIndividual ,
+                                      mel:GrammyCategory ,
+                                      skos:Concept ;
+                             skos:broader mel:ProductionEngineeringCompositionArrangement ;
+                             rdfs:label "BestArrangementForVoices"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestArrangementInstrumentalOrACappella
+mel:BestArrangementInstrumentalOrACappella rdf:type owl:NamedIndividual ,
+                                                    mel:GrammyCategory ,
+                                                    skos:Concept ;
+                                           skos:broader mel:ProductionEngineeringCompositionArrangement ;
+                                           rdfs:label "BestArrangementInstrumentalOrACappella"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestArrangementInstrumentsAndVocals
+mel:BestArrangementInstrumentsAndVocals rdf:type owl:NamedIndividual ,
+                                                 mel:GrammyCategory ,
+                                                 skos:Concept ;
+                                        skos:broader mel:ProductionEngineeringCompositionArrangement ;
+                                        rdfs:label "BestArrangementInstrumentsAndVocals"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestBandaAlbum
+mel:BestBandaAlbum rdf:type owl:NamedIndividual ,
+                            mel:GrammyCategory ,
+                            skos:Concept ;
+                   skos:broader mel:Other ;
+                   rdfs:label "BestBandaAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestBandaOrNortenoAlbum
+mel:BestBandaOrNortenoAlbum rdf:type owl:NamedIndividual ,
+                                     mel:GrammyCategory ,
+                                     skos:Concept ;
+                            skos:broader mel:Other ;
+                            rdfs:label "BestBandaOrNortenoAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestBluegrassAlbum
+mel:BestBluegrassAlbum rdf:type owl:NamedIndividual ,
+                                mel:GrammyCategory ,
+                                skos:Concept ;
+                       skos:broader mel:CountryAmericanRoots ;
+                       rdfs:label "BestBluegrassAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestBluesAlbum
+mel:BestBluesAlbum rdf:type owl:NamedIndividual ,
+                            mel:GrammyCategory ,
+                            skos:Concept ;
+                   skos:broader mel:Other ;
+                   rdfs:label "BestBluesAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestBoxedOrSpecialLimitedEditionPackage
+mel:BestBoxedOrSpecialLimitedEditionPackage rdf:type owl:NamedIndividual ,
+                                                     mel:GrammyCategory ,
+                                                     skos:Concept ;
+                                            skos:broader mel:PackageNotesHistorical ;
+                                            rdfs:label "BestBoxedOrSpecialLimitedEditionPackage"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestChamberMusicSmallEnsemblePerformance
+mel:BestChamberMusicSmallEnsemblePerformance rdf:type owl:NamedIndividual ,
+                                                      mel:GrammyCategory ,
+                                                      skos:Concept ;
+                                             skos:broader mel:Other ;
+                                             rdfs:label "BestChamberMusicSmallEnsemblePerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestChildrensMusicAlbum
+mel:BestChildrensMusicAlbum rdf:type owl:NamedIndividual ,
+                                     mel:GrammyCategory ,
+                                     skos:Concept ;
+                            skos:broader mel:ChildrensComedyAudioBooksVisualMediaMusicVideoFilm ;
+                            rdfs:label "BestChildrensMusicAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestChoralPerformance
+mel:BestChoralPerformance rdf:type owl:NamedIndividual ,
+                                   mel:GrammyCategory ,
+                                   skos:Concept ;
+                          skos:broader mel:Other ;
+                          rdfs:label "BestChoralPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestClassicalAlbum
+mel:BestClassicalAlbum rdf:type owl:NamedIndividual ,
+                                mel:GrammyCategory ,
+                                skos:Concept ;
+                       skos:broader mel:Classical ;
+                       rdfs:label "BestClassicalAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestClassicalCompendium
+mel:BestClassicalCompendium rdf:type owl:NamedIndividual ,
+                                     mel:GrammyCategory ,
+                                     skos:Concept ;
+                            skos:broader mel:Classical ;
+                            rdfs:label "BestClassicalCompendium"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestClassicalCrossoverAlbum
+mel:BestClassicalCrossoverAlbum rdf:type owl:NamedIndividual ,
+                                         mel:GrammyCategory ,
+                                         skos:Concept ;
+                                skos:broader mel:Classical ;
+                                rdfs:label "BestClassicalCrossoverAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestClassicalInstrumentalSolo
+mel:BestClassicalInstrumentalSolo rdf:type owl:NamedIndividual ,
+                                           mel:GrammyCategory ,
+                                           skos:Concept ;
+                                  skos:broader mel:Classical ;
+                                  rdfs:label "BestClassicalInstrumentalSolo"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestClassicalSoloVocalAlbum
+mel:BestClassicalSoloVocalAlbum rdf:type owl:NamedIndividual ,
+                                         mel:GrammyCategory ,
+                                         skos:Concept ;
+                                skos:broader mel:Classical ;
+                                rdfs:label "BestClassicalSoloVocalAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestComedyAlbum
+mel:BestComedyAlbum rdf:type owl:NamedIndividual ,
+                             mel:GrammyCategory ,
+                             skos:Concept ;
+                    skos:broader mel:ChildrensComedyAudioBooksVisualMediaMusicVideoFilm ;
+                    rdfs:label "BestComedyAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestCompilationSoundtrackForVisualMedia
+mel:BestCompilationSoundtrackForVisualMedia rdf:type owl:NamedIndividual ,
+                                                     mel:GrammyCategory ,
+                                                     skos:Concept ;
+                                            skos:broader mel:Other ;
+                                            rdfs:label "BestCompilationSoundtrackForVisualMedia"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestContemporaryBluesAlbum
+mel:BestContemporaryBluesAlbum rdf:type owl:NamedIndividual ,
+                                        mel:GrammyCategory ,
+                                        skos:Concept ;
+                               skos:broader mel:Other ;
+                               rdfs:label "BestContemporaryBluesAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestContemporaryChristianMusicAlbum
+mel:BestContemporaryChristianMusicAlbum rdf:type owl:NamedIndividual ,
+                                                 mel:GrammyCategory ,
+                                                 skos:Concept ;
+                                        skos:broader mel:GospelContemporaryChristian ;
+                                        rdfs:label "BestContemporaryChristianMusicAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestContemporaryChristianMusicPerformanceSong
+mel:BestContemporaryChristianMusicPerformanceSong rdf:type owl:NamedIndividual ,
+                                                           mel:GrammyCategory ,
+                                                           skos:Concept ;
+                                                  skos:broader mel:GospelContemporaryChristian ;
+                                                  rdfs:label "BestContemporaryChristianMusicPerformanceSong"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestContemporaryChristianMusicSong
+mel:BestContemporaryChristianMusicSong rdf:type owl:NamedIndividual ,
+                                                mel:GrammyCategory ,
+                                                skos:Concept ;
+                                       skos:broader mel:GospelContemporaryChristian ;
+                                       rdfs:label "BestContemporaryChristianMusicSong"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestContemporaryClassicalComposition
+mel:BestContemporaryClassicalComposition rdf:type owl:NamedIndividual ,
+                                                  mel:GrammyCategory ,
+                                                  skos:Concept ;
+                                         skos:broader mel:ProductionEngineeringCompositionArrangement ;
+                                         rdfs:label "BestContemporaryClassicalComposition"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestContemporaryFolkAlbum
+mel:BestContemporaryFolkAlbum rdf:type owl:NamedIndividual ,
+                                       mel:GrammyCategory ,
+                                       skos:Concept ;
+                              skos:broader mel:CountryAmericanRoots ;
+                              rdfs:label "BestContemporaryFolkAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestContemporaryInstrumentalAlbum
+mel:BestContemporaryInstrumentalAlbum rdf:type owl:NamedIndividual ,
+                                               mel:GrammyCategory ,
+                                               skos:Concept ;
+                                      skos:broader mel:Other ;
+                                      rdfs:label "BestContemporaryInstrumentalAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestContemporaryJazzAlbum
+mel:BestContemporaryJazzAlbum rdf:type owl:NamedIndividual ,
+                                       mel:GrammyCategory ,
+                                       skos:Concept ;
+                              skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                              rdfs:label "BestContemporaryJazzAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestContemporaryPerformanceByAChorus
+mel:BestContemporaryPerformanceByAChorus rdf:type owl:NamedIndividual ,
+                                                  mel:GrammyCategory ,
+                                                  skos:Concept ;
+                                         skos:broader mel:Other ;
+                                         rdfs:label "BestContemporaryPerformanceByAChorus"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestContemporaryRnBAlbum
+mel:BestContemporaryRnBAlbum rdf:type owl:NamedIndividual ,
+                                      mel:GrammyCategory ,
+                                      skos:Concept ;
+                             skos:broader mel:RnBRapSpokenWordPoetry ;
+                             rdfs:label "BestContemporaryRnBAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestContemporaryRnBGospelAlbum
+mel:BestContemporaryRnBGospelAlbum rdf:type owl:NamedIndividual ,
+                                            mel:GrammyCategory ,
+                                            skos:Concept ;
+                                   skos:broader mel:RnBRapSpokenWordPoetry ;
+                                   rdfs:label "BestContemporaryRnBGospelAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestContemporarySong
+mel:BestContemporarySong rdf:type owl:NamedIndividual ,
+                                  mel:GrammyCategory ,
+                                  skos:Concept ;
+                         skos:broader mel:Other ;
+                         rdfs:label "BestContemporarySong"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestCountryAlbum
+mel:BestCountryAlbum rdf:type owl:NamedIndividual ,
+                              mel:GrammyCategory ,
+                              skos:Concept ;
+                     skos:broader mel:CountryAmericanRoots ;
+                     rdfs:label "BestCountryAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestCountryCollaborationWithVocals
+mel:BestCountryCollaborationWithVocals rdf:type owl:NamedIndividual ,
+                                                mel:GrammyCategory ,
+                                                skos:Concept ;
+                                       skos:broader mel:CountryAmericanRoots ;
+                                       rdfs:label "BestCountryCollaborationWithVocals"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestCountryDuoGroupPerformance
+mel:BestCountryDuoGroupPerformance rdf:type owl:NamedIndividual ,
+                                            mel:GrammyCategory ,
+                                            skos:Concept ;
+                                   skos:broader mel:CountryAmericanRoots ;
+                                   rdfs:label "BestCountryDuoGroupPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestCountryInstrumentalPerformance
+mel:BestCountryInstrumentalPerformance rdf:type owl:NamedIndividual ,
+                                                mel:GrammyCategory ,
+                                                skos:Concept ;
+                                       skos:broader mel:CountryAmericanRoots ;
+                                       rdfs:label "BestCountryInstrumentalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestCountrySoloPerformance
+mel:BestCountrySoloPerformance rdf:type owl:NamedIndividual ,
+                                        mel:GrammyCategory ,
+                                        skos:Concept ;
+                               skos:broader mel:CountryAmericanRoots ;
+                               rdfs:label "BestCountrySoloPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestCountrySong
+mel:BestCountrySong rdf:type owl:NamedIndividual ,
+                             mel:GrammyCategory ,
+                             skos:Concept ;
+                    skos:broader mel:CountryAmericanRoots ;
+                    rdfs:label "BestCountrySong"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestDanceElectronicAlbum
+mel:BestDanceElectronicAlbum rdf:type owl:NamedIndividual ,
+                                      mel:GrammyCategory ,
+                                      skos:Concept ;
+                             skos:broader mel:PopDanceElectronic ;
+                             rdfs:label "BestDanceElectronicAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestDanceElectronicRecording
+mel:BestDanceElectronicRecording rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:PopDanceElectronic ;
+                                 rdfs:label "BestDanceElectronicRecording"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestDiscoRecording
+mel:BestDiscoRecording rdf:type owl:NamedIndividual ,
+                                mel:GrammyCategory ,
+                                skos:Concept ;
+                       skos:broader mel:Other ;
+                       rdfs:label "BestDiscoRecording"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestEngineeredAlbumClassical
+mel:BestEngineeredAlbumClassical rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:ProductionEngineeringCompositionArrangement ;
+                                 rdfs:label "BestEngineeredAlbumClassical"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestEngineeredAlbumNonClassical
+mel:BestEngineeredAlbumNonClassical rdf:type owl:NamedIndividual ,
+                                             mel:GrammyCategory ,
+                                             skos:Concept ;
+                                    skos:broader mel:ProductionEngineeringCompositionArrangement ;
+                                    rdfs:label "BestEngineeredAlbumNonClassical"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestEngineeredRecordingSpecialOrNovelEffects
+mel:BestEngineeredRecordingSpecialOrNovelEffects rdf:type owl:NamedIndividual ,
+                                                          mel:GrammyCategory ,
+                                                          skos:Concept ;
+                                                 skos:broader mel:ProductionEngineeringCompositionArrangement ;
+                                                 rdfs:label "BestEngineeredRecordingSpecialOrNovelEffects"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestEthnicOrTraditionalFolkRecording
+mel:BestEthnicOrTraditionalFolkRecording rdf:type owl:NamedIndividual ,
+                                                  mel:GrammyCategory ,
+                                                  skos:Concept ;
+                                         skos:broader mel:CountryAmericanRoots ;
+                                         rdfs:label "BestEthnicOrTraditionalFolkRecording"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestFemaleCountryVocalPerformance
+mel:BestFemaleCountryVocalPerformance rdf:type owl:NamedIndividual ,
+                                               mel:GrammyCategory ,
+                                               skos:Concept ;
+                                      skos:broader mel:CountryAmericanRoots ;
+                                      rdfs:label "BestFemaleCountryVocalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestFemalePopVocalPerformance
+mel:BestFemalePopVocalPerformance rdf:type owl:NamedIndividual ,
+                                           mel:GrammyCategory ,
+                                           skos:Concept ;
+                                  skos:broader mel:PopDanceElectronic ;
+                                  rdfs:label "BestFemalePopVocalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestFemaleRapSoloPerformance
+mel:BestFemaleRapSoloPerformance rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:RnBRapSpokenWordPoetry ;
+                                 rdfs:label "BestFemaleRapSoloPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestFemaleRnBVocalPerformance
+mel:BestFemaleRnBVocalPerformance rdf:type owl:NamedIndividual ,
+                                           mel:GrammyCategory ,
+                                           skos:Concept ;
+                                  skos:broader mel:RnBRapSpokenWordPoetry ;
+                                  rdfs:label "BestFemaleRnBVocalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestFemaleRockVocalPerformance
+mel:BestFemaleRockVocalPerformance rdf:type owl:NamedIndividual ,
+                                            mel:GrammyCategory ,
+                                            skos:Concept ;
+                                   skos:broader mel:RockMetalAlternative ;
+                                   rdfs:label "BestFemaleRockVocalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestFolkAlbum
+mel:BestFolkAlbum rdf:type owl:NamedIndividual ,
+                           mel:GrammyCategory ,
+                           skos:Concept ;
+                  skos:broader mel:CountryAmericanRoots ;
+                  rdfs:label "BestFolkAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestGlobalMusicAlbum
+mel:BestGlobalMusicAlbum rdf:type owl:NamedIndividual ,
+                                  mel:GrammyCategory ,
+                                  skos:Concept ;
+                         skos:broader mel:LatinGlobalReggaeNewAgeAmbientChant ;
+                         rdfs:label "BestGlobalMusicAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestGospelAlbum
+mel:BestGospelAlbum rdf:type owl:NamedIndividual ,
+                             mel:GrammyCategory ,
+                             skos:Concept ;
+                    skos:broader mel:GospelContemporaryChristian ;
+                    rdfs:label "BestGospelAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestGospelChoirOrChorusAlbum
+mel:BestGospelChoirOrChorusAlbum rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:GospelContemporaryChristian ;
+                                 rdfs:label "BestGospelChoirOrChorusAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestGospelPerformanceContemporaryOrInsprirational
+mel:BestGospelPerformanceContemporaryOrInsprirational rdf:type owl:NamedIndividual ,
+                                                               mel:GrammyCategory ,
+                                                               skos:Concept ;
+                                                      skos:broader mel:GospelContemporaryChristian ;
+                                                      rdfs:label "BestGospelPerformanceContemporaryOrInsprirational"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestGospelPerformanceSong
+mel:BestGospelPerformanceSong rdf:type owl:NamedIndividual ,
+                                       mel:GrammyCategory ,
+                                       skos:Concept ;
+                              skos:broader mel:GospelContemporaryChristian ;
+                              rdfs:label "BestGospelPerformanceSong"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestGospelSong
+mel:BestGospelSong rdf:type owl:NamedIndividual ,
+                            mel:GrammyCategory ,
+                            skos:Concept ;
+                   skos:broader mel:GospelContemporaryChristian ;
+                   rdfs:label "BestGospelSong"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestGospelVocalPerformanceFemale
+mel:BestGospelVocalPerformanceFemale rdf:type owl:NamedIndividual ,
+                                              mel:GrammyCategory ,
+                                              skos:Concept ;
+                                     skos:broader mel:GospelContemporaryChristian ;
+                                     rdfs:label "BestGospelVocalPerformanceFemale"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestGospelVocalPerformanceMale
+mel:BestGospelVocalPerformanceMale rdf:type owl:NamedIndividual ,
+                                            mel:GrammyCategory ,
+                                            skos:Concept ;
+                                   skos:broader mel:GospelContemporaryChristian ;
+                                   rdfs:label "BestGospelVocalPerformanceMale"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestHardRockMetalPerformance
+mel:BestHardRockMetalPerformance rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:RockMetalAlternative ;
+                                 rdfs:label "BestHardRockMetalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestHardRockPerformance
+mel:BestHardRockPerformance rdf:type owl:NamedIndividual ,
+                                     mel:GrammyCategory ,
+                                     skos:Concept ;
+                            skos:broader mel:RockMetalAlternative ;
+                            rdfs:label "BestHardRockPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestHawaiianMusicAlbum
+mel:BestHawaiianMusicAlbum rdf:type owl:NamedIndividual ,
+                                    mel:GrammyCategory ,
+                                    skos:Concept ;
+                           skos:broader mel:Other ;
+                           rdfs:label "BestHawaiianMusicAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestHistoricalAlbum
+mel:BestHistoricalAlbum rdf:type owl:NamedIndividual ,
+                                 mel:GrammyCategory ,
+                                 skos:Concept ;
+                        skos:broader mel:PackageNotesHistorical ;
+                        rdfs:label "BestHistoricalAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestImmersiveAudioAlbum
+mel:BestImmersiveAudioAlbum rdf:type owl:NamedIndividual ,
+                                     mel:GrammyCategory ,
+                                     skos:Concept ;
+                            skos:broader mel:Other ;
+                            rdfs:label "BestImmersiveAudioAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestInspirationalPerformance
+mel:BestInspirationalPerformance rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:Other ;
+                                 rdfs:label "BestInspirationalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestInstrumentalComposition
+mel:BestInstrumentalComposition rdf:type owl:NamedIndividual ,
+                                         mel:GrammyCategory ,
+                                         skos:Concept ;
+                                skos:broader mel:ProductionEngineeringCompositionArrangement ;
+                                rdfs:label "BestInstrumentalComposition"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestInstrumentalPerformance
+mel:BestInstrumentalPerformance rdf:type owl:NamedIndividual ,
+                                         mel:GrammyCategory ,
+                                         skos:Concept ;
+                                skos:broader mel:Other ;
+                                rdfs:label "BestInstrumentalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestJazzFusionPerformance
+mel:BestJazzFusionPerformance rdf:type owl:NamedIndividual ,
+                                       mel:GrammyCategory ,
+                                       skos:Concept ;
+                              skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                              rdfs:label "BestJazzFusionPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestJazzInstrumentalAlbum
+mel:BestJazzInstrumentalAlbum rdf:type owl:NamedIndividual ,
+                                       mel:GrammyCategory ,
+                                       skos:Concept ;
+                              skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                              rdfs:label "BestJazzInstrumentalAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestJazzInstrumentalSolo
+mel:BestJazzInstrumentalSolo rdf:type owl:NamedIndividual ,
+                                      mel:GrammyCategory ,
+                                      skos:Concept ;
+                             skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                             rdfs:label "BestJazzInstrumentalSolo"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestJazzPerformance
+mel:BestJazzPerformance rdf:type owl:NamedIndividual ,
+                                 mel:GrammyCategory ,
+                                 skos:Concept ;
+                        skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                        rdfs:label "BestJazzPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestJazzVocalAlbum
+mel:BestJazzVocalAlbum rdf:type owl:NamedIndividual ,
+                                mel:GrammyCategory ,
+                                skos:Concept ;
+                       skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                       rdfs:label "BestJazzVocalAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestJazzVocalPerformance
+mel:BestJazzVocalPerformance rdf:type owl:NamedIndividual ,
+                                      mel:GrammyCategory ,
+                                      skos:Concept ;
+                             skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                             rdfs:label "BestJazzVocalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestJazzVocalPerformanceDuoOrGroup
+mel:BestJazzVocalPerformanceDuoOrGroup rdf:type owl:NamedIndividual ,
+                                                mel:GrammyCategory ,
+                                                skos:Concept ;
+                                       skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                                       rdfs:label "BestJazzVocalPerformanceDuoOrGroup"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestJazzVocalPerformanceFemale
+mel:BestJazzVocalPerformanceFemale rdf:type owl:NamedIndividual ,
+                                            mel:GrammyCategory ,
+                                            skos:Concept ;
+                                   skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                                   rdfs:label "BestJazzVocalPerformanceFemale"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestJazzVocalPerformanceMale
+mel:BestJazzVocalPerformanceMale rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                                 rdfs:label "BestJazzVocalPerformanceMale"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestLargeJazzEnsembleAlbum
+mel:BestLargeJazzEnsembleAlbum rdf:type owl:NamedIndividual ,
+                                        mel:GrammyCategory ,
+                                        skos:Concept ;
+                               skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                               rdfs:label "BestLargeJazzEnsembleAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestLatinJazzAlbum
+mel:BestLatinJazzAlbum rdf:type owl:NamedIndividual ,
+                                mel:GrammyCategory ,
+                                skos:Concept ;
+                       skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                       rdfs:label "BestLatinJazzAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestLatinPopAlbum
+mel:BestLatinPopAlbum rdf:type owl:NamedIndividual ,
+                               mel:GrammyCategory ,
+                               skos:Concept ;
+                      skos:broader mel:PopDanceElectronic ;
+                      rdfs:label "BestLatinPopAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestLatinRecording
+mel:BestLatinRecording rdf:type owl:NamedIndividual ,
+                                mel:GrammyCategory ,
+                                skos:Concept ;
+                       skos:broader mel:LatinGlobalReggaeNewAgeAmbientChant ;
+                       rdfs:label "BestLatinRecording"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestLatinRockOrAlternativeAlbum
+mel:BestLatinRockOrAlternativeAlbum rdf:type owl:NamedIndividual ,
+                                             mel:GrammyCategory ,
+                                             skos:Concept ;
+                                    skos:broader mel:RockMetalAlternative ;
+                                    rdfs:label "BestLatinRockOrAlternativeAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestLatinUrbanAlbum
+mel:BestLatinUrbanAlbum rdf:type owl:NamedIndividual ,
+                                 mel:GrammyCategory ,
+                                 skos:Concept ;
+                        skos:broader mel:LatinGlobalReggaeNewAgeAmbientChant ;
+                        rdfs:label "BestLatinUrbanAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestMaleCountryVocalPerformance
+mel:BestMaleCountryVocalPerformance rdf:type owl:NamedIndividual ,
+                                             mel:GrammyCategory ,
+                                             skos:Concept ;
+                                    skos:broader mel:CountryAmericanRoots ;
+                                    rdfs:label "BestMaleCountryVocalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestMalePopVocalPerformance
+mel:BestMalePopVocalPerformance rdf:type owl:NamedIndividual ,
+                                         mel:GrammyCategory ,
+                                         skos:Concept ;
+                                skos:broader mel:PopDanceElectronic ;
+                                rdfs:label "BestMalePopVocalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestMaleRapSoloPerformance
+mel:BestMaleRapSoloPerformance rdf:type owl:NamedIndividual ,
+                                        mel:GrammyCategory ,
+                                        skos:Concept ;
+                               skos:broader mel:RnBRapSpokenWordPoetry ;
+                               rdfs:label "BestMaleRapSoloPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestMaleRnBVocalPerformance
+mel:BestMaleRnBVocalPerformance rdf:type owl:NamedIndividual ,
+                                         mel:GrammyCategory ,
+                                         skos:Concept ;
+                                skos:broader mel:RnBRapSpokenWordPoetry ;
+                                rdfs:label "BestMaleRnBVocalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestMaleRockVocalPerformance
+mel:BestMaleRockVocalPerformance rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:RockMetalAlternative ;
+                                 rdfs:label "BestMaleRockVocalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestMerengueAlbum
+mel:BestMerengueAlbum rdf:type owl:NamedIndividual ,
+                               mel:GrammyCategory ,
+                               skos:Concept ;
+                      skos:broader mel:Other ;
+                      rdfs:label "BestMerengueAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestMetalPerformance
+mel:BestMetalPerformance rdf:type owl:NamedIndividual ,
+                                  mel:GrammyCategory ,
+                                  skos:Concept ;
+                         skos:broader mel:RockMetalAlternative ;
+                         rdfs:label "BestMetalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestMexicanMexicanAmericanAlbum
+mel:BestMexicanMexicanAmericanAlbum rdf:type owl:NamedIndividual ,
+                                             mel:GrammyCategory ,
+                                             skos:Concept ;
+                                    skos:broader mel:CountryAmericanRoots ;
+                                    rdfs:label "BestMexicanMexicanAmericanAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestMusicFilm
+mel:BestMusicFilm rdf:type owl:NamedIndividual ,
+                           mel:GrammyCategory ,
+                           skos:Concept ;
+                  skos:broader mel:ChildrensComedyAudioBooksVisualMediaMusicVideoFilm ;
+                  rdfs:label "BestMusicFilm"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestMusicVideo
+mel:BestMusicVideo rdf:type owl:NamedIndividual ,
+                            mel:GrammyCategory ,
+                            skos:Concept ;
+                   skos:broader mel:Other ;
+                   rdfs:label "BestMusicVideo"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestMusicalTheaterAlbum
+mel:BestMusicalTheaterAlbum rdf:type owl:NamedIndividual ,
+                                     mel:GrammyCategory ,
+                                     skos:Concept ;
+                            skos:broader mel:Other ;
+                            rdfs:label "BestMusicalTheaterAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestNativeAmericanMusicAlbum
+mel:BestNativeAmericanMusicAlbum rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:Other ;
+                                 rdfs:label "BestNativeAmericanMusicAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestNewAgeAlbum
+mel:BestNewAgeAlbum rdf:type owl:NamedIndividual ,
+                             mel:GrammyCategory ,
+                             skos:Concept ;
+                    skos:broader mel:Other ;
+                    rdfs:label "BestNewAgeAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestNewArtist
+mel:BestNewArtist rdf:type owl:NamedIndividual ,
+                           mel:GrammyCategory ,
+                           skos:Concept ;
+                  skos:broader mel:OfTheYear ;
+                  rdfs:label "BestNewArtist"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestNewClassicalArtist
+mel:BestNewClassicalArtist rdf:type owl:NamedIndividual ,
+                                    mel:GrammyCategory ,
+                                    skos:Concept ;
+                           skos:broader mel:Classical ;
+                           rdfs:label "BestNewClassicalArtist"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestNortenoAlbum
+mel:BestNortenoAlbum rdf:type owl:NamedIndividual ,
+                              mel:GrammyCategory ,
+                              skos:Concept ;
+                     skos:broader mel:Other ;
+                     rdfs:label "BestNortenoAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestOperaRecording
+mel:BestOperaRecording rdf:type owl:NamedIndividual ,
+                                mel:GrammyCategory ,
+                                skos:Concept ;
+                       skos:broader mel:Classical ;
+                       rdfs:label "BestOperaRecording"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestOrchestralPerformance
+mel:BestOrchestralPerformance rdf:type owl:NamedIndividual ,
+                                       mel:GrammyCategory ,
+                                       skos:Concept ;
+                              skos:broader mel:Classical ;
+                              rdfs:label "BestOrchestralPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestOriginalJazzComposition
+mel:BestOriginalJazzComposition rdf:type owl:NamedIndividual ,
+                                         mel:GrammyCategory ,
+                                         skos:Concept ;
+                                skos:broader mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater ;
+                                rdfs:label "BestOriginalJazzComposition"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestOriginalScoreWrittenForAMotionPictureOrTelevisionShow
+mel:BestOriginalScoreWrittenForAMotionPictureOrTelevisionShow rdf:type owl:NamedIndividual ,
+                                                                       mel:GrammyCategory ,
+                                                                       skos:Concept ;
+                                                              skos:broader mel:Other ;
+                                                              rdfs:label "BestOriginalScoreWrittenForAMotionPictureOrTelevisionShow"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestPerformanceByAChorus
+mel:BestPerformanceByAChorus rdf:type owl:NamedIndividual ,
+                                      mel:GrammyCategory ,
+                                      skos:Concept ;
+                             skos:broader mel:Other ;
+                             rdfs:label "BestPerformanceByAChorus"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestPerformanceByAVocalGroup
+mel:BestPerformanceByAVocalGroup rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:Other ;
+                                 rdfs:label "BestPerformanceByAVocalGroup"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestPerformanceByAnOrchestraForDancing
+mel:BestPerformanceByAnOrchestraForDancing rdf:type owl:NamedIndividual ,
+                                                    mel:GrammyCategory ,
+                                                    skos:Concept ;
+                                           skos:broader mel:Classical ;
+                                           rdfs:label "BestPerformanceByAnOrchestraForDancing"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestPerformanceByAnOrchestraOrInstrumentalistWithOrchestra
+mel:BestPerformanceByAnOrchestraOrInstrumentalistWithOrchestra rdf:type owl:NamedIndividual ,
+                                                                        mel:GrammyCategory ,
+                                                                        skos:Concept ;
+                                                               skos:broader mel:Classical ;
+                                                               rdfs:label "BestPerformanceByAnOrchestraOrInstrumentalistWithOrchestra"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestPolkaAlbum
+mel:BestPolkaAlbum rdf:type owl:NamedIndividual ,
+                            mel:GrammyCategory ,
+                            skos:Concept ;
+                   skos:broader mel:Other ;
+                   rdfs:label "BestPolkaAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestPopCollaborationWithVocals
+mel:BestPopCollaborationWithVocals rdf:type owl:NamedIndividual ,
+                                            mel:GrammyCategory ,
+                                            skos:Concept ;
+                                   skos:broader mel:PopDanceElectronic ;
+                                   rdfs:label "BestPopCollaborationWithVocals"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestPopContemporaryGospelAlbum
+mel:BestPopContemporaryGospelAlbum rdf:type owl:NamedIndividual ,
+                                            mel:GrammyCategory ,
+                                            skos:Concept ;
+                                   skos:broader mel:PopDanceElectronic ;
+                                   rdfs:label "BestPopContemporaryGospelAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestPopDuoGroupPerformance
+mel:BestPopDuoGroupPerformance rdf:type owl:NamedIndividual ,
+                                        mel:GrammyCategory ,
+                                        skos:Concept ;
+                               skos:broader mel:PopDanceElectronic ;
+                               rdfs:label "BestPopDuoGroupPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestPopInstrumentalPerformance
+mel:BestPopInstrumentalPerformance rdf:type owl:NamedIndividual ,
+                                            mel:GrammyCategory ,
+                                            skos:Concept ;
+                                   skos:broader mel:PopDanceElectronic ;
+                                   rdfs:label "BestPopInstrumentalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestPopInstrumentalPerformanceByAnArrangerComposerOrchestraAndOrChoralLeader
+mel:BestPopInstrumentalPerformanceByAnArrangerComposerOrchestraAndOrChoralLeader rdf:type owl:NamedIndividual ,
+                                                                                          mel:GrammyCategory ,
+                                                                                          skos:Concept ;
+                                                                                 skos:broader mel:PopDanceElectronic ;
+                                                                                 rdfs:label "BestPopInstrumentalPerformanceByAnArrangerComposerOrchestraAndOrChoralLeader"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestPopSoloPerformance
+mel:BestPopSoloPerformance rdf:type owl:NamedIndividual ,
+                                    mel:GrammyCategory ,
+                                    skos:Concept ;
+                           skos:broader mel:PopDanceElectronic ;
+                           rdfs:label "BestPopSoloPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestPopVocalAlbum
+mel:BestPopVocalAlbum rdf:type owl:NamedIndividual ,
+                               mel:GrammyCategory ,
+                               skos:Concept ;
+                      skos:broader mel:PopDanceElectronic ;
+                      rdfs:label "BestPopVocalAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRapAlbum
+mel:BestRapAlbum rdf:type owl:NamedIndividual ,
+                          mel:GrammyCategory ,
+                          skos:Concept ;
+                 skos:broader mel:RnBRapSpokenWordPoetry ;
+                 rdfs:label "BestRapAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRapPerformance
+mel:BestRapPerformance rdf:type owl:NamedIndividual ,
+                                mel:GrammyCategory ,
+                                skos:Concept ;
+                       skos:broader mel:RnBRapSpokenWordPoetry ;
+                       rdfs:label "BestRapPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRapPerformanceByADuoOrGroup
+mel:BestRapPerformanceByADuoOrGroup rdf:type owl:NamedIndividual ,
+                                             mel:GrammyCategory ,
+                                             skos:Concept ;
+                                    skos:broader mel:RnBRapSpokenWordPoetry ;
+                                    rdfs:label "BestRapPerformanceByADuoOrGroup"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRapSoloPerformance
+mel:BestRapSoloPerformance rdf:type owl:NamedIndividual ,
+                                    mel:GrammyCategory ,
+                                    skos:Concept ;
+                           skos:broader mel:RnBRapSpokenWordPoetry ;
+                           rdfs:label "BestRapSoloPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRapSong
+mel:BestRapSong rdf:type owl:NamedIndividual ,
+                         mel:GrammyCategory ,
+                         skos:Concept ;
+                skos:broader mel:RnBRapSpokenWordPoetry ;
+                rdfs:label "BestRapSong"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRapSungPerformance
+mel:BestRapSungPerformance rdf:type owl:NamedIndividual ,
+                                    mel:GrammyCategory ,
+                                    skos:Concept ;
+                           skos:broader mel:RnBRapSpokenWordPoetry ;
+                           rdfs:label "BestRapSungPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRecordingPackage
+mel:BestRecordingPackage rdf:type owl:NamedIndividual ,
+                                  mel:GrammyCategory ,
+                                  skos:Concept ;
+                         skos:broader mel:PackageNotesHistorical ;
+                         rdfs:label "BestRecordingPackage"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestReggaeAlbum
+mel:BestReggaeAlbum rdf:type owl:NamedIndividual ,
+                             mel:GrammyCategory ,
+                             skos:Concept ;
+                    skos:broader mel:LatinGlobalReggaeNewAgeAmbientChant ;
+                    rdfs:label "BestReggaeAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRegionalMexicanAlbum
+mel:BestRegionalMexicanAlbum rdf:type owl:NamedIndividual ,
+                                      mel:GrammyCategory ,
+                                      skos:Concept ;
+                             skos:broader mel:Other ;
+                             rdfs:label "BestRegionalMexicanAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRegionalRootsMusicAlbum
+mel:BestRegionalRootsMusicAlbum rdf:type owl:NamedIndividual ,
+                                         mel:GrammyCategory ,
+                                         skos:Concept ;
+                                skos:broader mel:Other ;
+                                rdfs:label "BestRegionalRootsMusicAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRemixedRecording
+mel:BestRemixedRecording rdf:type owl:NamedIndividual ,
+                                  mel:GrammyCategory ,
+                                  skos:Concept ;
+                         skos:broader mel:Other ;
+                         rdfs:label "BestRemixedRecording"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRnBAlbum
+mel:BestRnBAlbum rdf:type owl:NamedIndividual ,
+                          mel:GrammyCategory ,
+                          skos:Concept ;
+                 skos:broader mel:RnBRapSpokenWordPoetry ;
+                 rdfs:label "BestRnBAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRnBInstrumentalPerformance
+mel:BestRnBInstrumentalPerformance rdf:type owl:NamedIndividual ,
+                                            mel:GrammyCategory ,
+                                            skos:Concept ;
+                                   skos:broader mel:RnBRapSpokenWordPoetry ;
+                                   rdfs:label "BestRnBInstrumentalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRnBPerformance
+mel:BestRnBPerformance rdf:type owl:NamedIndividual ,
+                                mel:GrammyCategory ,
+                                skos:Concept ;
+                       skos:broader mel:RnBRapSpokenWordPoetry ;
+                       rdfs:label "BestRnBPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRnBPerformanceByADuoOrGroupWithVocals
+mel:BestRnBPerformanceByADuoOrGroupWithVocals rdf:type owl:NamedIndividual ,
+                                                       mel:GrammyCategory ,
+                                                       skos:Concept ;
+                                              skos:broader mel:RnBRapSpokenWordPoetry ;
+                                              rdfs:label "BestRnBPerformanceByADuoOrGroupWithVocals"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRnBSoloVocalPerformanceMaleOrFemale
+mel:BestRnBSoloVocalPerformanceMaleOrFemale rdf:type owl:NamedIndividual ,
+                                                     mel:GrammyCategory ,
+                                                     skos:Concept ;
+                                            skos:broader mel:RnBRapSpokenWordPoetry ;
+                                            rdfs:label "BestRnBSoloVocalPerformanceMaleOrFemale"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRnBSong
+mel:BestRnBSong rdf:type owl:NamedIndividual ,
+                         mel:GrammyCategory ,
+                         skos:Concept ;
+                skos:broader mel:RnBRapSpokenWordPoetry ;
+                rdfs:label "BestRnBSong"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRockAlbum
+mel:BestRockAlbum rdf:type owl:NamedIndividual ,
+                           mel:GrammyCategory ,
+                           skos:Concept ;
+                  skos:broader mel:RockMetalAlternative ;
+                  rdfs:label "BestRockAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRockGospelAlbum
+mel:BestRockGospelAlbum rdf:type owl:NamedIndividual ,
+                                 mel:GrammyCategory ,
+                                 skos:Concept ;
+                        skos:broader mel:RockMetalAlternative ;
+                        rdfs:label "BestRockGospelAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRockInstrumentalPerformance
+mel:BestRockInstrumentalPerformance rdf:type owl:NamedIndividual ,
+                                             mel:GrammyCategory ,
+                                             skos:Concept ;
+                                    skos:broader mel:RockMetalAlternative ;
+                                    rdfs:label "BestRockInstrumentalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRockPerformance
+mel:BestRockPerformance rdf:type owl:NamedIndividual ,
+                                 mel:GrammyCategory ,
+                                 skos:Concept ;
+                        skos:broader mel:RockMetalAlternative ;
+                        rdfs:label "BestRockPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRockPerformanceByADuoOrGroupWithVocal
+mel:BestRockPerformanceByADuoOrGroupWithVocal rdf:type owl:NamedIndividual ,
+                                                       mel:GrammyCategory ,
+                                                       skos:Concept ;
+                                              skos:broader mel:RockMetalAlternative ;
+                                              rdfs:label "BestRockPerformanceByADuoOrGroupWithVocal"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRockSoloVocalPerformance
+mel:BestRockSoloVocalPerformance rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:RockMetalAlternative ;
+                                 rdfs:label "BestRockSoloVocalPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRockSong
+mel:BestRockSong rdf:type owl:NamedIndividual ,
+                          mel:GrammyCategory ,
+                          skos:Concept ;
+                 skos:broader mel:RockMetalAlternative ;
+                 rdfs:label "BestRockSong"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestRootsGospelAlbum
+mel:BestRootsGospelAlbum rdf:type owl:NamedIndividual ,
+                                  mel:GrammyCategory ,
+                                  skos:Concept ;
+                         skos:broader mel:GospelContemporaryChristian ;
+                         rdfs:label "BestRootsGospelAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSalsaAlbum
+mel:BestSalsaAlbum rdf:type owl:NamedIndividual ,
+                            mel:GrammyCategory ,
+                            skos:Concept ;
+                   skos:broader mel:Other ;
+                   rdfs:label "BestSalsaAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSalsaMerengueAlbum
+mel:BestSalsaMerengueAlbum rdf:type owl:NamedIndividual ,
+                                    mel:GrammyCategory ,
+                                    skos:Concept ;
+                           skos:broader mel:Other ;
+                           rdfs:label "BestSalsaMerengueAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestScoreFromAnOriginalCastShowAlbum
+mel:BestScoreFromAnOriginalCastShowAlbum rdf:type owl:NamedIndividual ,
+                                                  mel:GrammyCategory ,
+                                                  skos:Concept ;
+                                         skos:broader mel:Other ;
+                                         rdfs:label "BestScoreFromAnOriginalCastShowAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestScoreSoundtrackAlbumForVisualMedia
+mel:BestScoreSoundtrackAlbumForVisualMedia rdf:type owl:NamedIndividual ,
+                                                    mel:GrammyCategory ,
+                                                    skos:Concept ;
+                                           skos:broader mel:Other ;
+                                           rdfs:label "BestScoreSoundtrackAlbumForVisualMedia"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSongWrittenForVisualMedia
+mel:BestSongWrittenForVisualMedia rdf:type owl:NamedIndividual ,
+                                           mel:GrammyCategory ,
+                                           skos:Concept ;
+                                  skos:broader mel:Other ;
+                                  rdfs:label "BestSongWrittenForVisualMedia"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSoulGospelPerformance
+mel:BestSoulGospelPerformance rdf:type owl:NamedIndividual ,
+                                       mel:GrammyCategory ,
+                                       skos:Concept ;
+                              skos:broader mel:GospelContemporaryChristian ;
+                              rdfs:label "BestSoulGospelPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSoulGospelPerformanceByADuoOrGroup
+mel:BestSoulGospelPerformanceByADuoOrGroup rdf:type owl:NamedIndividual ,
+                                                    mel:GrammyCategory ,
+                                                    skos:Concept ;
+                                           skos:broader mel:GospelContemporaryChristian ;
+                                           rdfs:label "BestSoulGospelPerformanceByADuoOrGroup"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSoulGospelPerformanceContemporary
+mel:BestSoulGospelPerformanceContemporary rdf:type owl:NamedIndividual ,
+                                                   mel:GrammyCategory ,
+                                                   skos:Concept ;
+                                          skos:broader mel:GospelContemporaryChristian ;
+                                          rdfs:label "BestSoulGospelPerformanceContemporary"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSoulGospelPerformanceFemale
+mel:BestSoulGospelPerformanceFemale rdf:type owl:NamedIndividual ,
+                                             mel:GrammyCategory ,
+                                             skos:Concept ;
+                                    skos:broader mel:GospelContemporaryChristian ;
+                                    rdfs:label "BestSoulGospelPerformanceFemale"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSoulGospelPerformanceMale
+mel:BestSoulGospelPerformanceMale rdf:type owl:NamedIndividual ,
+                                           mel:GrammyCategory ,
+                                           skos:Concept ;
+                                  skos:broader mel:GospelContemporaryChristian ;
+                                  rdfs:label "BestSoulGospelPerformanceMale"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSoulGospelPerformanceMaleOrFemale
+mel:BestSoulGospelPerformanceMaleOrFemale rdf:type owl:NamedIndividual ,
+                                                   mel:GrammyCategory ,
+                                                   skos:Concept ;
+                                          skos:broader mel:GospelContemporaryChristian ;
+                                          rdfs:label "BestSoulGospelPerformanceMaleOrFemale"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSoulGospelPerformanceTraditional
+mel:BestSoulGospelPerformanceTraditional rdf:type owl:NamedIndividual ,
+                                                  mel:GrammyCategory ,
+                                                  skos:Concept ;
+                                         skos:broader mel:GospelContemporaryChristian ;
+                                         rdfs:label "BestSoulGospelPerformanceTraditional"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSouthernCountryOrBluegrassGospelAlbum
+mel:BestSouthernCountryOrBluegrassGospelAlbum rdf:type owl:NamedIndividual ,
+                                                       mel:GrammyCategory ,
+                                                       skos:Concept ;
+                                              skos:broader mel:CountryAmericanRoots ;
+                                              rdfs:label "BestSouthernCountryOrBluegrassGospelAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSpokenWordAlbum
+mel:BestSpokenWordAlbum rdf:type owl:NamedIndividual ,
+                                 mel:GrammyCategory ,
+                                 skos:Concept ;
+                        skos:broader mel:Other ;
+                        rdfs:label "BestSpokenWordAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSpokenWordAlbumForChildren
+mel:BestSpokenWordAlbumForChildren rdf:type owl:NamedIndividual ,
+                                            mel:GrammyCategory ,
+                                            skos:Concept ;
+                                   skos:broader mel:ChildrensComedyAudioBooksVisualMediaMusicVideoFilm ;
+                                   rdfs:label "BestSpokenWordAlbumForChildren"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestSpokenWordPoetryAlbum
+mel:BestSpokenWordPoetryAlbum rdf:type owl:NamedIndividual ,
+                                       mel:GrammyCategory ,
+                                       skos:Concept ;
+                              skos:broader mel:RnBRapSpokenWordPoetry ;
+                              rdfs:label "BestSpokenWordPoetryAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestTejanoAlbum
+mel:BestTejanoAlbum rdf:type owl:NamedIndividual ,
+                             mel:GrammyCategory ,
+                             skos:Concept ;
+                    skos:broader mel:Other ;
+                    rdfs:label "BestTejanoAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestTraditionalBluesAlbum
+mel:BestTraditionalBluesAlbum rdf:type owl:NamedIndividual ,
+                                       mel:GrammyCategory ,
+                                       skos:Concept ;
+                              skos:broader mel:Other ;
+                              rdfs:label "BestTraditionalBluesAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestTraditionalFolkAlbum
+mel:BestTraditionalFolkAlbum rdf:type owl:NamedIndividual ,
+                                      mel:GrammyCategory ,
+                                      skos:Concept ;
+                             skos:broader mel:CountryAmericanRoots ;
+                             rdfs:label "BestTraditionalFolkAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestTraditionalPopVocalAlbum
+mel:BestTraditionalPopVocalAlbum rdf:type owl:NamedIndividual ,
+                                          mel:GrammyCategory ,
+                                          skos:Concept ;
+                                 skos:broader mel:PopDanceElectronic ;
+                                 rdfs:label "BestTraditionalPopVocalAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestTraditionalRnBPerformance
+mel:BestTraditionalRnBPerformance rdf:type owl:NamedIndividual ,
+                                           mel:GrammyCategory ,
+                                           skos:Concept ;
+                                  skos:broader mel:RnBRapSpokenWordPoetry ;
+                                  rdfs:label "BestTraditionalRnBPerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestTraditionalSoulGospelAlbum
+mel:BestTraditionalSoulGospelAlbum rdf:type owl:NamedIndividual ,
+                                            mel:GrammyCategory ,
+                                            skos:Concept ;
+                                   skos:broader mel:GospelContemporaryChristian ;
+                                   rdfs:label "BestTraditionalSoulGospelAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestTraditionalTropicalLatinAlbum
+mel:BestTraditionalTropicalLatinAlbum rdf:type owl:NamedIndividual ,
+                                               mel:GrammyCategory ,
+                                               skos:Concept ;
+                                      skos:broader mel:LatinGlobalReggaeNewAgeAmbientChant ;
+                                      rdfs:label "BestTraditionalTropicalLatinAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestTropicalLatinAlbum
+mel:BestTropicalLatinAlbum rdf:type owl:NamedIndividual ,
+                                    mel:GrammyCategory ,
+                                    skos:Concept ;
+                           skos:broader mel:LatinGlobalReggaeNewAgeAmbientChant ;
+                           rdfs:label "BestTropicalLatinAlbum"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestUrbanAlternativePerformance
+mel:BestUrbanAlternativePerformance rdf:type owl:NamedIndividual ,
+                                             mel:GrammyCategory ,
+                                             skos:Concept ;
+                                    skos:broader mel:RockMetalAlternative ;
+                                    rdfs:label "BestUrbanAlternativePerformance"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestVocalArrangementForTwoOrMoreVoices
+mel:BestVocalArrangementForTwoOrMoreVoices rdf:type owl:NamedIndividual ,
+                                                    mel:GrammyCategory ,
+                                                    skos:Concept ;
+                                           skos:broader mel:ProductionEngineeringCompositionArrangement ;
+                                           rdfs:label "BestVocalArrangementForTwoOrMoreVoices"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestZydecoOrCajunMusicAlbum
+mel:BestZydecoOrCajunMusicAlbum rdf:type owl:NamedIndividual ,
+                                         mel:GrammyCategory ,
+                                         skos:Concept ;
+                                skos:broader mel:Other ;
+                                rdfs:label "BestZydecoOrCajunMusicAlbum"@en .
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#BigBand
@@ -2675,6 +4067,14 @@ mel:ChildrenSMusic rdf:type owl:NamedIndividual ,
                    rdfs:label "Children'S Music"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#ChildrensComedyAudioBooksVisualMediaMusicVideoFilm
+mel:ChildrensComedyAudioBooksVisualMediaMusicVideoFilm rdf:type owl:NamedIndividual ,
+                                                                mel:GrammyCategory ,
+                                                                skos:Concept ;
+                                                       skos:inScheme mel:GrammyCategorySchema ;
+                                                       rdfs:label "ChildrensComedyAudioBooksVisualMediaMusicVideoFilm"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#Chillhop
 mel:Chillhop rdf:type owl:NamedIndividual ,
                       mel:Genre ,
@@ -3062,9 +4462,11 @@ mel:ClassicUkPop rdf:type owl:NamedIndividual ,
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#Classical
 mel:Classical rdf:type owl:NamedIndividual ,
                        mel:Genre ,
+                       mel:GrammyCategory ,
                        skos:Concept ;
               skos:broader mel:Classical ;
-              skos:inScheme mel:GenreSchema ;
+              skos:inScheme mel:GenreSchema ,
+                            mel:GrammyCategorySchema ;
               rdfs:label "Classical"@en .
 
 
@@ -3388,6 +4790,14 @@ mel:Country rdf:type owl:NamedIndividual ,
             skos:broader mel:Country ;
             skos:inScheme mel:GenreSchema ;
             rdfs:label "Country"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#CountryAmericanRoots
+mel:CountryAmericanRoots rdf:type owl:NamedIndividual ,
+                                  mel:GrammyCategory ,
+                                  skos:Concept ;
+                         skos:inScheme mel:GrammyCategorySchema ;
+                         rdfs:label "CountryAmericanRoots"@en .
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#CountryBlues
@@ -5799,6 +7209,14 @@ mel:Gospel rdf:type owl:NamedIndividual ,
            rdfs:label "Gospel"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#GospelContemporaryChristian
+mel:GospelContemporaryChristian rdf:type owl:NamedIndividual ,
+                                         mel:GrammyCategory ,
+                                         skos:Concept ;
+                                skos:inScheme mel:GrammyCategorySchema ;
+                                rdfs:label "GospelContemporaryChristian"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#GospelRap
 mel:GospelRap rdf:type owl:NamedIndividual ,
                        mel:Genre ,
@@ -5885,6 +7303,12 @@ mel:GothicSymphonicMetal rdf:type owl:NamedIndividual ,
                                   skos:Concept ;
                          skos:broader mel:Metal ;
                          rdfs:label "Gothic Symphonic Metal"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#GrammyCategorySchema
+mel:GrammyCategorySchema rdf:type owl:NamedIndividual ,
+                                  skos:ConceptScheme ;
+                         rdfs:label "Grammy Category Schema"@en .
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#GrandRapidsIndie
@@ -7097,6 +8521,14 @@ mel:JazzSaxophone rdf:type owl:NamedIndividual ,
                   rdfs:label "Jazz Saxophone"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#JazzTraditionalPopContemporaryInstrumentalMusicalTheater
+mel:JazzTraditionalPopContemporaryInstrumentalMusicalTheater rdf:type owl:NamedIndividual ,
+                                                                      mel:GrammyCategory ,
+                                                                      skos:Concept ;
+                                                             skos:inScheme mel:GrammyCategorySchema ;
+                                                             rdfs:label "JazzTraditionalPopContemporaryInstrumentalMusicalTheater"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#JazzTrio
 mel:JazzTrio rdf:type owl:NamedIndividual ,
                       mel:Genre ,
@@ -7466,6 +8898,14 @@ mel:LatinClassical rdf:type owl:NamedIndividual ,
                    rdfs:label "Latin Classical"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#LatinGlobalReggaeNewAgeAmbientChant
+mel:LatinGlobalReggaeNewAgeAmbientChant rdf:type owl:NamedIndividual ,
+                                                 mel:GrammyCategory ,
+                                                 skos:Concept ;
+                                        skos:inScheme mel:GrammyCategorySchema ;
+                                        rdfs:label "LatinGlobalReggaeNewAgeAmbientChant"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#LatinHipHop
 mel:LatinHipHop rdf:type owl:NamedIndividual ,
                          mel:Genre ,
@@ -7592,6 +9032,14 @@ mel:LibraryMusic rdf:type owl:NamedIndividual ,
                           skos:Concept ;
                  skos:broader mel:Unclassified ;
                  rdfs:label "Library Music"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#LifetimeAchievementAward
+mel:LifetimeAchievementAward rdf:type owl:NamedIndividual ,
+                                      mel:GrammyCategory ,
+                                      skos:Concept ;
+                             skos:broader mel:Other ;
+                             rdfs:label "LifetimeAchievementAward"@en .
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#LightMusic
@@ -9240,6 +10688,14 @@ mel:OceaniaSoundtrack rdf:type owl:NamedIndividual ,
                       rdfs:label "Oceania Soundtrack"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#OfTheYear
+mel:OfTheYear rdf:type owl:NamedIndividual ,
+                       mel:GrammyCategory ,
+                       skos:Concept ;
+              skos:inScheme mel:GrammyCategorySchema ;
+              rdfs:label "OfTheYear"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#OhioIndie
 mel:OhioIndie rdf:type owl:NamedIndividual ,
                        mel:Genre ,
@@ -9432,6 +10888,14 @@ mel:OthIndie rdf:type owl:NamedIndividual ,
              rdfs:label "Oth Indie"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#Other
+mel:Other rdf:type owl:NamedIndividual ,
+                   mel:GrammyCategory ,
+                   skos:Concept ;
+          skos:inScheme mel:GrammyCategorySchema ;
+          rdfs:label "Other"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#OttawaIndie
 mel:OttawaIndie rdf:type owl:NamedIndividual ,
                          mel:Genre ,
@@ -9478,6 +10942,14 @@ mel:PFunk rdf:type owl:NamedIndividual ,
                    skos:Concept ;
           skos:broader mel:Funk ;
           rdfs:label "P Funk"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#PackageNotesHistorical
+mel:PackageNotesHistorical rdf:type owl:NamedIndividual ,
+                                    mel:GrammyCategory ,
+                                    skos:Concept ;
+                           skos:inScheme mel:GrammyCategorySchema ;
+                           rdfs:label "PackageNotesHistorical"@en .
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#PaganBlackMetal
@@ -9743,6 +11215,14 @@ mel:Pop rdf:type owl:NamedIndividual ,
         skos:broader mel:Pop ;
         skos:inScheme mel:GenreSchema ;
         rdfs:label "Pop"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#PopDanceElectronic
+mel:PopDanceElectronic rdf:type owl:NamedIndividual ,
+                                mel:GrammyCategory ,
+                                skos:Concept ;
+                       skos:inScheme mel:GrammyCategorySchema ;
+                       rdfs:label "PopDanceElectronic"@en .
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#PopEdm
@@ -10023,6 +11503,30 @@ mel:Preverb rdf:type owl:NamedIndividual ,
                      skos:Concept ;
             skos:broader mel:Unclassified ;
             rdfs:label "Preverb"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#ProducerOfTheYearClassical
+mel:ProducerOfTheYearClassical rdf:type owl:NamedIndividual ,
+                                        mel:GrammyCategory ,
+                                        skos:Concept ;
+                               skos:broader mel:OfTheYear ;
+                               rdfs:label "ProducerOfTheYearClassical"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#ProducerOfTheYearNonClassical
+mel:ProducerOfTheYearNonClassical rdf:type owl:NamedIndividual ,
+                                           mel:GrammyCategory ,
+                                           skos:Concept ;
+                                  skos:broader mel:OfTheYear ;
+                                  rdfs:label "ProducerOfTheYearNonClassical"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#ProductionEngineeringCompositionArrangement
+mel:ProductionEngineeringCompositionArrangement rdf:type owl:NamedIndividual ,
+                                                         mel:GrammyCategory ,
+                                                         skos:Concept ;
+                                                skos:inScheme mel:GrammyCategorySchema ;
+                                                rdfs:label "ProductionEngineeringCompositionArrangement"@en .
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#ProgQuebec
@@ -10378,6 +11882,14 @@ mel:ReadingIndie rdf:type owl:NamedIndividual ,
                  rdfs:label "Reading Indie"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#RecordOfTheYear
+mel:RecordOfTheYear rdf:type owl:NamedIndividual ,
+                             mel:GrammyCategory ,
+                             skos:Concept ;
+                    skos:broader mel:OfTheYear ;
+                    rdfs:label "RecordOfTheYear"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#Recorder
 mel:Recorder rdf:type owl:NamedIndividual ,
                       mel:Genre ,
@@ -10564,6 +12076,14 @@ mel:RnBBrasileiro rdf:type owl:NamedIndividual ,
                   rdfs:label "R&B Brasileiro"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#RnBRapSpokenWordPoetry
+mel:RnBRapSpokenWordPoetry rdf:type owl:NamedIndividual ,
+                                    mel:GrammyCategory ,
+                                    skos:Concept ;
+                           skos:inScheme mel:GrammyCategorySchema ;
+                           rdfs:label "RnBRapSpokenWordPoetry"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#RochesterNyIndie
 mel:RochesterNyIndie rdf:type owl:NamedIndividual ,
                               mel:Genre ,
@@ -10627,6 +12147,14 @@ mel:RockGospelBrasileiro rdf:type owl:NamedIndividual ,
                                   skos:Concept ;
                          skos:broader mel:Gospel ;
                          rdfs:label "Rock Gospel Brasileiro"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#RockMetalAlternative
+mel:RockMetalAlternative rdf:type owl:NamedIndividual ,
+                                  mel:GrammyCategory ,
+                                  skos:Concept ;
+                         skos:inScheme mel:GrammyCategorySchema ;
+                         rdfs:label "RockMetalAlternative"@en .
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#RockNacionalBrasileiro
@@ -11283,6 +12811,14 @@ mel:Solipsynthm rdf:type owl:NamedIndividual ,
                          skos:Concept ;
                 skos:broader mel:Unclassified ;
                 rdfs:label "Solipsynthm"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#SongOfTheYear
+mel:SongOfTheYear rdf:type owl:NamedIndividual ,
+                           mel:GrammyCategory ,
+                           skos:Concept ;
+                  skos:broader mel:OfTheYear ;
+                  rdfs:label "SongOfTheYear"@en .
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#SongPoem
@@ -12343,6 +13879,14 @@ mel:TropicalHouse rdf:type owl:NamedIndividual ,
                   rdfs:label "Tropical House"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#TrusteesAward
+mel:TrusteesAward rdf:type owl:NamedIndividual ,
+                           mel:GrammyCategory ,
+                           skos:Concept ;
+                  skos:broader mel:Other ;
+                  rdfs:label "TrusteesAward"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#TucsonIndie
 mel:TucsonIndie rdf:type owl:NamedIndividual ,
                          mel:Genre ,
@@ -13069,6 +14613,14 @@ mel:Zydeco rdf:type owl:NamedIndividual ,
                                                               skos:Concept ;
                                                      skos:broader mel:Unclassified ;
                                                      rdfs:label "8-Bit"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#BestArrangementAccompanyingVocalist(s)OrInstrumentalist(s)
+<http://www.dei.unipd.it/~gdb/ontology/melody#BestArrangementAccompanyingVocalist(s)OrInstrumentalist(s)> rdf:type owl:NamedIndividual ,
+                                                                                                                   mel:GrammyCategory ,
+                                                                                                                   skos:Concept ;
+                                                                                                          skos:broader mel:ProductionEngineeringCompositionArrangement ;
+                                                                                                          rdfs:label "BestArrangementAccompanyingVocalist(s)OrInstrumentalist(s)"@en .
 
 
 #################################################################
