@@ -118,6 +118,15 @@ mel:isMorePopularThan rdf:type owl:ObjectProperty ,
                       rdfs:label "isMorePopularThan"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#isReleasedBy
+mel:isReleasedBy rdf:type owl:ObjectProperty ;
+                 owl:inverseOf mel:releasedAlbum ;
+                 rdfs:domain mel:Album ;
+                 rdfs:range mel:Artist ;
+                 rdfs:comment "This property links an Album to the artist/s who released it."@en ;
+                 rdfs:label "isReleasedBy"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#isRemixOf
 mel:isRemixOf rdf:type owl:ObjectProperty ,
                        owl:TransitiveProperty ;
@@ -125,6 +134,11 @@ mel:isRemixOf rdf:type owl:ObjectProperty ,
               rdfs:range mel:SongHot200 ;
               rdfs:comment "This property links a song to its remix."@en ;
               rdfs:label "isRemixOf"@en .
+
+
+###  http://www.dei.unipd.it/~gdb/ontology/melody#releasedAlbum
+mel:releasedAlbum rdf:type owl:ObjectProperty ;
+                  rdfs:label "releasedAlbum"@en .
 
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#sing
@@ -388,9 +402,16 @@ mel:year rdf:type owl:DatatypeProperty ,
 
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#Album
 mel:Album rdf:type owl:Class ;
-          owl:equivalentClass [ rdf:type owl:Restriction ;
-                                owl:onProperty mel:containsSong ;
-                                owl:someValuesFrom mel:SongHot200
+          owl:equivalentClass [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                       owl:onProperty mel:containsSong ;
+                                                       owl:someValuesFrom mel:SongHot200
+                                                     ]
+                                                     [ rdf:type owl:Restriction ;
+                                                       owl:onProperty mel:isReleasedBy ;
+                                                       owl:someValuesFrom mel:Artist
+                                                     ]
+                                                   ) ;
+                                rdf:type owl:Class
                               ] ;
           rdfs:comment "The class representing the albums."@en ;
           rdfs:label "Album"@en .
