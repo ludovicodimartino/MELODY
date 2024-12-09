@@ -290,7 +290,7 @@ mel:02tkBY16aaQduVQKpoT8AN a mel:Album ;
     mel:totalTracks "8"^^xsd:positiveInteger .
 
 mel:02w1xMzzdF2OJxTeh1basm a mel:Album ;
-    mel:candidated mel:2004_b_da8cd3c9 ;
+    mel:candidated mel:2004_b_accc355a ;
     mel:containsSong mel:0COqiPhxzoWICwFCS4eZcp,
         mel:4UzVcXufOhGUwF56HT7b8M ;
     mel:isReleasedBy mel:5nGIFgo0shDenQYSE0Sn7c ;
@@ -419,7 +419,7 @@ mel:0426RVFAsCAeiUcCOq0J1V a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:045D1HbNHv4R31D9vkL8Ve a mel:Album ;
-    mel:candidated mel:2007_b_7f0b0bf4 ;
+    mel:candidated mel:2007_b_76955fce ;
     mel:containsSong mel:2F1H1Tm2qJmeiFcUi7vZiL ;
     mel:isReleasedBy mel:7LnaAXbDVIL75IVPnndf7w ;
     mel:name "Unpredictable"^^xsd:string ;
@@ -589,7 +589,7 @@ mel:05o0L9u8hAIMOqlhUFuMsm a mel:Album ;
     mel:totalTracks "20"^^xsd:positiveInteger .
 
 mel:05owfigVGpgPe7RKJG1hum a mel:Album ;
-    mel:candidated mel:1989_b_ce6f06af ;
+    mel:candidated mel:1989_b_a2fda5f0 ;
     mel:containsSong mel:42HaJ7QlInzQ5vHKWb5Ixa,
         mel:4uOKFydzAejjSFqYbv1XPt,
         mel:6YR2MkzMhojHBmW1TbXtZO ;
@@ -825,7 +825,7 @@ mel:08eM9GRdr5BCCHNqS3Wwud a mel:Album ;
     mel:totalTracks "17"^^xsd:positiveInteger .
 
 mel:08eQjFT0T2EGVFG5WeCe2V a mel:Album ;
-    mel:candidated mel:2014_b_f4b48e80 ;
+    mel:candidated mel:2014_b_02b2bff0 ;
     mel:containsSong mel:1OC5mT0y70WtBjxrnFc8cv,
         mel:45Wn61MkomMuVMDnFoB5oC,
         mel:7sk4RFtliYFKSgjKnsJg4t ;
@@ -848,7 +848,7 @@ mel:08jWgM4vSkTose4blKBWov a mel:Album ;
     mel:isReleasedBy mel:2wY79sveU1sp5g7SokKOiI ;
     mel:name "In The Lonely Hour"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:2015_b_f40670ee .
+    mel:winner mel:2015_b_1fa09997 .
 
 mel:08mPxuP35Db56jUUgRvGFs a mel:Album ;
     mel:containsSong mel:1F898dzpPq7Erdd8pDgUad,
@@ -926,7 +926,7 @@ mel:097eYvf9NKjFnv4xA9s2oV a mel:Album ;
     mel:isReleasedBy mel:6Q192DXotxtaysaqNPy5yR ;
     mel:name "Back To Black"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:2008_b_bd9e34c8 .
+    mel:winner mel:2008_b_d547fc6d .
 
 mel:098R0QKyahsqbFY9QByybg a mel:Album ;
     mel:containsSong mel:20m3aiJZdxy6kzOapoVTyD ;
@@ -1218,7 +1218,7 @@ mel:0BwWUstDMUbgq2NYONRqlu a mel:Album ;
     mel:isReleasedBy mel:08GQAI4eElDnROBrJRGE0X ;
     mel:name "Rumours (Super Deluxe)"^^xsd:string ;
     mel:totalTracks "58"^^xsd:positiveInteger ;
-    mel:winner mel:1978_a_8875cc07 .
+    mel:winner mel:1978_a_b3f9894f .
 
 mel:0Byh9TWAYzZgzVCXAtKpIB a mel:Album ;
     mel:containsSong mel:1ONo2x3Lv4vhWoEd5A7U4q ;
@@ -1413,7 +1413,7 @@ mel:0ETFjACtuP2ADo6LFhL6HN a mel:Album ;
     mel:isReleasedBy mel:3WrFJ7ztbogyGnTHbHJFl2 ;
     mel:name "Abbey Road (Remastered)"^^xsd:string ;
     mel:totalTracks "17"^^xsd:positiveInteger ;
-    mel:winner mel:1970_b_d39d4a4d .
+    mel:winner mel:1970_b_d80d3281 .
 
 mel:0EVRwTd2fEIgupTxZTcWRN a mel:Album ;
     mel:containsSong mel:1FerGrTyGsT1KufVFVuvA4 ;
@@ -1708,7 +1708,7 @@ mel:0IYjMBLA9PgtXyRPlLmTDE a mel:Album ;
     mel:isReleasedBy mel:51Blml2LZPmy7TTiAg47vQ ;
     mel:name "Zooropa"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:1994_b_273d5492 .
+    mel:winner mel:1994_b_89798a86 .
 
 mel:0IdUIHLighXpd7fRXLmR8t a mel:Album ;
     mel:containsSong mel:4WMQQm6fiuF9MjCegwDDmf ;
@@ -1729,7 +1729,7 @@ mel:0IkjwZghU8V40BBRtos0pn a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:0Im5nUhAuNDSYVjfPh7RyS a mel:Album ;
-    mel:candidated mel:2010_b_61a01e91 ;
+    mel:candidated mel:2010_b_80c9f211 ;
     mel:containsSong mel:4bWlAEbGHhPKQNjhTstN2p,
         mel:4dGJf1SER1T6ooX46vwzRB,
         mel:4o8STNAL91xc7EvuvqSKk1,
@@ -1849,8 +1849,8 @@ mel:0JwHz5SSvpYWuuCNbtYZoV a mel:Album ;
     mel:isReleasedBy mel:70cRZdQywnSFp9pnc2WTCE ;
     mel:name "Bridge Over Troubled Water"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:1971_a_25293063,
-        mel:1971_b_300869e8 .
+    mel:winner mel:1971_a_4ffc502b,
+        mel:1971_b_f3c0f059 .
 
 mel:0JxBiJVEmzFJdbMwgLohC1 a mel:Album ;
     mel:containsSong mel:11OFYsUK9EVJsQ6nutH32M,
@@ -1869,7 +1869,7 @@ mel:0K4pIOOsfJ9lK8OjrZfXzd a mel:Album ;
     mel:isReleasedBy mel:4dpARuHxo51G3z768sgnrY ;
     mel:name "25"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:2017_b_047444fb .
+    mel:winner mel:2017_b_626f5827 .
 
 mel:0KB9ufaF3yGVaeWzSV1cJn a mel:Album ;
     mel:containsSong mel:5KpWJgjvqMea81jjGdJW9A ;
@@ -2346,7 +2346,7 @@ mel:0OvSems3CIWCs2Tty0oO9B a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:0P3oVJBFOv3TDXlYRhGL7s a mel:Album ;
-    mel:candidated mel:2016_a_8f70a8a0 ;
+    mel:candidated mel:2016_a_dadbd91f ;
     mel:containsSong mel:03j354P848KtNU2FVSwkDG,
         mel:1mhVXWduD8ReDwusfaHNwU,
         mel:22VdIZQfgXJea34mQxlt81,
@@ -2472,7 +2472,7 @@ mel:0QVoYzGd1p8Z3ohEaM0lsc a mel:Album ;
     mel:totalTracks "31"^^xsd:positiveInteger .
 
 mel:0QWQMq5k9ck1NwkjTQaMGc a mel:Album ;
-    mel:candidated mel:2000_b_9ba0f19c ;
+    mel:candidated mel:2000_b_fda4b383 ;
     mel:containsSong mel:0xzDbdFFnPz9CiQ0YZMq4K ;
     mel:isReleasedBy mel:4NgNsOXSwIzXlUIJcpnNUp ;
     mel:name "Mirrorball: The Complete Concert"^^xsd:string ;
@@ -2563,7 +2563,7 @@ mel:0RHX9XECH8IVI3LNgWDpmQ a mel:Album ;
     mel:isReleasedBy mel:4gzpq5DPGxSnKTe4SA8HAU ;
     mel:name "A Rush of Blood to the Head"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:2003_b_6706c413 .
+    mel:winner mel:2003_b_dc89d16d .
 
 mel:0RLMAxS9mhy149lu93u7GA a mel:Album ;
     mel:containsSong mel:3J6vrRMz6EfwH2sgYiyNhc ;
@@ -2583,7 +2583,7 @@ mel:0RPgKTqFhjUD8KEf9vR7jX a mel:Album ;
     mel:isReleasedBy mel:2lolQgalUvZDfp5vvVtTYV ;
     mel:name "Duets An American Classic"^^xsd:string ;
     mel:totalTracks "19"^^xsd:positiveInteger ;
-    mel:winner mel:2007_b_365058b7 .
+    mel:winner mel:2007_b_a854a804 .
 
 mel:0RRdCAkHE6wCQLsAGJ9cqM a mel:Album ;
     mel:containsSong mel:1l69V1gBVRN02Hgt7a7sqt,
@@ -2719,7 +2719,7 @@ mel:0SNCFpNUZRio4VoRwhqldl a mel:Album ;
     mel:isReleasedBy mel:6cAtGdArQhrU7tTBoeWY3P ;
     mel:name "Don't Be Afraid Of The Dark"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:1989_b_7a0151bc .
+    mel:winner mel:1989_b_f6511b98 .
 
 mel:0SNeI8dnl06tN3Uov5nmhO a mel:Album ;
     mel:containsSong mel:0ADWYG30Gzy4MWf5o9eY2t ;
@@ -3044,7 +3044,7 @@ mel:0VmE95pr5TSpZWucfyhO5e a mel:Album ;
     mel:isReleasedBy mel:3BmGtnKgCSGYIUhmivXKWX ;
     mel:name "Stronger (Deluxe Version)"^^xsd:string ;
     mel:totalTracks "17"^^xsd:positiveInteger ;
-    mel:winner mel:2013_b_36239385 .
+    mel:winner mel:2013_b_f3fcf23f .
 
 mel:0VqOfYQxQomNWHAiB9MHm2 a mel:Album ;
     mel:containsSong mel:0fmNiN85g1XF1NemAGY7G2,
@@ -3356,7 +3356,7 @@ mel:0Zd10MKN5j9KwUST0TdBBB a mel:Album ;
     mel:isReleasedBy mel:6vWDO969PvNqNYHIOW5v0m ;
     mel:name "B'Day Deluxe Edition"^^xsd:string ;
     mel:totalTracks "23"^^xsd:positiveInteger ;
-    mel:winner mel:2007_b_09512df9 .
+    mel:winner mel:2007_b_756d8432 .
 
 mel:0ZeOyoJHPD6czbTPAT9Qaj a mel:Album ;
     mel:containsSong mel:2cM4093hKmkWTF0Rc5OdJa ;
@@ -3493,7 +3493,7 @@ mel:0aqZJlugIkTUWW1sa4BANp a mel:Album ;
     mel:totalTracks "21"^^xsd:positiveInteger .
 
 mel:0b6ivSFfDs38MG7aLn9rvO a mel:Album ;
-    mel:candidated mel:2006_b_11d92891 ;
+    mel:candidated mel:2006_b_00c2d79d ;
     mel:containsSong mel:3s2MyU2YCwNNwcSokt0jXD,
         mel:4FTOpNYcGxnQdGNWSxIcio ;
     mel:isReleasedBy mel:1Y8cdNmUJH7yBTd9yOvr5i ;
@@ -3726,7 +3726,7 @@ mel:0daIqjuhsQqXoeII3pBSeT a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:0dbv0DLh5xEGxIlQdeOA94 a mel:Album ;
-    mel:candidated mel:2009_b_8a6ea21d ;
+    mel:candidated mel:2009_b_1d0313d5 ;
     mel:containsSong mel:5BIBMXTK3gbFFU8X6uIBIA ;
     mel:isReleasedBy mel:4TKTii6gnOnUXQHyuo9JaD ;
     mel:name "Detours"^^xsd:string ;
@@ -3770,7 +3770,7 @@ mel:0eFHYz8NmK75zSplL5qlfM a mel:Album ;
     mel:isReleasedBy mel:12Chz98pHFMPJEknJQMWvI ;
     mel:name "The Resistance"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:2011_b_756089f3 .
+    mel:winner mel:2011_b_f2a71911 .
 
 mel:0eGvq1J5Ke7VlLLOYIlY4k a mel:Album ;
     mel:containsSong mel:00qyVgLK2j92HYoFaNCnVD,
@@ -3908,7 +3908,7 @@ mel:0fWUawe7KzToS4ayZmofOE a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:0fYctMs4EvoEqzDh8Kmg5g a mel:Album ;
-    mel:candidated mel:1997_b_d15eb760 ;
+    mel:candidated mel:1997_b_2df99f5a ;
     mel:containsSong mel:3YudkhBvFZDDcZF8nNtnc5 ;
     mel:isReleasedBy mel:3y24n3XhZ96wgwRXjvS17T ;
     mel:name "Gangsta's Paradise"^^xsd:string ;
@@ -4022,7 +4022,7 @@ mel:0gVxPZ2tcMgyzLxyw8k1z7 a mel:Album ;
     mel:isReleasedBy mel:7mnBLXK823vNxN3UWB7Gfz ;
     mel:name "Brothers (Deluxe Edition)"^^xsd:string ;
     mel:totalTracks "21"^^xsd:positiveInteger ;
-    mel:winner mel:2011_b_6d1bcf62 .
+    mel:winner mel:2011_b_f46b1bcc .
 
 mel:0gdQF4mVBPjv5hhjtoe3hM a mel:Album ;
     mel:containsSong mel:2uRzXLE4iFneelNzhiVFWa,
@@ -4268,7 +4268,7 @@ mel:0jZFu2tihRJ65iYAo0oOtP a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:0jZfbz0dNfDjPSg0hYJNth a mel:Album ;
-    mel:candidated mel:2000_b_9ba0f19c ;
+    mel:candidated mel:2000_b_fda4b383 ;
     mel:containsSong mel:144JMbvbR5txNzoZ112wo4,
         mel:2goLsvvODILDzeeiT4dAoR ;
     mel:isReleasedBy mel:72OaDtakiy6yFqkt4TsiFt ;
@@ -4600,7 +4600,7 @@ mel:0mSz5kMqndsfPQ0i0XoKEl a mel:Album ;
     mel:totalTracks "16"^^xsd:positiveInteger .
 
 mel:0mUEGMT2YlzCWGeWOJjBKD a mel:Album ;
-    mel:candidated mel:2005_b_2dd65698 ;
+    mel:candidated mel:2005_b_5a953434 ;
     mel:containsSong mel:6ooluO7DiEhI1zmK94nRCM ;
     mel:isReleasedBy mel:0XNa1vTidXlvJ2gHSsRi4A ;
     mel:name "Franz Ferdinand"^^xsd:string ;
@@ -4621,7 +4621,7 @@ mel:0mX8aXMM7nYOGUTGcTEeZH a mel:Album ;
     mel:totalTracks "13"^^xsd:positiveInteger .
 
 mel:0mZIUXje90JtHxPNzWsJNR a mel:Album ;
-    mel:candidated mel:2019_b_17bc7010 ;
+    mel:candidated mel:2019_b_5b1a4474 ;
     mel:containsSong mel:5cF0dROlMOK5uNZtivgu50,
         mel:6qNALlmZa1ESnCxJmXE1K9,
         mel:6wmAHw1szh5RCKSRjiXhPe ;
@@ -4687,7 +4687,7 @@ mel:0nJqErYbEPRBoVtkvsknBJ a mel:Album ;
     mel:totalTracks "8"^^xsd:positiveInteger .
 
 mel:0nRgsLe1she16l3pclpyy7 a mel:Album ;
-    mel:candidated mel:2013_b_7d61f826 ;
+    mel:candidated mel:2013_b_c45dfa94 ;
     mel:containsSong mel:1K3LRUEcUz5FMtPYyg0F45,
         mel:7x46YkKAwp3yZpaa72n5Mu ;
     mel:isReleasedBy mel:16oZKvXb6WkQlVAjwo2Wbg ;
@@ -4732,7 +4732,7 @@ mel:0o2ZKR3DbPg23bt11WiWhS a mel:Album ;
     mel:isReleasedBy mel:3rxIQc9kWT6Ueg4BhnOwRK ;
     mel:name "Walking in Space"^^xsd:string ;
     mel:totalTracks "6"^^xsd:positiveInteger ;
-    mel:winner mel:1970_b_430227f0 .
+    mel:winner mel:1970_b_c6b8f480 .
 
 mel:0o3kj09k9lKCisAfkfUSN2 a mel:Album ;
     mel:containsSong mel:7pax4grXoXIF5F2XbO7Y1E ;
@@ -4786,7 +4786,7 @@ mel:0oX4SealMgNXrvRDhqqOKg a mel:Album ;
     mel:isReleasedBy mel:3fMbdgg4jU18AjLCKBhRSm ;
     mel:name "Dangerous"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:1993_b_6eeb8472 .
+    mel:winner mel:1993_b_d68709b9 .
 
 mel:0obHqsEpkaCWGWGjxcdXel a mel:Album ;
     mel:containsSong mel:0dJEQ01IPN4ukqRsPrm4ab ;
@@ -4808,7 +4808,7 @@ mel:0opFMR8DprHzu1nPHhoHuL a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:0os1Gz3XMM6dduZSMxVuXs a mel:Album ;
-    mel:candidated mel:2005_b_4d6e3e05 ;
+    mel:candidated mel:2005_b_f7e22955 ;
     mel:containsSong mel:56DXpIS5RAMfRFs2mVcjf7,
         mel:7B1QliUMZv7gSTUGAfMRRD ;
     mel:isReleasedBy mel:6roFdX1y5BYSbp60OTJWMd ;
@@ -4865,7 +4865,7 @@ mel:0pKthMtPceZslu9KpOQoSn a mel:Album ;
     mel:totalTracks "9"^^xsd:positiveInteger .
 
 mel:0pP9NBXbbRH2ZJb7fazkZy a mel:Album ;
-    mel:candidated mel:2003_b_d44de449 ;
+    mel:candidated mel:2003_b_b50a6eb1 ;
     mel:containsSong mel:2ynwBOV4CsVxyapauFh8mK,
         mel:61kG6g3btiapbSVEj3D0Hb,
         mel:6gsmFgUiSTuinJlScwFODv ;
@@ -4922,7 +4922,7 @@ mel:0ptfSwqXv2Jm93lXyY2bXD a mel:Album ;
     mel:totalTracks "8"^^xsd:positiveInteger .
 
 mel:0ptlfJfwGTy0Yvrk14JK1I a mel:Album ;
-    mel:candidated mel:2016_b_10bd00e9 ;
+    mel:candidated mel:2016_b_1e1ac0ba ;
     mel:containsSong mel:12d5QFwzh60IIHlsSnAvps,
         mel:1ID1QFSNNxi0hiZCNcwjUC,
         mel:2durxb17bXcmQJHSt8JAdO,
@@ -4977,7 +4977,7 @@ mel:0qZTwrunzX3LG45PvRghmh a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:0qbl8aNaCUOvX8HGsZYLfh a mel:Album ;
-    mel:candidated mel:2000_b_df42a8c5 ;
+    mel:candidated mel:2000_b_088394ab ;
     mel:containsSong mel:4pdLZsxq0y5oJDb6Cxlokw ;
     mel:isReleasedBy mel:78xUyw6FkVZrRAtziFdtdu ;
     mel:name "Things Fall Apart"^^xsd:string ;
@@ -5237,7 +5237,7 @@ mel:0ta5VdkJcpdVnNrn7g4cZe a mel:Album ;
     mel:totalTracks "26"^^xsd:positiveInteger .
 
 mel:0tcExuDWMQdBbwSpqN8Ku2 a mel:Album ;
-    mel:candidated mel:2007_b_aad67b56 ;
+    mel:candidated mel:2007_b_86535ffd ;
     mel:containsSong mel:2wZTnl0pPFr3HBcyXfOaVJ,
         mel:4NeOWqHmlrGRuBvsLJC9rL,
         mel:62cYasTwBy6Y7pstdSTmHu ;
@@ -5361,14 +5361,14 @@ mel:0vE6mttRTBXRe9rKghyr1l a mel:Album ;
     mel:isReleasedBy mel:7dGJo4pcD2V6oG8kP0tJRR ;
     mel:name "The Slim Shady LP"^^xsd:string ;
     mel:totalTracks "20"^^xsd:positiveInteger ;
-    mel:winner mel:2000_b_df42a8c5 .
+    mel:winner mel:2000_b_088394ab .
 
 mel:0vNJ7P4dpArAiw5wBmsA3A a mel:Album ;
     mel:containsSong mel:6aXGgKVRGXlMqQYCIQqo4s ;
     mel:isReleasedBy mel:47zz7sob9NUcODy0BTDvKx ;
     mel:name "Lovers Rock"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:2002_b_826ca691 .
+    mel:winner mel:2002_b_29ab5dfa .
 
 mel:0vavOnU2KSMozPIVTq9OS2 a mel:Album ;
     mel:containsSong mel:0v1e4a7Hvedrz6vJss0iu9 ;
@@ -5810,8 +5810,8 @@ mel:10aiDpdFGyfCFEcqpx6XTq a mel:Album ;
     mel:isReleasedBy mel:6GI52t8N5F02MxU0g5U69P ;
     mel:name "Supernatural (Remastered)"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:2000_a_c5c665c3,
-        mel:2000_b_51528d29 .
+    mel:winner mel:2000_a_5f8594c4,
+        mel:2000_b_1f186245 .
 
 mel:10h0WKev2yYudLvXIVvSFP a mel:Album ;
     mel:containsSong mel:0evpyFKk9lgIkcZxfjAhW2,
@@ -5901,7 +5901,7 @@ mel:11Rni6y5dnNo6NRVuxltIj a mel:Album ;
     mel:isReleasedBy mel:25IG9fa7cbdmCIy3OnuH57 ;
     mel:name "Wide Open Spaces"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:1999_b_91e25440 .
+    mel:winner mel:1999_b_6c7f804c .
 
 mel:11UWeyxXNreHeZwEViqs3y a mel:Album ;
     mel:containsSong mel:0DBIL8arX0Zo6eAuxNIpik,
@@ -6030,7 +6030,7 @@ mel:13HYuDhB1soZvHzwoymXoV a mel:Album ;
     mel:isReleasedBy mel:1XkoF8ryArs86LZvFOkbyr ;
     mel:name "The Breakthrough"^^xsd:string ;
     mel:totalTracks "18"^^xsd:positiveInteger ;
-    mel:winner mel:2007_b_7f0b0bf4 .
+    mel:winner mel:2007_b_76955fce .
 
 mel:13NfFY5McM1tQBHQceTgTd a mel:Album ;
     mel:containsSong mel:5GUot4AEzxcfs0is6l4rWZ ;
@@ -6135,7 +6135,7 @@ mel:15J400U0rEpgE64UQgtvLs a mel:Album ;
     mel:isReleasedBy mel:0WwSkZ7LtFUFjGjMZBMt6T ;
     mel:name "Brothers In Arms"^^xsd:string ;
     mel:totalTracks "9"^^xsd:positiveInteger ;
-    mel:winner mel:1986_b_e92eb23f .
+    mel:winner mel:1986_b_a3016304 .
 
 mel:15Oqj9h8TSkGsoOKDKjsqA a mel:Album ;
     mel:containsSong mel:2RXN9XJzT2TN2HyYxWnZSb,
@@ -6219,7 +6219,7 @@ mel:15q7N7Wo307mfjqR29NpjF a mel:Album ;
         mel:4x1nvY2FN8jxqAFA0DA02H ;
     mel:name "Double Fantasy Stripped Down"^^xsd:string ;
     mel:totalTracks "28"^^xsd:positiveInteger ;
-    mel:winner mel:1982_a_71eb4e98 .
+    mel:winner mel:1982_a_11a98619 .
 
 mel:15rjWnMzpMTz2wJ67NzJRR a mel:Album ;
     mel:containsSong mel:3TlIt0ReIxPsVZcOEivT5U ;
@@ -6419,7 +6419,7 @@ mel:18XFe4CPBgVezXkxZP6rTb a mel:Album ;
     mel:isReleasedBy mel:2WKdxPFRD7IqZvlIAvhMgY ;
     mel:name "The Score (Expanded Edition)"^^xsd:string ;
     mel:totalTracks "17"^^xsd:positiveInteger ;
-    mel:winner mel:1997_b_d15eb760 .
+    mel:winner mel:1997_b_2df99f5a .
 
 mel:18eJ4H4smFp29lRMsLygUc a mel:Album ;
     mel:containsSong mel:1fYypIR0kaFzaSRbzvtjl9,
@@ -6579,7 +6579,7 @@ mel:1AHZd3C3S8m8fFrhFxyk79 a mel:Album ;
     mel:isReleasedBy mel:7oPftvlwr6VrsViSDV7fJY ;
     mel:name "21st Century Breakdown"^^xsd:string ;
     mel:totalTracks "18"^^xsd:positiveInteger ;
-    mel:winner mel:2010_b_26d8a7ce .
+    mel:winner mel:2010_b_c4896cb4 .
 
 mel:1ATL5GLyefJaxhQzSPVrLX a mel:Album ;
     mel:containsSong mel:09lmraDvzBT3pUQ2rUtJzK,
@@ -6743,8 +6743,8 @@ mel:1C2h7mLntPSeVYciMRTF4a a mel:Album ;
     mel:isReleasedBy mel:3fMbdgg4jU18AjLCKBhRSm ;
     mel:name "Thriller 25 Super Deluxe Edition"^^xsd:string ;
     mel:totalTracks "30"^^xsd:positiveInteger ;
-    mel:winner mel:1984_a_78e3f1eb,
-        mel:1984_b_3661a6ab .
+    mel:winner mel:1984_a_49508137,
+        mel:1984_b_626d4a9f .
 
 mel:1C3I7LjJaNnY5VQE59iWtb a mel:Album ;
     mel:containsSong mel:5bH5uk3A1Y9Aky75Akkdvg,
@@ -6803,7 +6803,7 @@ mel:1CEODgTmTwLyabvwd7HBty a mel:Album ;
     mel:isReleasedBy mel:4gzpq5DPGxSnKTe4SA8HAU ;
     mel:name "Viva La Vida or Death and All His Friends"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:2009_b_40b6876c .
+    mel:winner mel:2009_b_ba2981b6 .
 
 mel:1CHUXwuge9A7L2KiA3vnR6 a mel:Album ;
     mel:containsSong mel:5u6y4u5EgDv0peILf60H5t ;
@@ -6960,7 +6960,7 @@ mel:1DjxZpmeR9Dzu9tF4J44S7 a mel:Album ;
     mel:isReleasedBy mel:6O74knDqdv3XaWtkII7Xjp ;
     mel:name "II"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:1995_b_4ab604de .
+    mel:winner mel:1995_b_cf726aab .
 
 mel:1Dnmn4lY2b9hlnIf3qs1nT a mel:Album ;
     mel:containsSong mel:6saTHS2XY1hdNiHRLtB32j ;
@@ -7194,7 +7194,7 @@ mel:1GFAkwyCcPajKtUlW0oCWS a mel:Album ;
     mel:isReleasedBy mel:1XkoF8ryArs86LZvFOkbyr ;
     mel:name "Growing Pains"^^xsd:string ;
     mel:totalTracks "19"^^xsd:positiveInteger ;
-    mel:winner mel:2009_b_dfc38c1b .
+    mel:winner mel:2009_b_9df1bb9d .
 
 mel:1GKpLQWG6h6r7CyYtEQ0N6 a mel:Album ;
     mel:containsSong mel:2S6NTY06U086L5o97sxlAG ;
@@ -7352,7 +7352,7 @@ mel:1HmCO8VK98AU6EXPOjGYyI a mel:Album ;
     mel:isReleasedBy mel:6zFYqv1mOsgBRQbae3JJ9e ;
     mel:name "52nd Street"^^xsd:string ;
     mel:totalTracks "9"^^xsd:positiveInteger ;
-    mel:winner mel:1980_a_6417263c .
+    mel:winner mel:1980_a_02e07caf .
 
 mel:1Hno6CtKbaFNAEPjRHDrc6 a mel:Album ;
     mel:containsSong mel:1ZAyjvIk9YiD76yYy0TEG6 ;
@@ -7391,7 +7391,7 @@ mel:1ILknbSc8Ll0TqA8oJKkNV a mel:Album ;
     mel:totalTracks "14"^^xsd:positiveInteger .
 
 mel:1IM3GwptCGYjRkzCBolyFK a mel:Album ;
-    mel:candidated mel:2010_b_36c49dbb ;
+    mel:candidated mel:2010_b_672c4bea ;
     mel:containsSong mel:1N62wozuHCvczCkY4QidpP,
         mel:5fVZC9GiM4e8vu99W0Xf6J,
         mel:5l6hpyTGBK0LAAxgPnqTQL ;
@@ -7572,9 +7572,9 @@ mel:1JvoMzqg04nC29gam4Qaiq a mel:Album ;
     mel:isReleasedBy mel:2Kx7MNY7cI1ENniW7vT30N ;
     mel:name "Come Away With Me"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:2003_a_035ae7f8,
-        mel:2003_b_857cd565,
-        mel:2003_b_e3b779af .
+    mel:winner mel:2003_a_a1a26328,
+        mel:2003_b_5ac066e2,
+        mel:2003_b_feffedd1 .
 
 mel:1K4t7Jv7DuolDWnFLxKxkd a mel:Album ;
     mel:containsSong mel:1y5V5qja332UyMeUurFhDS ;
@@ -7667,7 +7667,7 @@ mel:1KtvMb8plzeWby752rMPBF a mel:Album ;
     mel:isReleasedBy mel:4L3GTE04bW5N7azA9QPhjA ;
     mel:name "Art And Life"^^xsd:string ;
     mel:totalTracks "17"^^xsd:positiveInteger ;
-    mel:winner mel:2001_b_00035db2 .
+    mel:winner mel:2001_b_c3d5e9b4 .
 
 mel:1KushUovbraTDRu9sbO5fg a mel:Album ;
     mel:containsSong mel:3njpLvANriMsdv3dgADEad,
@@ -8248,7 +8248,7 @@ mel:1Qo4xIO7aWMVcbelqpTdGY a mel:Album ;
     mel:totalTracks "16"^^xsd:positiveInteger .
 
 mel:1R0BP6MeMLigDNaoztxUAZ a mel:Album ;
-    mel:candidated mel:2006_b_856180fe ;
+    mel:candidated mel:2006_b_46c2f99e ;
     mel:containsSong mel:0HW0aSeNZ5nfLK2GdWNMDc,
         mel:5EBBmDDyAsyotWMPkN59Zc ;
     mel:isReleasedBy mel:3vbKDsSS70ZX9D2OcvbZmS ;
@@ -8386,7 +8386,7 @@ mel:1SLgJeTdzDAJLcDyQqoWnu a mel:Album ;
     mel:isReleasedBy mel:3DiDSECUqqY1AuBP8qtaIa ;
     mel:name "Songs In A Minor (Expanded Edition)"^^xsd:string ;
     mel:totalTracks "22"^^xsd:positiveInteger ;
-    mel:winner mel:2002_b_5df55eba .
+    mel:winner mel:2002_b_6e218631 .
 
 mel:1SUC3BzNqa5Kna2bZAsAK8 a mel:Album ;
     mel:containsSong mel:6mORGLOz79w6VsCRLWYYuK ;
@@ -8502,7 +8502,7 @@ mel:1TlZtsAIXuZWNP8i7gKXsp a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:1Tm4dxG0SLeX7VgeHZO9Ix a mel:Album ;
-    mel:candidated mel:2002_b_826ca691 ;
+    mel:candidated mel:2002_b_29ab5dfa ;
     mel:containsSong mel:2tP7ZekzXfduShx8C6cbll,
         mel:6P8pMrMxdkUtW7Ze6Zx2l1 ;
     mel:isReleasedBy mel:2jw70GZXlAI8QzWeY2bgRc ;
@@ -8632,8 +8632,8 @@ mel:1UsmQ3bpJTyK6ygoOOjG1r a mel:Album ;
     mel:isReleasedBy mel:1G9G7WwrXka3Z1r7aIDjI7 ;
     mel:name "Speakerboxxx/The Love Below"^^xsd:string ;
     mel:totalTracks "40"^^xsd:positiveInteger ;
-    mel:winner mel:2004_a_b6a34e15,
-        mel:2004_b_dd28c412 .
+    mel:winner mel:2004_a_21c52aeb,
+        mel:2004_b_fd7dc813 .
 
 mel:1UwtBNOPmXRtdxPJAiNryN a mel:Album ;
     mel:containsSong mel:4TxvzjFdknSCL9udR39Q3X ;
@@ -8642,7 +8642,7 @@ mel:1UwtBNOPmXRtdxPJAiNryN a mel:Album ;
     mel:totalTracks "8"^^xsd:positiveInteger .
 
 mel:1V342k6sinWc4y4R2iReOu a mel:Album ;
-    mel:candidated mel:2001_b_44115965 ;
+    mel:candidated mel:2001_b_e4f396a0 ;
     mel:containsSong mel:23EhTCPRTlLVM6VQUyh8bH,
         mel:2fzykVsO2Di5jnofUNX3YE,
         mel:3afv9TL8ixr4T9VbiKnrwe,
@@ -8658,7 +8658,7 @@ mel:1V5vQRMWTNGmqwxY8jMVou a mel:Album ;
     mel:isReleasedBy mel:0hEurMDQu99nJRq8pTxO14 ;
     mel:name "Battle Studies"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:2011_b_de0f4a37 .
+    mel:winner mel:2011_b_b38cf42f .
 
 mel:1V6a99EbTTIegOhWoPxYI9 a mel:Album ;
     mel:containsSong mel:0GjEhVFGZW8afUYGChu3Rr,
@@ -8904,7 +8904,7 @@ mel:1XcA7EEpVRg3FpVbhWu9JV a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:1Xi55xFMaymXdSWshmxhw2 a mel:Album ;
-    mel:candidated mel:1991_a_c1baf70d ;
+    mel:candidated mel:1991_a_f6b058bf ;
     mel:containsSong mel:1rIy3lkFJnMsTLZpxFmYU8,
         mel:2lxfnTyWxW381PXDm9Mg77,
         mel:4VZDv8sASBS8UruUBGTFdk,
@@ -8963,7 +8963,7 @@ mel:1Xsprdt1q9rOzTic7b9zYM a mel:Album ;
     mel:isReleasedBy mel:0hEurMDQu99nJRq8pTxO14 ;
     mel:name "Continuum"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2007_b_aad67b56 .
+    mel:winner mel:2007_b_86535ffd .
 
 mel:1Xt7YpsBaaZYEy0vlAPxj9 a mel:Album ;
     mel:containsSong mel:3nxrdgbdv33HEUeZUayRuN ;
@@ -9073,7 +9073,7 @@ mel:1Ye7yrA7vAlQnoooj8yDXb a mel:Album ;
     mel:isReleasedBy mel:3WrFJ7ztbogyGnTHbHJFl2 ;
     mel:name "Love"^^xsd:string ;
     mel:totalTracks "28"^^xsd:positiveInteger ;
-    mel:winner mel:2008_b_a93e9b0e .
+    mel:winner mel:2008_b_46de6784 .
 
 mel:1YgN7Aj8lRTqOJhxoSEIjT a mel:Album ;
     mel:containsSong mel:5n4sNcxXDElyEZakYyqXNv ;
@@ -9312,8 +9312,8 @@ mel:1azUkThwd2HfUDdeNeT147 a mel:Album ;
     mel:isReleasedBy mel:4dpARuHxo51G3z768sgnrY ;
     mel:name "21"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:2012_a_63d6f656,
-        mel:2012_b_c9cbda74 .
+    mel:winner mel:2012_a_300dc779,
+        mel:2012_b_9e01d8bb .
 
 mel:1b1ljTXAkcugOLAHkIi7Eq a mel:Album ;
     mel:containsSong mel:0I2ELF6uHlL4ABu9aFiou7,
@@ -9645,7 +9645,7 @@ mel:1ei5QjnfB7PHINJOH8Gft5 a mel:Album ;
     mel:isReleasedBy mel:4N8BwYTEC6XqykGvXXlmfv ;
     mel:name "Breezin'"^^xsd:string ;
     mel:totalTracks "9"^^xsd:positiveInteger ;
-    mel:winner mel:1977_b_ac2b4d63 .
+    mel:winner mel:1977_b_52fcaca0 .
 
 mel:1ejYRdDqaYnRAIVUpuCt0R a mel:Album ;
     mel:containsSong mel:2pTMzMFnEtE4D0U4IcYSSX,
@@ -9899,7 +9899,7 @@ mel:1hg0pQJLE9dzfT1kgZtDPr a mel:Album ;
     mel:isReleasedBy mel:6tbjWDEIzxoDsBA1FuhfPW ;
     mel:name "Confessions on a Dance Floor"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2007_b_f386f1ad .
+    mel:winner mel:2007_b_4e69a363 .
 
 mel:1hiu0mcPaBZQrwtNmZ3X11 a mel:Album ;
     mel:containsSong mel:6JBWj1gV0gYGBMrj4dDmCe ;
@@ -9981,7 +9981,7 @@ mel:1iSTXHBhLc9ImaqyvVZGft a mel:Album ;
     mel:totalTracks "14"^^xsd:positiveInteger .
 
 mel:1ibYM4abQtSVQFQWvDSo4J a mel:Album ;
-    mel:candidated mel:1996_b_a8d4a94a ;
+    mel:candidated mel:1996_b_d787a640 ;
     mel:containsSong mel:2aBxt229cbLDOvtL7Xbb9x,
         mel:6xkryXuiZU360Lngd4sx13 ;
     mel:isReleasedBy mel:4iHNK0tOyZPYnBU7nGAgpQ ;
@@ -10085,7 +10085,7 @@ mel:1jti40LLiMKDuSci8PB2RZ a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:1jy9Nciz47PNHiUB7FxAjK a mel:Album ;
-    mel:candidated mel:2005_b_f017da04 ;
+    mel:candidated mel:2005_b_20ce2971 ;
     mel:containsSong mel:1NtMkOgf5U9YMaXyuEIRn2 ;
     mel:isReleasedBy mel:5a2EaR3hamoenG9rDuVn8j ;
     mel:name "Musicology"^^xsd:string ;
@@ -10337,7 +10337,7 @@ mel:1mSECpFqHRW6leG4idqTE1 a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:1mSsccWmWvV5PWRGNdqjmZ a mel:Album ;
-    mel:candidated mel:2010_b_f51f3419 ;
+    mel:candidated mel:2010_b_201dafb8 ;
     mel:containsSong mel:1wkGTsSqUhvvXgi0yX9haQ,
         mel:2PUe9iZxLfLZ3uNnUGjcSf,
         mel:2T60FBVdiwVFXSI7gbPj4E,
@@ -10632,7 +10632,7 @@ mel:1qwlxZTNLe1jq3b0iidlue a mel:Album ;
     mel:isReleasedBy mel:1HY2Jd0NmPuamShAr6KMms ;
     mel:name "The Fame"^^xsd:string ;
     mel:totalTracks "15"^^xsd:positiveInteger ;
-    mel:winner mel:2010_b_b37b3066 .
+    mel:winner mel:2010_b_93912de7 .
 
 mel:1qxa6VbQVlc4PHelzTGXFo a mel:Album ;
     mel:containsSong mel:1ib74Y6PJY5heGJJKq2tvd,
@@ -10711,7 +10711,7 @@ mel:1rVhockt4RAiZFaK3M3zPB a mel:Album ;
     mel:isReleasedBy mel:4lxfqrEsLX6N1N4OCSkILp ;
     mel:name "No Jacket Required (Remastered)"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:1986_a_005be394 .
+    mel:winner mel:1986_a_855e863a .
 
 mel:1rW3xNyDRIH4UH76b3DtQX a mel:Album ;
     mel:containsSong mel:1PDaDtPKDZrtPWPUpx5eOA ;
@@ -10743,7 +10743,7 @@ mel:1rkuKm5mDoauq9XKjRV94x a mel:Album ;
     mel:isReleasedBy mel:4wM29TDTr3HI0qFY3KoSFG ;
     mel:name "Indigo Girls (Expanded Edition)"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:1990_b_6ca357fd .
+    mel:winner mel:1990_b_bbc98965 .
 
 mel:1rkwv0zr39mDpPD8UCVftB a mel:Album ;
     mel:containsSong mel:3gHfkihp7u39cPckHNJpLn ;
@@ -11113,7 +11113,7 @@ mel:1vmioa1hsabaxkYnYKROT1 a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:1vwqf42OUqrGJtLFqixZUB a mel:Album ;
-    mel:candidated mel:2012_b_88a30b5a ;
+    mel:candidated mel:2012_b_2748f233 ;
     mel:containsSong mel:0PEoDuSyUrSFFjV7XmY58P,
         mel:6dW1eNvvUJ3ewOTSnYtRgR,
         mel:6yfkS5EStKiKLMNY27dvqL,
@@ -11268,7 +11268,7 @@ mel:1xlThGcidi851d3NwHfjQH a mel:Album ;
     mel:totalTracks "7"^^xsd:positiveInteger .
 
 mel:1xn54DMo2qIqBuMqHtUsFd a mel:Album ;
-    mel:candidated mel:2015_a_8e4ad03f ;
+    mel:candidated mel:2015_a_78632cd8 ;
     mel:containsSong mel:12B0Twa9kRz45Xw2PgXHJm,
         mel:1HNkqx9Ahdgi1Ixy2xkKkL,
         mel:1huvTbEYtgltjQRXzrNKGi,
@@ -11280,7 +11280,7 @@ mel:1xn54DMo2qIqBuMqHtUsFd a mel:Album ;
     mel:totalTracks "16"^^xsd:positiveInteger .
 
 mel:1xpGyKyV26uPstk1Elgp9Q a mel:Album ;
-    mel:candidated mel:2017_b_fbb27386 ;
+    mel:candidated mel:2017_b_e70a5ee1 ;
     mel:containsSong mel:5WhtlIoxoZrMmuaWWEQhwV ;
     mel:isReleasedBy mel:3jOstUTkEu2JkjvRdBA5Gu ;
     mel:name "Weezer"^^xsd:string ;
@@ -11338,8 +11338,8 @@ mel:1yGbNOtRIgdIiGHOEBaZWf a mel:Album ;
     mel:isReleasedBy mel:06HL4z0CvFAxyc27GXpf02 ;
     mel:name "1989 (Deluxe)"^^xsd:string ;
     mel:totalTracks "19"^^xsd:positiveInteger ;
-    mel:winner mel:2016_a_8f70a8a0,
-        mel:2016_b_8298eae8 .
+    mel:winner mel:2016_a_dadbd91f,
+        mel:2016_b_4ecd0cc2 .
 
 mel:1yNIJqbC4vSPFcc8mKEWZp a mel:Album ;
     mel:containsSong mel:1G9k3c1P9PKnmsqeuUtGxc,
@@ -11445,7 +11445,7 @@ mel:1zQ6F8gMagKcPL4SoA80cx a mel:Album ;
     mel:isReleasedBy mel:7jy3rLJdDQY21OgRLCZ9sD ;
     mel:name "One By One (Expanded Edition)"^^xsd:string ;
     mel:totalTracks "17"^^xsd:positiveInteger ;
-    mel:winner mel:2004_b_da8cd3c9 .
+    mel:winner mel:2004_b_accc355a .
 
 mel:1zSAYkmDy8ILP7aHvvPEON a mel:Album ;
     mel:containsSong mel:2iehL6Q3m5NUDanDT2IKwT,
@@ -11465,7 +11465,7 @@ mel:1zcm3UvHNHpseYOUfd0pna a mel:Album ;
     mel:isReleasedBy mel:3JsMj0DEzyWc0VDlHuy9Bx ;
     mel:name "Breakfast In America (Deluxe Edition)"^^xsd:string ;
     mel:totalTracks "22"^^xsd:positiveInteger ;
-    mel:winner mel:1980_b_abe74620 .
+    mel:winner mel:1980_b_8612e150 .
 
 mel:1zgQkZFMRqx1Lz9GVXghLt a mel:Album ;
     mel:containsSong mel:0JiX8NsRdCHm8GliFuf97V,
@@ -11473,7 +11473,7 @@ mel:1zgQkZFMRqx1Lz9GVXghLt a mel:Album ;
     mel:isReleasedBy mel:25IG9fa7cbdmCIy3OnuH57 ;
     mel:name "Home"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2003_b_f35a46c2 .
+    mel:winner mel:2003_b_5c78baf7 .
 
 mel:1zhQKiQIOlYYbPmx1eHDD7 a mel:Album ;
     mel:containsSong mel:5Okza4hx8iJwgHIdZz01kd,
@@ -11583,7 +11583,7 @@ mel:20r762YmB5HeofjMCiPMLv a mel:Album ;
     mel:isReleasedBy mel:5K4W6rqBFWDnAN6FQUkS6x ;
     mel:name "My Beautiful Dark Twisted Fantasy"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2012_b_907d2240 .
+    mel:winner mel:2012_b_6f1f9e9c .
 
 mel:20wZeahIz7B07dfA7OjlQn a mel:Album ;
     mel:containsSong mel:5SVuelai9DFZFtnKxF7wLD ;
@@ -11661,7 +11661,7 @@ mel:21YlyIf7r7nQGypMvogt2D a mel:Album ;
     mel:totalTracks "9"^^xsd:positiveInteger .
 
 mel:21YtqAiqXNGuvWNBS0JvOy a mel:Album ;
-    mel:candidated mel:1999_b_ef094f44 ;
+    mel:candidated mel:1999_b_6f0d1f76 ;
     mel:containsSong mel:2dieHErJLwG7fOzD8WAtFO,
         mel:6hxn98poTu1O4YZfafvC18 ;
     mel:isReleasedBy mel:1wiBLzTI7z9RUwEpNPdFT6 ;
@@ -11859,14 +11859,14 @@ mel:23vzCh5cDn0LzdGmGWrT1d a mel:Album ;
     mel:isReleasedBy mel:3eqjTLE0HfPfh78zjh6TqT ;
     mel:name "The Rising"^^xsd:string ;
     mel:totalTracks "15"^^xsd:positiveInteger ;
-    mel:winner mel:2003_b_613277e4 .
+    mel:winner mel:2003_b_dac579ed .
 
 mel:243DiQm4D8A679lJl6IQfk a mel:Album ;
     mel:containsSong mel:5V6wfV3Mkvd30zpSoKjsOh ;
     mel:isReleasedBy mel:0nH8Oa5lL0hHMKQpOqujVq ;
     mel:name "Desiderata"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:1972_b_df196f12 .
+    mel:winner mel:1972_b_6346bb87 .
 
 mel:243XzHQegX82bPnUVQ0SPV a mel:Album ;
     mel:containsSong mel:7nfGP5B3Pc508kEb6zL6r9 ;
@@ -12273,7 +12273,7 @@ mel:28q2N44ocJECgf8sbHEDfY a mel:Album ;
     mel:isReleasedBy mel:7jy3rLJdDQY21OgRLCZ9sD ;
     mel:name "There Is Nothing Left To Lose"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:2001_b_92c20d45 .
+    mel:winner mel:2001_b_dcda378e .
 
 mel:294yFGYq9SBXWR4g6dK63D a mel:Album ;
     mel:containsSong mel:1CQqupcyMg7176PPmIVmSj,
@@ -12451,7 +12451,7 @@ mel:2AipEP8KHGkhpQkhqBYTfH a mel:Album ;
     mel:isReleasedBy mel:4akybxRTGHJZ1DXjLhJ1qu ;
     mel:name "The Nu Nation Project"^^xsd:string ;
     mel:totalTracks "17"^^xsd:positiveInteger ;
-    mel:winner mel:1999_b_179e06dc .
+    mel:winner mel:1999_b_6c99b7be .
 
 mel:2AuHUprHzZOXDyJSinNdwE a mel:Album ;
     mel:containsSong mel:6drEsDrLJEeRJwGwgPgmJU ;
@@ -12495,7 +12495,7 @@ mel:2B719vL1xtPTwYs0j5BuAo a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:2B87zXm9bOWvAJdkJBTpzF a mel:Album ;
-    mel:candidated mel:2018_a_ecae8ed1 ;
+    mel:candidated mel:2018_a_4df526a5 ;
     mel:containsSong mel:6Kkt27YmFyIFrcX3QXFi2o,
         mel:6ie2Bw3xLj2JcGowOlcMhb ;
     mel:isReleasedBy mel:163tK9Wjr9P9DmM0AVK7lm ;
@@ -12602,7 +12602,7 @@ mel:2CW02evpO85vRxOSYx7zcP a mel:Album ;
     mel:isReleasedBy mel:12Kgt2eahvxNWhD5PnSUde ;
     mel:name "Thankful"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:2001_b_a9b7e3e3 .
+    mel:winner mel:2001_b_29bee50f .
 
 mel:2CabyXUOSQqxUaPEw2FrnK a mel:Album ;
     mel:containsSong mel:1megsUXcXPoCWKxIjyc3y0,
@@ -12983,7 +12983,7 @@ mel:2G24iquUtWrS3H36y5T1HO a mel:Album ;
     mel:totalTracks "17"^^xsd:positiveInteger .
 
 mel:2G4AUqfwxcV1UdQjm2ouYr a mel:Album ;
-    mel:candidated mel:2015_b_f40670ee ;
+    mel:candidated mel:2015_b_1fa09997 ;
     mel:containsSong mel:0FDzzruyVECATHXKHFs9eJ,
         mel:23khhseCLQqVMCIT1WMAns,
         mel:4GKk1uNzpxIptBuaY97Dkj ;
@@ -13211,7 +13211,7 @@ mel:2ICj5EvbtucP1EeMID4zBj a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:2IGgtSdgps7BjyZBtJGW89 a mel:Album ;
-    mel:candidated mel:2005_b_4d6e3e05 ;
+    mel:candidated mel:2005_b_f7e22955 ;
     mel:containsSong mel:29Qqb1qYSjC1pSK8QPDnkp,
         mel:2jwaErbghhcia4JqUYWz3g ;
     mel:isReleasedBy mel:0u2FHSq3ln94y5Q57xazwf ;
@@ -13611,8 +13611,8 @@ mel:2NeJdEWras0uSuzLPlJZk5 a mel:Album ;
     mel:isReleasedBy mel:25IG9fa7cbdmCIy3OnuH57 ;
     mel:name "Taking The Long Way"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:2007_a_b3bbb932,
-        mel:2007_b_2bb2c3f9 .
+    mel:winner mel:2007_a_54bdf92d,
+        mel:2007_b_748ac568 .
 
 mel:2NkwB9shQioKcbNhPf2EbP a mel:Album ;
     mel:containsSong mel:1GTPxha6U7x9ElVxkQw3OK,
@@ -13677,7 +13677,7 @@ mel:2OPTZ2I2IQbilbQby3hvRP a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:2OU9Ot1KmE6qRzVAhiNqkD a mel:Album ;
-    mel:candidated mel:2011_b_a53624fc ;
+    mel:candidated mel:2011_b_bfbbaeb6 ;
     mel:containsSong mel:5g68y3Biz2gCg1FpMPGQvd,
         mel:6umBxaxgV2q52o3Q8wH2Ma ;
     mel:isReleasedBy mel:1qAuetfG6mhtDgsVIffWQc ;
@@ -13937,7 +13937,7 @@ mel:2R7G5Z0RWWZU1V731JZG68 a mel:Album ;
     mel:totalTracks "17"^^xsd:positiveInteger .
 
 mel:2R7iJz5uaHjLEVnMkloO18 a mel:Album ;
-    mel:candidated mel:2013_b_382ba037 ;
+    mel:candidated mel:2013_b_b79dfe07 ;
     mel:containsSong mel:2U8g9wVcUu9wsg6i7sFSv8,
         mel:6maXBs9zUY48m1UNHgTeRC,
         mel:6nek1Nin9q48AVZcWs9e9D ;
@@ -14156,7 +14156,7 @@ mel:2TVvPbLNPTCZS8lPHs1rZW a mel:Album ;
     mel:isReleasedBy mel:1xU878Z1QtBldR7ru9owdU ;
     mel:name "Wolfgang Amadeus Phoenix"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:2010_b_d3b8c8a5 .
+    mel:winner mel:2010_b_e9a82c8c .
 
 mel:2TWdmpnFNCMlZDQROleupK a mel:Album ;
     mel:containsSong mel:4ePP9So5xRzspjLFVVbj90 ;
@@ -14237,7 +14237,7 @@ mel:2UQSMFU11WqCr7shuCRGZL a mel:Album ;
     mel:totalTracks "15"^^xsd:positiveInteger .
 
 mel:2USigX9DhGuAini71XZEEK a mel:Album ;
-    mel:candidated mel:2004_b_1c2f0db8 ;
+    mel:candidated mel:2004_b_2b516295 ;
     mel:containsSong mel:0cv1Mnb47oMvjVKMc2cyZw,
         mel:3TCauNPqFiniaYHBvEVoHG,
         mel:42JgHvkBiAc5ivo0gvVRvQ,
@@ -14307,7 +14307,7 @@ mel:2UqKqZofb9pdapHk4HzRUo a mel:Album ;
     mel:totalTracks "14"^^xsd:positiveInteger .
 
 mel:2UuvBxV56QWWj2uviGS0up a mel:Album ;
-    mel:candidated mel:2006_b_49ada76b ;
+    mel:candidated mel:2006_b_f7c80691 ;
     mel:containsSong mel:4JNTpbntShpUpACDUzwHV5 ;
     mel:isReleasedBy mel:2GHclqNVjqGuiE5mA7BEoc ;
     mel:name "Be"^^xsd:string ;
@@ -14326,7 +14326,7 @@ mel:2V21srAwsTtnrZeXv6qQPy a mel:Album ;
     mel:totalTracks "17"^^xsd:positiveInteger .
 
 mel:2V99Z0aZgSK6XTbh19UYTU a mel:Album ;
-    mel:candidated mel:2009_b_dfc38c1b ;
+    mel:candidated mel:2009_b_9df1bb9d ;
     mel:containsSong mel:0Ri0LzOMJmqi9HGZE5cRYV,
         mel:56z2qI0gKcPthQF6l8AW3E,
         mel:7zqM7Wm2xJLZ50qAnTLoHD ;
@@ -14350,7 +14350,7 @@ mel:2VMGv3inRLPM4GOMXf37qu a mel:Album ;
     mel:totalTracks "18"^^xsd:positiveInteger .
 
 mel:2VP96XdMOKTXefI8Nui23s a mel:Album ;
-    mel:candidated mel:2019_b_d33d92c7 ;
+    mel:candidated mel:2019_b_22335ef5 ;
     mel:containsSong mel:2QZ7WLBE8h2y1Y5Fb8RYbH ;
     mel:isReleasedBy mel:7n2wHs1TKAczGzO7Dd2rGr ;
     mel:name "Shawn Mendes"^^xsd:string ;
@@ -14722,7 +14722,7 @@ mel:2ZUFSbIkmFkGag000RWOpA a mel:Album ;
     mel:totalTracks "16"^^xsd:positiveInteger .
 
 mel:2ZUwFxlWo0gwTsvZ6L4Meh a mel:Album ;
-    mel:candidated mel:2018_b_d5006080 ;
+    mel:candidated mel:2018_b_458c9895 ;
     mel:containsSong mel:56ZrTFkANjeAMiS14njg4E,
         mel:6Az2Ll2CPnWYQ2BgiHf4Di,
         mel:7dZ1Odmx9jWIweQSatnRqo ;
@@ -15007,7 +15007,7 @@ mel:2cWBwpqMsDJC1ZUwz813lo a mel:Album ;
     mel:isReleasedBy mel:7dGJo4pcD2V6oG8kP0tJRR ;
     mel:name "The Eminem Show"^^xsd:string ;
     mel:totalTracks "20"^^xsd:positiveInteger ;
-    mel:winner mel:2003_b_d1b8495f .
+    mel:winner mel:2003_b_406dfeb3 .
 
 mel:2caN0v6hMBMXoATJJJdurg a mel:Album ;
     mel:containsSong mel:5slKs6kT5yoHgeRtZJ9uex,
@@ -15160,7 +15160,7 @@ mel:2eRJUtI7nXrQ5uYQ7tzTo9 a mel:Album ;
     mel:totalTracks "14"^^xsd:positiveInteger .
 
 mel:2eV6DIPDnGl1idcjww6xyX a mel:Album ;
-    mel:candidated mel:2017_b_047444fb ;
+    mel:candidated mel:2017_b_626f5827 ;
     mel:containsSong mel:25R5Tdr4K7ENb6umHzdCXn ;
     mel:isReleasedBy mel:5WUlDfRSoLAfcVSX1WnrxN ;
     mel:name "This Is Acting (Deluxe Version)"^^xsd:string ;
@@ -15185,7 +15185,7 @@ mel:2elnEzM7xNoQZfg2whzAtR a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:2eprpJCYbCbPZRKVGIEJxZ a mel:Album ;
-    mel:candidated mel:2006_b_f755aafe ;
+    mel:candidated mel:2006_b_4c5e27c5 ;
     mel:containsSong mel:1QZFn6QUNHfCp8s06C91hw,
         mel:5FZxsHWIvUsmSK1IAvm2pp ;
     mel:isReleasedBy mel:7jy3rLJdDQY21OgRLCZ9sD ;
@@ -15619,7 +15619,7 @@ mel:2ioso1tqQ5zABQDVYyiUi5 a mel:Album ;
     mel:isReleasedBy mel:6uothxMWeLWIhsGeF7cyo4 ;
     mel:name "A Day Without Rain"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2002_b_12d8455e .
+    mel:winner mel:2002_b_3c6a056d .
 
 mel:2iv2vZcrHoRGfEsZOyQNF5 a mel:Album ;
     mel:containsSong mel:0pgeVJrdNok4KhbiM58ayZ ;
@@ -15786,7 +15786,7 @@ mel:2kSTssn90EgrYWNlWZJ9r4 a mel:Album ;
     mel:totalTracks "18"^^xsd:positiveInteger .
 
 mel:2kT80DHqRtHQzDhQ2RCoIV a mel:Album ;
-    mel:candidated mel:2002_b_ea4feb38 ;
+    mel:candidated mel:2002_b_f60f99ab ;
     mel:containsSong mel:4LwOrnuxJwR7C5Sw4liY4Z ;
     mel:isReleasedBy mel:3ipn9JLAPI5GUEo4y4jcoi ;
     mel:name "Back For The First Time"^^xsd:string ;
@@ -15845,7 +15845,7 @@ mel:2lKs5704qlvP9V9muKZwqY a mel:Album ;
     mel:isReleasedBy mel:0Ty63ceoRnnJKVEYP0VQpk ;
     mel:name "Brand New Day"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:2000_b_9ba0f19c .
+    mel:winner mel:2000_b_fda4b383 .
 
 mel:2lO9yuuIDgBpSJzxTh3ai8 a mel:Album ;
     mel:containsSong mel:4EQ0dK6Sg7v685NGrQvuki,
@@ -15853,7 +15853,7 @@ mel:2lO9yuuIDgBpSJzxTh3ai8 a mel:Album ;
     mel:isReleasedBy mel:336vr2M3Va0FjyvB55lJEd ;
     mel:name "Voodoo"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2001_b_ea4a3894 .
+    mel:winner mel:2001_b_57ae95ab .
 
 mel:2lXBCL76UL5PCPbfAqKBkz a mel:Album ;
     mel:containsSong mel:0Fe3WxeO6lZZxj7ytvbDUh ;
@@ -15901,7 +15901,7 @@ mel:2m2nl8cBT7bEgIA6LLmgah a mel:Album ;
     mel:isReleasedBy mel:695W5F2Ih8dYahLdjVOIoH ;
     mel:name "Christopher Cross"^^xsd:string ;
     mel:totalTracks "9"^^xsd:positiveInteger ;
-    mel:winner mel:1981_a_a2ea56b3 .
+    mel:winner mel:1981_a_d51bb3f4 .
 
 mel:2mCUkzGTTkAsvJmtxWgTdc a mel:Album ;
     mel:containsSong mel:2c6bNMM1ORs2wiEmJuz2Fi,
@@ -16522,7 +16522,7 @@ mel:2t8fe6B3SkJQlPgc5MvfFw a mel:Album ;
     mel:totalTracks "15"^^xsd:positiveInteger .
 
 mel:2tC65uef7FBlSKhhGTzscE a mel:Album ;
-    mel:candidated mel:1992_b_e6fd4be1 ;
+    mel:candidated mel:1992_b_13fe133c ;
     mel:containsSong mel:70y8ayO7a32MwwPC0AQruT ;
     mel:isReleasedBy mel:3gdbcIdNypBsYNu3iiCjtN ;
     mel:name "Good Stuff"^^xsd:string ;
@@ -16616,7 +16616,7 @@ mel:2tm3Ht61kqqRZtIYsBjxEj a mel:Album ;
     mel:isReleasedBy mel:1G9G7WwrXka3Z1r7aIDjI7 ;
     mel:name "Stankonia"^^xsd:string ;
     mel:totalTracks "24"^^xsd:positiveInteger ;
-    mel:winner mel:2002_b_ea4feb38 .
+    mel:winner mel:2002_b_f60f99ab .
 
 mel:2tukc7pH4qTuXcfaHjLIBc a mel:Album ;
     mel:containsSong mel:6D8kc7RO0rqBLSo2YPflJ5 ;
@@ -16764,8 +16764,8 @@ mel:2vk0n8aeQSO74VtQBbNDPR a mel:Album ;
     mel:isReleasedBy mel:4S9EykWXhStSc15wEx8QFK ;
     mel:name "Falling into You"^^xsd:string ;
     mel:totalTracks "16"^^xsd:positiveInteger ;
-    mel:winner mel:1997_a_0a36e2b3,
-        mel:1997_b_947cb73e .
+    mel:winner mel:1997_a_c932fe16,
+        mel:1997_b_5e28f95d .
 
 mel:2vkLky2qG0rziUk0eOsIZ9 a mel:Album ;
     mel:containsSong mel:2O2ii9OPZYh1NBXo9FtE0Y ;
@@ -16797,7 +16797,7 @@ mel:2w1YJXWMIco6EBf0CovvVN a mel:Album ;
     mel:isReleasedBy mel:0oSGxfWSnnOXhD2fKuz2Gy ;
     mel:name "Blackstar"^^xsd:string ;
     mel:totalTracks "7"^^xsd:positiveInteger ;
-    mel:winner mel:2017_b_d4b4626f .
+    mel:winner mel:2017_b_dad3576c .
 
 mel:2wK4WuVcanLfh083Sukykm a mel:Album ;
     mel:containsSong mel:32TVpiLS85SVN3lvE6pN96,
@@ -16807,7 +16807,7 @@ mel:2wK4WuVcanLfh083Sukykm a mel:Album ;
     mel:totalTracks "9"^^xsd:positiveInteger .
 
 mel:2wMavIKnu6feFNOeQ1hVwf a mel:Album ;
-    mel:candidated mel:2002_b_ea4feb38 ;
+    mel:candidated mel:2002_b_f60f99ab ;
     mel:containsSong mel:52gqeRlrBE7hqMlRxEsi6y ;
     mel:isReleasedBy mel:1J2VVASYAamtQ3Bt8wGgA6 ;
     mel:name "Pain Is Love"^^xsd:string ;
@@ -16938,7 +16938,7 @@ mel:2xIhksIizs6gWdRBYdiTLc a mel:Album ;
     mel:totalTracks "19"^^xsd:positiveInteger .
 
 mel:2xONRhFNwgzkxM26JK9YI6 a mel:Album ;
-    mel:candidated mel:2008_b_8b85958b ;
+    mel:candidated mel:2008_b_b99db769 ;
     mel:containsSong mel:4g1KdhosR6v8qCT1F1Njev ;
     mel:isReleasedBy mel:7x8nK0m0cP2ksQf0mjWdPS ;
     mel:name "Long Trip Alone"^^xsd:string ;
@@ -17487,7 +17487,7 @@ mel:33p85MaE7njtFNmc41roXU a mel:Album ;
     mel:totalTracks "25"^^xsd:positiveInteger .
 
 mel:33pt9HBdGlAbRGBHQgsZsU a mel:Album ;
-    mel:candidated mel:2018_b_d5006080 ;
+    mel:candidated mel:2018_b_458c9895 ;
     mel:containsSong mel:0pqnGHJpmpxLKifKRmU6WP,
         mel:1zB4vmk8tFRmM9UULNzbLB,
         mel:6Qn5zhYkTa37e91HC1D7lb ;
@@ -17546,7 +17546,7 @@ mel:34K1Kvskt9arWy8E1Gz3Lw a mel:Album ;
     mel:isReleasedBy mel:19ra5tSw0tWufvUp8GotLo ;
     mel:name "Faith"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:1989_a_5bd8131e .
+    mel:winner mel:1989_a_f4fd859b .
 
 mel:34hQFIwGTLf03BZQmGL0iy a mel:Album ;
     mel:containsSong mel:0xGKuYwIum3qUbJ2NgnwY8,
@@ -17603,7 +17603,7 @@ mel:359nWuHm9IGYkdTm5Xlr72 a mel:Album ;
     mel:totalTracks "20"^^xsd:positiveInteger .
 
 mel:35Ea7OWXZPZB1vAPiaEGOM a mel:Album ;
-    mel:candidated mel:2004_b_465e3dfd ;
+    mel:candidated mel:2004_b_285abf9b ;
     mel:containsSong mel:29pIgBybQFDDuZEu2wMaEA,
         mel:3UAXVxOVqegxni5snW3Lht,
         mel:3XhCHPfPDafMQx014Sblfy ;
@@ -17906,7 +17906,7 @@ mel:39CQ9tlFmcmE2pN6PkJWvZ a mel:Album ;
     mel:isReleasedBy mel:4F84IBURUo98rz4r61KF70 ;
     mel:name "Get Behind Me Satan"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2006_b_856180fe .
+    mel:winner mel:2006_b_46c2f99e .
 
 mel:39FF5RewRO5F3OoNlWSQik a mel:Album ;
     mel:containsSong mel:6VGKfZmYkkMsd2pij0jNiF ;
@@ -18044,7 +18044,7 @@ mel:3Ai35Zvh4C5ljBKZRLomkO a mel:Album ;
     mel:isReleasedBy mel:4Otx4bRLSfpah5kX8hdgDC ;
     mel:name "Poverty's Paradise"^^xsd:string ;
     mel:totalTracks "21"^^xsd:positiveInteger ;
-    mel:winner mel:1996_b_1140bdd2 .
+    mel:winner mel:1996_b_fe93e6e0 .
 
 mel:3B8dxrNZ1BW4eQ7xKTQkbP a mel:Album ;
     mel:containsSong mel:0Qgn91ZestsloqP5er8LcD ;
@@ -18065,7 +18065,7 @@ mel:3BGPil8BDPVoDK0lnUPtvb a mel:Album ;
     mel:isReleasedBy mel:25NQNriVT2YbSW80ILRWJa ;
     mel:name "Breathe (U.S. Version)"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2001_b_9639aaa3 .
+    mel:winner mel:2001_b_538a3e77 .
 
 mel:3BHAzidZ03EjVE7ncqyn0M a mel:Album ;
     mel:containsSong mel:0O3vchDpKl6jbS8hvnd2fD,
@@ -18131,7 +18131,7 @@ mel:3BiwdeeGEhgxojoZISTe2J a mel:Album ;
     mel:totalTracks "14"^^xsd:positiveInteger .
 
 mel:3BkA0ApO1f629906pM6yGW a mel:Album ;
-    mel:candidated mel:2011_b_7be2c6ef ;
+    mel:candidated mel:2011_b_e16090f7 ;
     mel:containsSong mel:1wCJ3JIsNaJK0MYct4Kmrv,
         mel:7nkIQ02m4KItFfDfWrEApi ;
     mel:isReleasedBy mel:4sbB4Yy6Qig51pKCIKSLw3 ;
@@ -18139,7 +18139,7 @@ mel:3BkA0ApO1f629906pM6yGW a mel:Album ;
     mel:totalTracks "13"^^xsd:positiveInteger .
 
 mel:3BmcYMh0KYsimWL6p2gPa9 a mel:Album ;
-    mel:candidated mel:2011_b_a53624fc ;
+    mel:candidated mel:2011_b_bfbbaeb6 ;
     mel:containsSong mel:01BlGnXpLuC0BjgUxVYZFb,
         mel:0aPZbnkMoWJaJ5CNVLCj8S,
         mel:3rLIv187BhjyweFe89SgLn,
@@ -18242,7 +18242,7 @@ mel:3CcCqXsbyjCDDSA3omcGoy a mel:Album ;
     mel:isReleasedBy mel:3K2zB87GZv1krx031en5VA ;
     mel:name "La Roux"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2011_b_f1f8e1f8 .
+    mel:winner mel:2011_b_e395723e .
 
 mel:3CjuTytLZz3G9znXt2rJgU a mel:Album ;
     mel:containsSong mel:4SaxaL9xVChaktDC5LGshy,
@@ -18465,7 +18465,7 @@ mel:3EzFY9Rg0PpbADMth746zi a mel:Album ;
     mel:isReleasedBy mel:06HL4z0CvFAxyc27GXpf02 ;
     mel:name "Fearless (Big Machine Radio Release Special)"^^xsd:string ;
     mel:totalTracks "26"^^xsd:positiveInteger ;
-    mel:winner mel:2010_b_61a01e91 .
+    mel:winner mel:2010_b_80c9f211 .
 
 mel:3F4E8x0AIxDFBFjFlLYPeN a mel:Album ;
     mel:containsSong mel:56JRqiQ6QRaehxkG8852pL,
@@ -18512,7 +18512,7 @@ mel:3FiplT4vIgWCRwLZSn0EDd a mel:Album ;
     mel:isReleasedBy mel:4TKTii6gnOnUXQHyuo9JaD ;
     mel:name "Sheryl Crow"^^xsd:string ;
     mel:totalTracks "15"^^xsd:positiveInteger ;
-    mel:winner mel:1997_b_8f846ead .
+    mel:winner mel:1997_b_c9ed3786 .
 
 mel:3FlfDtvO4nTwdfJQRzLgyv a mel:Album ;
     mel:containsSong mel:0rHiGIRASJq8snJGFJMpnI,
@@ -18660,7 +18660,7 @@ mel:3HNnxK7NgLXbDoxRZxNWiR a mel:Album ;
     mel:totalTracks "13"^^xsd:positiveInteger .
 
 mel:3HV3ecmJJ2GmHM93vVVKXF a mel:Album ;
-    mel:candidated mel:2017_b_047444fb ;
+    mel:candidated mel:2017_b_626f5827 ;
     mel:containsSong mel:0Mn3amMRMoabaoTf1Publ4,
         mel:2zFF6jG5hQArbzcXz3KUWk ;
     mel:isReleasedBy mel:6S2OmqARrzebs0tKUEyXyp ;
@@ -18758,7 +18758,7 @@ mel:3IBZ7UXduB2OtQY9kRvsss a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:3IIHk2ZLXKWuVAjCbQ9g4Y a mel:Album ;
-    mel:candidated mel:1999_b_ef094f44 ;
+    mel:candidated mel:1999_b_6f0d1f76 ;
     mel:containsSong mel:0JyfYLKuXRmPhMkIPVstu5,
         mel:3GKL13lkM5nRc4zC1lIOrR ;
     mel:isReleasedBy mel:2Xu7q46Hf02xOoEIm4E1Qs ;
@@ -18948,7 +18948,7 @@ mel:3Kbuu2tHsIbplFUkB7a5oE a mel:Album ;
     mel:totalTracks "16"^^xsd:positiveInteger .
 
 mel:3KuXEGcqLcnEYWnn3OEGy0 a mel:Album ;
-    mel:candidated mel:2013_b_382ba037 ;
+    mel:candidated mel:2013_b_b79dfe07 ;
     mel:containsSong mel:0c4IEciLCDdXEhhKxj4ThA ;
     mel:isReleasedBy mel:12Chz98pHFMPJEknJQMWvI ;
     mel:name "The 2nd Law"^^xsd:string ;
@@ -19080,7 +19080,7 @@ mel:3MXDonOIzrIrCh0HvlACyj a mel:Album ;
     mel:isReleasedBy mel:1GxkXlMwML1oSg5eLPiAz3 ;
     mel:name "Crazy Love"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2011_b_d2d47f17 .
+    mel:winner mel:2011_b_5787cb79 .
 
 mel:3MYJYd73u0SatCnRVvRJ3M a mel:Album ;
     mel:containsSong mel:4NiehSBQthimPzRsVeOgCT ;
@@ -20734,7 +20734,7 @@ mel:3dFuEcl4rdwVFH3CWYgRPJ a mel:Album ;
     mel:isReleasedBy mel:5vngPClqofybhPERIqQMYd ;
     mel:name "Troubadour"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2009_b_4a9507dd .
+    mel:winner mel:2009_b_b3fde840 .
 
 mel:3dJhkG64rXbA2PtBLBGFVd a mel:Album ;
     mel:containsSong mel:13J4KuQoJaf0ubp9gzPuFo ;
@@ -21023,7 +21023,7 @@ mel:3gukkQJ5RLXfmK65qAzXOI a mel:Album ;
     mel:totalTracks "9"^^xsd:positiveInteger .
 
 mel:3gvuqyyvdMS8CbEwTLu5uL a mel:Album ;
-    mel:candidated mel:2006_b_26058efe ;
+    mel:candidated mel:2006_b_2e1946ee ;
     mel:containsSong mel:01C5aCltIDncPqMjWDcx2L ;
     mel:isReleasedBy mel:7guDJrEfX3qb6FEbdPA5qi ;
     mel:name "A Time To Love"^^xsd:string ;
@@ -21036,7 +21036,7 @@ mel:3gz1CZk5wFg2inBuUWDa8x a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:3h4pyWRJIB9ZyRKXChbX22 a mel:Album ;
-    mel:candidated mel:2008_b_8349833d ;
+    mel:candidated mel:2008_b_88dd3684 ;
     mel:containsSong mel:4T6HLdP6OcAtqC6tGnQelG,
         mel:6vhYDNMZgffPwcdXdvMqCS ;
     mel:isReleasedBy mel:1GxkXlMwML1oSg5eLPiAz3 ;
@@ -21189,7 +21189,7 @@ mel:3ilXDEG0xiajK8AbqboeJz a mel:Album ;
     mel:isReleasedBy mel:7jy3rLJdDQY21OgRLCZ9sD ;
     mel:name "Echoes, Silence, Patience & Grace"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2008_b_c1abb235 .
+    mel:winner mel:2008_b_a0da9fe6 .
 
 mel:3irKU7djdb8SnPPGBQr36G a mel:Album ;
     mel:containsSong mel:2XsBSbENuPJNqp50W3iy48,
@@ -21355,7 +21355,7 @@ mel:3kt903x5U5IWJlwHyE481x a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:3l4upQAODB7TXlJS3zU97N a mel:Album ;
-    mel:candidated mel:2011_b_da734df6 ;
+    mel:candidated mel:2011_b_4703b931 ;
     mel:containsSong mel:15yRAgEaEIsO15GSvLUj1c,
         mel:203lAMNjyNvuFUHXUxh3hI,
         mel:4BdLL4Fju6ruZDSD1ZaMdQ ;
@@ -21429,7 +21429,7 @@ mel:3ledIn54AFqn7qORaYBMWF a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:3lgIiynXHTZYaSvS1ZrMxG a mel:Album ;
-    mel:candidated mel:2007_b_8e292109 ;
+    mel:candidated mel:2007_b_e9d89e71 ;
     mel:containsSong mel:6tuiDRFaXOBqFLpeTBjAAn ;
     mel:isReleasedBy mel:3TNt4aUIxgfy9aoaft5Jj2 ;
     mel:name "Show Your Bones"^^xsd:string ;
@@ -21586,7 +21586,7 @@ mel:3nAwSh2fcp3M8voQKZS2as a mel:Album ;
     mel:isReleasedBy mel:3Isy6kedDrgPYoTS1dazA9 ;
     mel:name "Dutty Rock"^^xsd:string ;
     mel:totalTracks "20"^^xsd:positiveInteger ;
-    mel:winner mel:2004_b_4fe35844 .
+    mel:winner mel:2004_b_198c8f1b .
 
 mel:3nCMMolz1wMdEIwlf0SbZp a mel:Album ;
     mel:containsSong mel:6QNrmIiwwsvkL0GFkV2Cfq,
@@ -21746,7 +21746,7 @@ mel:3oyjbpNQs5Qm5DNVJW4AlV a mel:Album ;
     mel:isReleasedBy mel:22bE4uQ6baNwSHPVcDxLCe ;
     mel:name "Voodoo Lounge (Remastered 2009)"^^xsd:string ;
     mel:totalTracks "15"^^xsd:positiveInteger ;
-    mel:winner mel:1995_b_d288169b .
+    mel:winner mel:1995_b_35a0145b .
 
 mel:3oylWMc9TTC6Nx4I6U3axc a mel:Album ;
     mel:containsSong mel:0GO8y8jQk1PkHzS31d699N ;
@@ -21926,7 +21926,7 @@ mel:3qr4pTBWEU1SVf01j6RAx3 a mel:Album ;
     mel:isReleasedBy mel:7IfculRW2WXyzNQ8djX8WX ;
     mel:name "Baduizm"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:1998_b_6ec971f6 .
+    mel:winner mel:1998_b_09a90a69 .
 
 mel:3qzvxfhCWUYsJuVSOSv0AP a mel:Album ;
     mel:containsSong mel:2GLxvCiSUGu94wJFbojwWg,
@@ -22186,7 +22186,7 @@ mel:3tx8gQqWbGwqIGZHqDNrGe a mel:Album ;
     mel:isReleasedBy mel:66CXWjxzNUsdJxJ2JdwvnR ;
     mel:name "Sweetener"^^xsd:string ;
     mel:totalTracks "15"^^xsd:positiveInteger ;
-    mel:winner mel:2019_b_d33d92c7 .
+    mel:winner mel:2019_b_22335ef5 .
 
 mel:3txPRPVrAXeiO0pJ13kFX7 a mel:Album ;
     mel:containsSong mel:5rMfKN9uYrKRVvJExQL4EA ;
@@ -22386,7 +22386,7 @@ mel:3wDeIA9tJU0uNlsroUdcYK a mel:Album ;
     mel:isReleasedBy mel:5e4Dhzv426EvQe3aDb64jL ;
     mel:name "The Woman In Me"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:1996_b_6a6126b7 .
+    mel:winner mel:1996_b_aba958ea .
 
 mel:3wP5lKSz1LOxgltAabKhF6 a mel:Album ;
     mel:containsSong mel:084dsTSGdaG0wMjTON0pTF,
@@ -22565,7 +22565,7 @@ mel:3y6G5El2I6QrJA9BdfAbqA a mel:Album ;
     mel:isReleasedBy mel:25IG9fa7cbdmCIy3OnuH57 ;
     mel:name "Fly"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2000_b_276772b4 .
+    mel:winner mel:2000_b_df75bd44 .
 
 mel:3y8jsPjoyVdFinAbYcZVBy a mel:Album ;
     mel:containsSong mel:1mk6Ts3Rl80ZiRuGdV8ydx ;
@@ -22753,7 +22753,7 @@ mel:40VWlphQtyDSj3ldPNhDvz a mel:Album ;
     mel:totalTracks "43"^^xsd:positiveInteger .
 
 mel:40XGTQ7FN6Y3dZXJhKBe96 a mel:Album ;
-    mel:candidated mel:2016_b_10bd00e9 ;
+    mel:candidated mel:2016_b_1e1ac0ba ;
     mel:containsSong mel:0nnRUsgfm4uQUYTCIH9NZy,
         mel:5eqiMMbaeUZ32Q7sS00H35,
         mel:75u9uswC5UMdtv4SQ3xSYf ;
@@ -22787,7 +22787,7 @@ mel:4178w40uOpDld2RnR1ifCy a mel:Album ;
     mel:totalTracks "14"^^xsd:positiveInteger .
 
 mel:41GuZcammIkupMPKH2OJ6I a mel:Album ;
-    mel:candidated mel:2019_b_6b18304f ;
+    mel:candidated mel:2019_b_3331a381 ;
     mel:containsSong mel:11kDth1aKUEUMq9r1pqyds,
         mel:1xYpVRspgaLxdJLOTQkTjg,
         mel:20MuVazoNMv6xjKPnRFOxG,
@@ -22997,7 +22997,7 @@ mel:43QuYbSfbTjcsghwJyUnyP a mel:Album ;
     mel:totalTracks "15"^^xsd:positiveInteger .
 
 mel:43YIoHKSrEw2GJsWmhZIpu a mel:Album ;
-    mel:candidated mel:2018_b_8fb762eb ;
+    mel:candidated mel:2018_b_f44c55e7 ;
     mel:containsSong mel:4Gmdm6oRVwJgsM8gYnwRoE,
         mel:6hTcuIQa0sxrrByu9wTD7s ;
     mel:isReleasedBy mel:3eqjTLE0HfPfh78zjh6TqT ;
@@ -23124,7 +23124,7 @@ mel:44Z1ZEmOyois0QoAgfUxrD a mel:Album ;
     mel:totalTracks "17"^^xsd:positiveInteger .
 
 mel:44dQ8oYbTHfATtaR7CaAe8 a mel:Album ;
-    mel:candidated mel:2012_b_c3eca9df ;
+    mel:candidated mel:2012_b_322e0551 ;
     mel:containsSong mel:2mACzgIlPBYdzAucENb7vX,
         mel:5FX8KqBY74jLl0BBTSNl2N,
         mel:6NwKYeHDcfEAKVYsUZy4Dx ;
@@ -23133,7 +23133,7 @@ mel:44dQ8oYbTHfATtaR7CaAe8 a mel:Album ;
     mel:totalTracks "16"^^xsd:positiveInteger .
 
 mel:44ePwTuWK88vnalqutqJEG a mel:Album ;
-    mel:candidated mel:2004_b_a8431c7e ;
+    mel:candidated mel:2004_b_3520f1ac ;
     mel:containsSong mel:0hDQV9X1Da5JrwhK8gu86p ;
     mel:isReleasedBy mel:3TNt4aUIxgfy9aoaft5Jj2 ;
     mel:name "Fever To Tell (Deluxe Remastered)"^^xsd:string ;
@@ -23314,7 +23314,7 @@ mel:47BiFcV59TQi2s9SkBo2pb a mel:Album ;
     mel:isReleasedBy mel:7dGJo4pcD2V6oG8kP0tJRR ;
     mel:name "Recovery"^^xsd:string ;
     mel:totalTracks "17"^^xsd:positiveInteger ;
-    mel:winner mel:2011_b_363b8dc9 .
+    mel:winner mel:2011_b_503a32c3 .
 
 mel:47Dmo9RLpgHMusEiF8luvu a mel:Album ;
     mel:containsSong mel:5dFoWIiJ2814hRwMYDcFiU ;
@@ -23365,7 +23365,7 @@ mel:47bXgGhWuf860hvtAHX1Vr a mel:Album ;
     mel:totalTracks "14"^^xsd:positiveInteger .
 
 mel:47bt3mVEJg8ei4lhB8xjQo a mel:Album ;
-    mel:candidated mel:2008_b_8b85958b ;
+    mel:candidated mel:2008_b_b99db769 ;
     mel:containsSong mel:1piLu6VDrRyYvSaZH8wLoh,
         mel:35bEmBJLZeCeNERYl6t4FU,
         mel:3lRSz6HujrSy9b3LXg2Kq9,
@@ -23764,7 +23764,7 @@ mel:4CMtzzeo94Ats1tRjIg5mQ a mel:Album ;
     mel:isReleasedBy mel:32WkQRZEVKSzVAAYqukAEA ;
     mel:name "Own The Night"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2012_b_88a30b5a .
+    mel:winner mel:2012_b_2748f233 .
 
 mel:4CO85kzQhLUTWkVBoQ4OKu a mel:Album ;
     mel:containsSong mel:1lfjTOtTRUDkzcmahA4lcs ;
@@ -23882,7 +23882,7 @@ mel:4DyMK9x2gnmRkRa16zHaEV a mel:Album ;
     mel:totalTracks "13"^^xsd:positiveInteger .
 
 mel:4E0m7AIVc2d2QZMrMNXdMZ a mel:Album ;
-    mel:candidated mel:2015_b_4a124cd1 ;
+    mel:candidated mel:2015_b_90638096 ;
     mel:containsSong mel:2LWMF10STZqYY9a3YqBiOG ;
     mel:isReleasedBy mel:3kjuyTCjPG1WMFCiyc5IuB ;
     mel:name "Reflektor"^^xsd:string ;
@@ -23965,7 +23965,7 @@ mel:4Et98HH5UoYzwUH5583YE7 a mel:Album ;
     mel:totalTracks "8"^^xsd:positiveInteger .
 
 mel:4EuK4jWQqYA9Eg4zLUPU8p a mel:Album ;
-    mel:candidated mel:2005_b_ab0b1d40 ;
+    mel:candidated mel:2005_b_ea53d3a9 ;
     mel:containsSong mel:3FZEg8UWOwKzJKzKT90hUZ ;
     mel:isReleasedBy mel:2MqhkhX4npxDZ62ObR5ELO ;
     mel:name "The Reason (Expanded Edition)"^^xsd:string ;
@@ -24019,7 +24019,7 @@ mel:4G2rJNhsKOE6iHgtUqZ0Ye a mel:Album ;
     mel:isReleasedBy mel:2AsusXITU8P25dlRNhcAbG ;
     mel:name "Making Mirrors"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2013_b_9029f1af .
+    mel:winner mel:2013_b_5531dec9 .
 
 mel:4G390E1M4qCVxgAcbYaFwu a mel:Album ;
     mel:containsSong mel:0U969xYNlAyfzi8P1TaO7u ;
@@ -24411,7 +24411,7 @@ mel:4KZGe18wZJbXL6JLW4KyLc a mel:Album ;
     mel:totalTracks "15"^^xsd:positiveInteger .
 
 mel:4KdtEKjY3Gi0mKiSdy96ML a mel:Album ;
-    mel:candidated mel:2019_a_21f4fe2f ;
+    mel:candidated mel:2019_a_3f5dc602 ;
     mel:containsSong mel:17Yq72h0p15OhCbZ5lJ5gd,
         mel:1vBeIXlzbAieGoDqInav5j,
         mel:2Yl4OmDby9iitgNWZPwxkd,
@@ -24420,7 +24420,7 @@ mel:4KdtEKjY3Gi0mKiSdy96ML a mel:Album ;
     mel:isReleasedBy mel:4kYSro6naA4h99UJvo89HB ;
     mel:name "Invasion of Privacy"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2019_b_6b18304f .
+    mel:winner mel:2019_b_3331a381 .
 
 mel:4L1HDyfdGIkACuygktO7T7 a mel:Album ;
     mel:containsSong mel:2n5bpmhEqlMJ2jgvWAwD9N ;
@@ -24855,9 +24855,9 @@ mel:4PgleR09JVnm3zY1fW3XBA a mel:Album ;
     mel:isReleasedBy mel:0du5cEVh5yTK9QJze8zA0C ;
     mel:name "24K Magic"^^xsd:string ;
     mel:totalTracks "9"^^xsd:positiveInteger ;
-    mel:winner mel:2018_a_ecae8ed1,
-        mel:2018_b_ba5ea2c4,
-        mel:2018_b_d6b78886 .
+    mel:winner mel:2018_a_4df526a5,
+        mel:2018_b_02dcad0b,
+        mel:2018_b_f7a2e33a .
 
 mel:4Pj5HxWqxKmkrOGysBpoaG a mel:Album ;
     mel:containsSong mel:2JfAwvb81jxgfLp69YWzd1,
@@ -25331,7 +25331,7 @@ mel:4Uv86qWpGTxf7fU7lG5X6F a mel:Album ;
     mel:isReleasedBy mel:5K4W6rqBFWDnAN6FQUkS6x ;
     mel:name "The College Dropout"^^xsd:string ;
     mel:totalTracks "21"^^xsd:positiveInteger ;
-    mel:winner mel:2005_b_12baa7fd .
+    mel:winner mel:2005_b_d0a4c54e .
 
 mel:4UvKLRG4tRwJwsoOFMMBG9 a mel:Album ;
     mel:containsSong mel:1Cg8HzQLJ4rjjXprgotjJj ;
@@ -25421,7 +25421,7 @@ mel:4W6kVnBPgcW8zDYXbRHh2J a mel:Album ;
     mel:isReleasedBy mel:5y2Xq6xcjJb2jVM54GHK3t ;
     mel:name "Get Lifted"^^xsd:string ;
     mel:totalTracks "15"^^xsd:positiveInteger ;
-    mel:winner mel:2006_b_26058efe .
+    mel:winner mel:2006_b_2e1946ee .
 
 mel:4WB5SqVwL1DRDqgWhCqs1S a mel:Album ;
     mel:containsSong mel:3vYnUycktGU16HBr7cC8oM ;
@@ -25434,7 +25434,7 @@ mel:4WD4pslu83FF6oMa1e19mF a mel:Album ;
     mel:isReleasedBy mel:74ASZWbe4lXaubB36ztrGX ;
     mel:name "Blood On The Tracks"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:1976_b_31785f41 .
+    mel:winner mel:1976_b_a84f0366 .
 
 mel:4WDkr1K4fZSPpS2qxRhRUm a mel:Album ;
     mel:containsSong mel:3ehBypZkRIdtlhI1sp8aw9 ;
@@ -25483,7 +25483,7 @@ mel:4WYx3Z81yhA09dBIAktauv a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:4WZZDzGqjvw4bRwrp56U24 a mel:Album ;
-    mel:candidated mel:2018_b_377c0acd ;
+    mel:candidated mel:2018_b_2d2ddca0 ;
     mel:containsSong mel:1dFLowBW25EaL2OC7eKEa2 ;
     mel:isReleasedBy mel:32WkQRZEVKSzVAAYqukAEA ;
     mel:name "Heart Break"^^xsd:string ;
@@ -25618,7 +25618,7 @@ mel:4Y0PrDckfFKxKaVXsscDLB a mel:Album ;
     mel:isReleasedBy mel:3QJzdZJYIAcoET1GcfpNGi ;
     mel:name "Welcome to Jamrock"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:2006_b_c42fb762 .
+    mel:winner mel:2006_b_a844ec65 .
 
 mel:4Y1isZbaqleNpbGDtP45ux a mel:Album ;
     mel:containsSong mel:1nv4WZQwkqvDrcSeHDIccN,
@@ -25647,7 +25647,7 @@ mel:4Yf5LJfqpjgl1a4TBiCi07 a mel:Album ;
     mel:isReleasedBy mel:1GxkXlMwML1oSg5eLPiAz3 ;
     mel:name "To Be Loved"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:2014_b_115417e0 .
+    mel:winner mel:2014_b_6f2f0364 .
 
 mel:4YsXD5Zmj8wjmPzPzUEDZh a mel:Album ;
     mel:containsSong mel:5t7tuBGnmy1AegGj6WMvqt ;
@@ -25777,7 +25777,7 @@ mel:4ZjbAxpWpR9qhY7253jNrX a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:4Zl638FA70c4Oxh4AimZLh a mel:Album ;
-    mel:candidated mel:2008_b_92a27704 ;
+    mel:candidated mel:2008_b_c8a8954d ;
     mel:containsSong mel:2aQx1i3XjtB3TSN4J770Iv ;
     mel:isReleasedBy mel:4LG4Bs1Gadht7TCrMytQUO ;
     mel:name "Wincing The Night Away"^^xsd:string ;
@@ -25789,7 +25789,7 @@ mel:4ZnIw6llQFlXcFgjMNtrTw a mel:Album ;
     mel:isReleasedBy mel:66lH4jAE7pqPlOlzUKbwA0 ;
     mel:name "Platinum"^^xsd:string ;
     mel:totalTracks "16"^^xsd:positiveInteger ;
-    mel:winner mel:2015_b_31138ff2 .
+    mel:winner mel:2015_b_b7a94065 .
 
 mel:4ZswFiADrD5jIg1Y5Eu7cc a mel:Album ;
     mel:containsSong mel:0SVmx7KbYpP9igA7UIMSU8,
@@ -25949,12 +25949,12 @@ mel:4blpI4NXM4lfbCHGnp0U8u a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:4bud6XY9UtafCOiYzv2vOl a mel:Album ;
-    mel:candidated mel:2004_a_b6a34e15 ;
+    mel:candidated mel:2004_a_21c52aeb ;
     mel:containsSong mel:47wPvRG8FEwbZP22UBgTQr ;
     mel:isReleasedBy mel:4F84IBURUo98rz4r61KF70 ;
     mel:name "Elephant"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:2004_b_a8431c7e .
+    mel:winner mel:2004_b_3520f1ac .
 
 mel:4byd6zYRkMXopNmoD8E9Qb a mel:Album ;
     mel:containsSong mel:2XaRkqsrM3dGDByFfYPv1N,
@@ -26220,7 +26220,7 @@ mel:4fyJ3cuyKlSMSw9Q5SAiEx a mel:Album ;
     mel:totalTracks "15"^^xsd:positiveInteger .
 
 mel:4fygErqiNgFUic5hU42Z3E a mel:Album ;
-    mel:candidated mel:2004_b_da8cd3c9 ;
+    mel:candidated mel:2004_b_accc355a ;
     mel:containsSong mel:1Yuim9eHBfG8YUJII28XDF,
         mel:4PkJ7c9y1CwpuVOiJODnCZ,
         mel:4i2WUspbfNZCnhkypoFKrM ;
@@ -26311,7 +26311,7 @@ mel:4h63dypm4IYSGfCDe2Gcz6 a mel:Album ;
     mel:totalTracks "25"^^xsd:positiveInteger .
 
 mel:4h8seeFAi6iYhslcWIxTSG a mel:Album ;
-    mel:candidated mel:2010_b_36c49dbb ;
+    mel:candidated mel:2010_b_672c4bea ;
     mel:containsSong mel:2I5CPUnMIKjEXeg61OI9uV,
         mel:4Dm32oO01YpIubCHaAtKkN ;
     mel:isReleasedBy mel:3BmGtnKgCSGYIUhmivXKWX ;
@@ -27128,7 +27128,7 @@ mel:4rJgzzfFHAVFhCSt2P4I3j a mel:Album ;
     mel:totalTracks "15"^^xsd:positiveInteger .
 
 mel:4rKiBz8pX9zmKuEk4NArfm a mel:Album ;
-    mel:candidated mel:2004_b_dd28c412 ;
+    mel:candidated mel:2004_b_fd7dc813 ;
     mel:containsSong mel:4jZcfHe0hbc5ireJAxmQvC ;
     mel:isReleasedBy mel:78xUyw6FkVZrRAtziFdtdu ;
     mel:name "Phrenology"^^xsd:string ;
@@ -27506,7 +27506,7 @@ mel:4vZ6eSpIwea2IIPnwG8jfx a mel:Album ;
     mel:totalTracks "13"^^xsd:positiveInteger .
 
 mel:4vjeaWsf9UH2ecdKXAZaq2 a mel:Album ;
-    mel:candidated mel:2004_b_465e3dfd ;
+    mel:candidated mel:2004_b_285abf9b ;
     mel:containsSong mel:1YZBMqN8kHaaRPXpQTC3kb,
         mel:6pWzCKTrKrwbUPzY8RLCoP ;
     mel:isReleasedBy mel:5rkVyNGXEgeUqKkB5ccK83 ;
@@ -27544,7 +27544,7 @@ mel:4w3NeXtywU398NYW4903rY a mel:Album ;
     mel:totalTracks "16"^^xsd:positiveInteger .
 
 mel:4w5Jvreahp3yvLqc4vCr9I a mel:Album ;
-    mel:candidated mel:2018_b_377c0acd ;
+    mel:candidated mel:2018_b_2d2ddca0 ;
     mel:containsSong mel:0OWZFobGSIW9GrSlQ9C5pc,
         mel:30MM5jWpUmOxtTNd9Ey5LZ,
         mel:3pJkBPHadRAxBBo484RipI,
@@ -27923,7 +27923,7 @@ mel:50JEs25Ca52Q8lcAkuttuP a mel:Album ;
     mel:isReleasedBy mel:6yJCxee7QumYr820xdIsjo ;
     mel:name "Uncaged"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:2013_b_a1d9e155 .
+    mel:winner mel:2013_b_1ed0755e .
 
 mel:50M2o5oVvrG0LEt6ecgJXy a mel:Album ;
     mel:containsSong mel:08w1NmH9EjyFdFhSBn8inf,
@@ -28149,7 +28149,7 @@ mel:52q9xNv8COtSU9phlbO5sg a mel:Album ;
     mel:isReleasedBy mel:21E3waRsmPlU7jZsS13rcj ;
     mel:name "Because Of You"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2008_b_c9ad2459 .
+    mel:winner mel:2008_b_93198f74 .
 
 mel:530wst7qkLIEeDYkOJXWzZ a mel:Album ;
     mel:containsSong mel:3NJQ1KdbMLE1CEEVNjs9IO,
@@ -28250,7 +28250,7 @@ mel:54SKivSZGPzkNUcEaHANtV a mel:Album ;
     mel:totalTracks "14"^^xsd:positiveInteger .
 
 mel:54UNS4qnJgclhJDZaxSbHQ a mel:Album ;
-    mel:candidated mel:2010_b_431b56f6 ;
+    mel:candidated mel:2010_b_cc6e3090 ;
     mel:containsSong mel:6rZsGpXDr0WsUSFitx3v8N ;
     mel:isReleasedBy mel:6CxZzQFUTM6AzgluGwtq5w ;
     mel:name "Uncle Charlie"^^xsd:string ;
@@ -28669,7 +28669,7 @@ mel:58ufpQsJ1DS5kq4hhzQDiI a mel:Album ;
     mel:isReleasedBy mel:0du5cEVh5yTK9QJze8zA0C ;
     mel:name "Unorthodox Jukebox"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:2014_b_11565de4 .
+    mel:winner mel:2014_b_d2db2c2d .
 
 mel:59JiwsQ9p5dJWWcBEGB5Np a mel:Album ;
     mel:containsSong mel:52MJZwo0UGqgFitqv8YFVK,
@@ -29014,7 +29014,7 @@ mel:5CTygC3aONv7l0klY4k3hc a mel:Album ;
     mel:totalTracks "14"^^xsd:positiveInteger .
 
 mel:5CZR6ljD0x9fTiS4mh9wMp a mel:Album ;
-    mel:candidated mel:2009_b_40b6876c ;
+    mel:candidated mel:2009_b_ba2981b6 ;
     mel:containsSong mel:0ntQJM78wzOLVeCUAW7Y45,
         mel:40e9kU9Wd4vbedqSA7Io4n,
         mel:5VGlqQANWDKJFl0MBG3sg2 ;
@@ -29124,13 +29124,13 @@ mel:5DL58pkUXTWLtHfynqUAIT a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:5DLhV9yOvZ7IxVmljMXtNm a mel:Album ;
-    mel:candidated mel:2013_a_6db6731a ;
+    mel:candidated mel:2013_a_1a33b99e ;
     mel:containsSong mel:5G1sTBGbZT5o4PNRc75RKI,
         mel:5lN1EH25gdiqT1SFALMAq1 ;
     mel:isReleasedBy mel:7mnBLXK823vNxN3UWB7Gfz ;
     mel:name "El Camino"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:2013_b_382ba037 .
+    mel:winner mel:2013_b_b79dfe07 .
 
 mel:5DR4gcd3fj3E6XhbPTaF82 a mel:Album ;
     mel:containsSong mel:4cLXNwNqXWT1CTR5Gyr7ei,
@@ -29138,15 +29138,15 @@ mel:5DR4gcd3fj3E6XhbPTaF82 a mel:Album ;
     mel:isReleasedBy mel:3rxIQc9kWT6Ueg4BhnOwRK ;
     mel:name "Back On The Block"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:1991_a_c1baf70d,
-        mel:1991_b_dc527e60 .
+    mel:winner mel:1991_a_f6b058bf,
+        mel:1991_b_ef144c40 .
 
 mel:5Dbax7G8SWrP9xyzkOvy2F a mel:Album ;
     mel:containsSong mel:0EaLRxrtnq7Mqhdf8q9txr ;
     mel:isReleasedBy mel:0k17h0D3J5VfsdmQ1iZtE9 ;
     mel:name "The Wall"^^xsd:string ;
     mel:totalTracks "26"^^xsd:positiveInteger ;
-    mel:winner mel:1981_b_da9b46fa .
+    mel:winner mel:1981_b_304c0dff .
 
 mel:5Dh4qVmcMpDv5qhgdaqGtj a mel:Album ;
     mel:containsSong mel:1WP7Snm91AFyvhWb3s8UB8 ;
@@ -29215,7 +29215,7 @@ mel:5EP6ds1Q1RVBDvlllB7QTx a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:5ESRMcTy8mXMA7sHhlXM40 a mel:Album ;
-    mel:candidated mel:2006_b_856180fe ;
+    mel:candidated mel:2006_b_46c2f99e ;
     mel:containsSong mel:0vek0LcCbvcMtj0GkXMMJy ;
     mel:isReleasedBy mel:0XNa1vTidXlvJ2gHSsRi4A ;
     mel:name "You Could Have It So Much Better"^^xsd:string ;
@@ -29363,7 +29363,7 @@ mel:5FnNO3IO6veN62ZdaV7j3z a mel:Album ;
     mel:totalTracks "16"^^xsd:positiveInteger .
 
 mel:5FoxaIGIRuXsbhZhwdfknU a mel:Album ;
-    mel:candidated mel:2015_b_31138ff2 ;
+    mel:candidated mel:2015_b_b7a94065 ;
     mel:containsSong mel:01e8dGbulrphX8j3fZDQYk,
         mel:1soxUgYIZb1qx1c7o1Lc7z,
         mel:2sE61ZmvYH8wiOx5jygkHH ;
@@ -29481,7 +29481,7 @@ mel:5Gz9I4C6s443w18SrFc8xE a mel:Album ;
     mel:totalTracks "16"^^xsd:positiveInteger .
 
 mel:5HRSHdifYk7QXStjKB0SJZ a mel:Album ;
-    mel:candidated mel:2003_b_d1b8495f ;
+    mel:candidated mel:2003_b_406dfeb3 ;
     mel:containsSong mel:02GwPAncasVL82yC7y2hmN,
         mel:2T5wKTa1NEkxwXwtxh7xvu ;
     mel:isReleasedBy mel:4Js9eYwAf9rypNtV8pNSw9 ;
@@ -29565,7 +29565,7 @@ mel:5I0Wf7lRLZArM1K2uQ1AEA a mel:Album ;
     mel:isReleasedBy mel:5SbkVQYYzlw1kte75QIabH ;
     mel:name "St. Elsewhere"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:2007_b_8e292109 .
+    mel:winner mel:2007_b_e9d89e71 .
 
 mel:5I7lLu8xXJfGRdFUqHaLQU a mel:Album ;
     mel:containsSong mel:5mc6EyF1OIEOhAkD0Gg9Lc ;
@@ -29769,7 +29769,7 @@ mel:5L0e8X6Mf9lfjs2miK2WUB a mel:Album ;
     mel:isReleasedBy mel:4YLtscXsxbVgi031ovDDdh ;
     mel:name "From A Room: Volume 1"^^xsd:string ;
     mel:totalTracks "9"^^xsd:positiveInteger ;
-    mel:winner mel:2018_b_377c0acd .
+    mel:winner mel:2018_b_2d2ddca0 .
 
 mel:5L0vaNLbzgP8RIJqs1zamE a mel:Album ;
     mel:containsSong mel:0huRoriGPIi0vSHFV2f3C9,
@@ -29880,7 +29880,7 @@ mel:5M3BrdaT0TV5SsYsM5PM8X a mel:Album ;
     mel:isReleasedBy mel:5rkVyNGXEgeUqKkB5ccK83 ;
     mel:name "Ashanti"^^xsd:string ;
     mel:totalTracks "17"^^xsd:positiveInteger ;
-    mel:winner mel:2003_b_d44de449 .
+    mel:winner mel:2003_b_b50a6eb1 .
 
 mel:5M3GlaTkttptrGEX4a01JT a mel:Album ;
     mel:containsSong mel:6RRWntA60Lg8eBVA8NhwSo ;
@@ -29920,7 +29920,7 @@ mel:5MPVJ5nT5fzuK0Em7oTOjz a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:5MQBzs5YlZlE28mD9yUItn a mel:Album ;
-    mel:candidated mel:2015_b_f40670ee ;
+    mel:candidated mel:2015_b_1fa09997 ;
     mel:containsSong mel:0RCsGhR44nFVAd5WiZZcGq,
         mel:2xLOMHjkOK8nzxJ4r6yOKR,
         mel:4fwbGKNExPtPHbor1TBSY4,
@@ -29982,7 +29982,7 @@ mel:5MzwGwnO9gkh0z6Nl4FF8h a mel:Album ;
     mel:totalTracks "17"^^xsd:positiveInteger .
 
 mel:5NATaOfEAcyQFATqWZRKLO a mel:Album ;
-    mel:candidated mel:2007_b_2bb2c3f9 ;
+    mel:candidated mel:2007_b_748ac568 ;
     mel:containsSong mel:1KhrAWvLIjRlQIJtSTgvsi,
         mel:1WzAeadSKJhqykZFbJNmQv,
         mel:2lfBuEVBgvKLAkcypn68VD ;
@@ -30228,8 +30228,8 @@ mel:5PQPur1PEZFDkI0AXbxFlB a mel:Album ;
     mel:isReleasedBy mel:51Blml2LZPmy7TTiAg47vQ ;
     mel:name "How To Dismantle An Atomic Bomb"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2006_a_d2920e84,
-        mel:2006_b_f755aafe .
+    mel:winner mel:2006_a_e37987e2,
+        mel:2006_b_4c5e27c5 .
 
 mel:5PSewqr3UuWgOsULPNcgj7 a mel:Album ;
     mel:containsSong mel:3mc4nFeBX4hvuYbPsoS4GK ;
@@ -30257,7 +30257,7 @@ mel:5Pf2kkz10HySmJjWu2Fhd4 a mel:Album ;
     mel:totalTracks "17"^^xsd:positiveInteger .
 
 mel:5PfepkNWgRR2DI02Y8AawC a mel:Album ;
-    mel:candidated mel:2009_b_a4da5b26 ;
+    mel:candidated mel:2009_b_7096fdc7 ;
     mel:containsSong mel:1IAzD1muglOxOcPbUHs70R,
         mel:2kNtAwWATYkqV3CdT20RV0,
         mel:3DWHDJHIAmFXyjdN0I6rj1,
@@ -30505,7 +30505,7 @@ mel:5RypFF6rN9MUxFe4aAWA28 a mel:Album ;
     mel:isReleasedBy mel:32WkQRZEVKSzVAAYqukAEA ;
     mel:name "Need You Now"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2011_b_da734df6 .
+    mel:winner mel:2011_b_4703b931 .
 
 mel:5S0nsfYhHa1uz10V4yoWSL a mel:Album ;
     mel:containsSong mel:5rLi8B8qgk6qThwRnKHW2P ;
@@ -30724,7 +30724,7 @@ mel:5U0NU0T1JKIJwgq2ZDWb2T a mel:Album ;
     mel:isReleasedBy mel:3gMaNLQm7D9MornNILzdSl ;
     mel:name "Can't Slow Down"^^xsd:string ;
     mel:totalTracks "8"^^xsd:positiveInteger ;
-    mel:winner mel:1985_a_38e46031 .
+    mel:winner mel:1985_a_beba140d .
 
 mel:5U94pLVx9GIA9vNswG2atf a mel:Album ;
     mel:containsSong mel:720qG4xLQ8Do8jY9O15A4A ;
@@ -30915,7 +30915,7 @@ mel:5WBx64FIN04CvM2T1MGrUN a mel:Album ;
     mel:isReleasedBy mel:74ASZWbe4lXaubB36ztrGX ;
     mel:name "Nashville Skyline"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:1970_b_4263c8ff .
+    mel:winner mel:1970_b_cd927d94 .
 
 mel:5WDe3UbghWQNzux6KNcWDf a mel:Album ;
     mel:containsSong mel:5Cx0EhTHkqwWu71FAm7urb ;
@@ -31295,7 +31295,7 @@ mel:5Zxv8bCtxjz11jjypNdkEa a mel:Album ;
     mel:isReleasedBy mel:6P7H3ai06vU1sGvdpBwDmE ;
     mel:name "Aja"^^xsd:string ;
     mel:totalTracks "7"^^xsd:positiveInteger ;
-    mel:winner mel:1978_b_c0779aff .
+    mel:winner mel:1978_b_8cdd2302 .
 
 mel:5aDBziKOeFk7sJ59BfPgVl a mel:Album ;
     mel:containsSong mel:02PSTB9Cu6AQccSrMZKuKo,
@@ -31559,13 +31559,13 @@ mel:5dKsOtOOY393hKb2TZ9yIV a mel:Album ;
     mel:totalTracks "18"^^xsd:positiveInteger .
 
 mel:5dN7F9DV0Qg1XRdIgW8rke a mel:Album ;
-    mel:candidated mel:2005_a_8b552fbb ;
+    mel:candidated mel:2005_a_56b4abaa ;
     mel:containsSong mel:3ZffCQKLFLUvYM59XKLbVm,
         mel:6nTiIhLmQ3FWhvrGafw2zj ;
     mel:isReleasedBy mel:7oPftvlwr6VrsViSDV7fJY ;
     mel:name "American Idiot"^^xsd:string ;
     mel:totalTracks "9"^^xsd:positiveInteger ;
-    mel:winner mel:2005_b_ab0b1d40 .
+    mel:winner mel:2005_b_ea53d3a9 .
 
 mel:5dXK9fV7t28BGX3iQICh6e a mel:Album ;
     mel:containsSong mel:7MXXEMIOmXp7jB8ZAsTMX1 ;
@@ -31606,7 +31606,7 @@ mel:5doKZJ05r4UbAp9rmpDRDD a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:5dtw6CoMhbrSj01YUvdQOF a mel:Album ;
-    mel:candidated mel:2012_b_88a30b5a ;
+    mel:candidated mel:2012_b_2748f233 ;
     mel:containsSong mel:05ZACkzW8YbRq3eFgIfSNB,
         mel:1cktZnxiONH0hR6Q3DKy8h,
         mel:29aSfWddeZJCfnrcMb20sy,
@@ -31645,7 +31645,7 @@ mel:5eg56dCpFn32neJak2vk0f a mel:Album ;
     mel:isReleasedBy mel:0TImkz4nPqjegtVSMZnMRq ;
     mel:name "Crazysexycool"^^xsd:string ;
     mel:totalTracks "16"^^xsd:positiveInteger ;
-    mel:winner mel:1996_b_271f93d2 .
+    mel:winner mel:1996_b_1b221a36 .
 
 mel:5eluBwSJ7uwDBizWCiazSJ a mel:Album ;
     mel:containsSong mel:0AZb6ryK8LsFcvY1jWHO61,
@@ -31675,7 +31675,7 @@ mel:5fIBtKHWGjbjK9C4i1Z11L a mel:Album ;
     mel:isReleasedBy mel:6P7H3ai06vU1sGvdpBwDmE ;
     mel:name "Gaucho"^^xsd:string ;
     mel:totalTracks "7"^^xsd:positiveInteger ;
-    mel:winner mel:1982_b_8b5a56f9 .
+    mel:winner mel:1982_b_805b3410 .
 
 mel:5fKL7vMTXvhR9tov8Kqt3u a mel:Album ;
     mel:containsSong mel:0gmbgwZ8iqyMPmXefof8Yf,
@@ -31775,7 +31775,7 @@ mel:5gB0zMvTNkzTTvaE5dtdI5 a mel:Album ;
     mel:totalTracks "14"^^xsd:positiveInteger .
 
 mel:5gCxcHCAA50nboku1ks180 a mel:Album ;
-    mel:candidated mel:2009_b_0a832508 ;
+    mel:candidated mel:2009_b_1c5be55a ;
     mel:containsSong mel:4lerOTNr2tFWJCAmmhymhi ;
     mel:isReleasedBy mel:4V8Sr092TqfHkfAA5fXXqG ;
     mel:name "Palabras Del Silencio (Edición Aniversario - Un Año Despues)"^^xsd:string ;
@@ -31788,7 +31788,7 @@ mel:5gDAEao3VxFdbm8vS0koQq a mel:Album ;
     mel:isReleasedBy mel:3BmGtnKgCSGYIUhmivXKWX ;
     mel:name "Breakaway"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2006_b_09f9b51b .
+    mel:winner mel:2006_b_8456b365 .
 
 mel:5gJBnLRkUtOjqsss6YA5XA a mel:Album ;
     mel:containsSong mel:1b7tZPt3S2UN6OrPUBqGCp,
@@ -32065,7 +32065,7 @@ mel:5ja7POltOonfMB2tQSEMWV a mel:Album ;
     mel:totalTracks "8"^^xsd:positiveInteger .
 
 mel:5jem47f4IRH6UaxNAWO6vD a mel:Album ;
-    mel:candidated mel:2012_b_907d2240 ;
+    mel:candidated mel:2012_b_6f1f9e9c ;
     mel:containsSong mel:1RFQ0GKqmnsg2EB3kH6J5o,
         mel:2jSwKQBouf0brIcxGfA9CZ,
         mel:3aVHmjnWtDJvPEDSP4hzsa,
@@ -32081,8 +32081,8 @@ mel:5jgI8Eminx9MmLBontDWq8 a mel:Album ;
     mel:isReleasedBy mel:7guDJrEfX3qb6FEbdPA5qi ;
     mel:name "Innervisions"^^xsd:string ;
     mel:totalTracks "9"^^xsd:positiveInteger ;
-    mel:winner mel:1974_a_b9096147,
-        mel:1974_b_0f022269 .
+    mel:winner mel:1974_a_e7c6d7c9,
+        mel:1974_b_6e815e26 .
 
 mel:5jggxDQtP1eGNgqOAThQSY a mel:Album ;
     mel:containsSong mel:4bYKBEeblMr5KLOEMD7OHu ;
@@ -32150,7 +32150,7 @@ mel:5kBmiH0tgepv6N0PROaEXv a mel:Album ;
     mel:totalTracks "21"^^xsd:positiveInteger .
 
 mel:5kI53F8KGy6ektzQcmA7Y0 a mel:Album ;
-    mel:candidated mel:2006_b_11d92891 ;
+    mel:candidated mel:2006_b_00c2d79d ;
     mel:containsSong mel:5RdYwQdxeI8wXBPVAd2M5T,
         mel:6SdQ0ZTmUFOm0H66l91sXk ;
     mel:isReleasedBy mel:0f5nVCcR06GX8Qikz0COtT ;
@@ -32178,7 +32178,7 @@ mel:5kV0KBXfELibs6qQJLmOtg a mel:Album ;
     mel:isReleasedBy mel:0Ty63ceoRnnJKVEYP0VQpk ;
     mel:name "Ten Summoner's Tales"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:1994_b_097b3c4a .
+    mel:winner mel:1994_b_e2d95211 .
 
 mel:5kZ8N9CSvFq9T50wnOJhBy a mel:Album ;
     mel:containsSong mel:6tUqOd2uUrgMEB8iPEJzXr ;
@@ -32229,7 +32229,7 @@ mel:5ktAYFq8wJ1hcWHaxl6AQf a mel:Album ;
     mel:isReleasedBy mel:2lolQgalUvZDfp5vvVtTYV ;
     mel:name "Duets II"^^xsd:string ;
     mel:totalTracks "17"^^xsd:positiveInteger ;
-    mel:winner mel:2012_b_8d2d7dba .
+    mel:winner mel:2012_b_ab8e0494 .
 
 mel:5l5h2w976gvp8y2IGv2Tp4 a mel:Album ;
     mel:containsSong mel:1gzsqnh8JvzYwIIv2r0kiJ,
@@ -32333,13 +32333,13 @@ mel:5lkNnHVlnCCCV304t89wOH a mel:Album ;
     mel:totalTracks "7"^^xsd:positiveInteger .
 
 mel:5ll74bqtkcXlKE7wwkMq4g a mel:Album ;
-    mel:candidated mel:2006_a_d2920e84 ;
+    mel:candidated mel:2006_a_e37987e2 ;
     mel:containsSong mel:2dxjKgT0li4qBI3QwuN9Ih,
         mel:6yIjtVtnOBeC8SwdVHzAuF ;
     mel:isReleasedBy mel:5K4W6rqBFWDnAN6FQUkS6x ;
     mel:name "Late Registration"^^xsd:string ;
     mel:totalTracks "21"^^xsd:positiveInteger ;
-    mel:winner mel:2006_b_49ada76b .
+    mel:winner mel:2006_b_f7c80691 .
 
 mel:5lm8loAsSpprr19lwSY16V a mel:Album ;
     mel:containsSong mel:1YaVmBh7EAeR54FIjuFcb5,
@@ -32354,7 +32354,7 @@ mel:5lnQLEUiVDkLbFJHXHQu9m a mel:Album ;
     mel:isReleasedBy mel:7jy3rLJdDQY21OgRLCZ9sD ;
     mel:name "Wasting Light"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:2012_b_cc9dec25 .
+    mel:winner mel:2012_b_8d23e7bb .
 
 mel:5lwkQjfbO515jO9jwfzs6b a mel:Album ;
     mel:containsSong mel:67EJJfVy93Hlyo3Z742Ka7 ;
@@ -32462,8 +32462,8 @@ mel:5mkkuHwxHfE9yqafBFSLLI a mel:Album ;
     mel:isReleasedBy mel:4KDyYWR7IpxZ7xrdYbKrqY ;
     mel:name "Longing In Their Hearts"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:1995_b_66bca475,
-        mel:1995_b_9a070f55 .
+    mel:winner mel:1995_b_3bfeabd0,
+        mel:1995_b_edc93366 .
 
 mel:5mojJwWgWNJcY3odUGgQc3 a mel:Album ;
     mel:containsSong mel:19Sbxm5YTEFwpCYMxrw1gz,
@@ -33185,7 +33185,7 @@ mel:5v6iBhIlflzR9rEd1LAMbd a mel:Album ;
     mel:totalTracks "14"^^xsd:positiveInteger .
 
 mel:5v7Icroz1sQsK2sQyLrWzE a mel:Album ;
-    mel:candidated mel:2001_b_749b2008 ;
+    mel:candidated mel:2001_b_9cf9d506 ;
     mel:containsSong mel:4bUfMNNmiCmPXVyWzIfKeZ ;
     mel:isReleasedBy mel:2gBjLmx6zQnFGQJCAQpRgw ;
     mel:name "Country Grammar"^^xsd:string ;
@@ -33346,7 +33346,7 @@ mel:5wtE5aLX5r7jOosmPhJhhk a mel:Album ;
     mel:totalTracks "13"^^xsd:positiveInteger .
 
 mel:5xFZ4iElFbUFtOGX4lvdTM a mel:Album ;
-    mel:candidated mel:2012_b_cc9dec25 ;
+    mel:candidated mel:2012_b_8d23e7bb ;
     mel:containsSong mel:1T76pppCs1bFBcVpRCWzxS,
         mel:60CirPlTOEWOUBus7HxV3B ;
     mel:isReleasedBy mel:2qk9voo8llSGYcZ6xrBzKx ;
@@ -33445,7 +33445,7 @@ mel:5y6wlw1LnqFnQFruMeiwGU a mel:Album ;
     mel:isReleasedBy mel:51Blml2LZPmy7TTiAg47vQ ;
     mel:name "The Joshua Tree (Super Deluxe)"^^xsd:string ;
     mel:totalTracks "49"^^xsd:positiveInteger ;
-    mel:winner mel:1988_a_ea816356 .
+    mel:winner mel:1988_a_7569f100 .
 
 mel:5yIJ53xYeYVFyCtwLV7uGo a mel:Album ;
     mel:containsSong mel:6XIiqQp6A0gzaIEaDszkZX,
@@ -33544,7 +33544,7 @@ mel:5yqBTSoJqE9EfApl2Pptva a mel:Album ;
     mel:totalTracks "8"^^xsd:positiveInteger .
 
 mel:5yqMA7IvahYJc53ewRAMnP a mel:Album ;
-    mel:candidated mel:2010_b_26d8a7ce ;
+    mel:candidated mel:2010_b_c4896cb4 ;
     mel:containsSong mel:3CJdDqehVinU810wsTjt6v,
         mel:6u38x61qv7JBIJD4dqztmm ;
     mel:isReleasedBy mel:51Blml2LZPmy7TTiAg47vQ ;
@@ -33639,7 +33639,7 @@ mel:5zq1m9RP5iwHBRQlgbROx1 a mel:Album ;
     mel:isReleasedBy mel:3rxIQc9kWT6Ueg4BhnOwRK ;
     mel:name "Q's Jook Joint"^^xsd:string ;
     mel:totalTracks "15"^^xsd:positiveInteger ;
-    mel:winner mel:1997_b_0b51eb8c .
+    mel:winner mel:1997_b_2e6d1a53 .
 
 mel:5zsDtoSrXK4usJ4MB1tCh2 a mel:Album ;
     mel:containsSong mel:3vL9lPWBuv0ZR3c5YmdhDl,
@@ -33842,8 +33842,8 @@ mel:62U7xIHcID94o20Of5ea4D a mel:Album ;
     mel:isReleasedBy mel:0PFtn5NtBbbUNbU9EAmIWF ;
     mel:name "Toto IV"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:1983_a_7ada3f47,
-        mel:1983_b_f7bdaeef .
+    mel:winner mel:1983_a_e5da2702,
+        mel:1983_b_fd31c326 .
 
 mel:62UmCTr69BJK8zHNH67KX5 a mel:Album ;
     mel:containsSong mel:3msjvrkCvIzUNJHULcAafN,
@@ -33936,14 +33936,14 @@ mel:6400dnyeDyD2mIFHfkwHXN a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:64EKrS1Ubw2rQ9qn9QRUq3 a mel:Album ;
-    mel:candidated mel:2008_b_92a27704 ;
+    mel:candidated mel:2008_b_c8a8954d ;
     mel:containsSong mel:7sGVR4Dw1DBl5oN9srSOsG ;
     mel:isReleasedBy mel:7w29UYBi0qsHi5RTcv3lmA ;
     mel:name "Volta"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:64GnrmrpL1fvfF0r1AoZLB a mel:Album ;
-    mel:candidated mel:2005_b_ab0b1d40 ;
+    mel:candidated mel:2005_b_ea53d3a9 ;
     mel:containsSong mel:2amzrvbxYiq8AxGntIiw5V,
         mel:7kF1iPJTj3VFJX9XokQ80F ;
     mel:isReleasedBy mel:7CHilrn81OdYjkh4uSVnYM ;
@@ -33985,7 +33985,7 @@ mel:64gmkAgWQqEGJtvAaGm2La a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:64hKb8U28ebT5iDzcTrOsc a mel:Album ;
-    mel:candidated mel:2013_b_7d61f826 ;
+    mel:candidated mel:2013_b_c45dfa94 ;
     mel:containsSong mel:1JcdOfoRHZsf1fEgP9omQG,
         mel:1PuLHwFZoh5qYK89I5YBdZ,
         mel:1jpAdScqaQU9X1mmePkjop,
@@ -33996,7 +33996,7 @@ mel:64hKb8U28ebT5iDzcTrOsc a mel:Album ;
     mel:isReleasedBy mel:3gd8FJtBJtkRxdfbTu19U2 ;
     mel:name "Babel"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2013_a_6db6731a .
+    mel:winner mel:2013_a_1a33b99e .
 
 mel:64nqdloh5eaqEavjvKL4qI a mel:Album ;
     mel:containsSong mel:5m9TJTcMOzwJEkxEEmSBmN ;
@@ -34624,7 +34624,7 @@ mel:6CkiHbEFRtD75ghxLBOn3N a mel:Album ;
     mel:isReleasedBy mel:4akybxRTGHJZ1DXjLhJ1qu ;
     mel:name "Hello Fear"^^xsd:string ;
     mel:totalTracks "15"^^xsd:positiveInteger ;
-    mel:winner mel:2012_b_e8fe885c .
+    mel:winner mel:2012_b_cffde034 .
 
 mel:6ClkALqc7MG8jVsGjzAlzA a mel:Album ;
     mel:containsSong mel:3v3BXeUDxOEjN3WipzeyAE ;
@@ -34770,7 +34770,7 @@ mel:6EB14IXV5oyOiItGBv7mtG a mel:Album ;
     mel:totalTracks "22"^^xsd:positiveInteger .
 
 mel:6EGZHq3euiuESgxmzhIfSN a mel:Album ;
-    mel:candidated mel:1989_a_5bd8131e ;
+    mel:candidated mel:1989_a_f4fd859b ;
     mel:containsSong mel:1F12mGFRXXwfgxspQ9vjjB,
         mel:2QlPByrmEO9XciNBXCrawR,
         mel:2rc0xWbPb7YpvYBvZqjzu8,
@@ -34778,7 +34778,7 @@ mel:6EGZHq3euiuESgxmzhIfSN a mel:Album ;
     mel:isReleasedBy mel:5gxynDEKwNDgxGJmJjZyte ;
     mel:name "Roll With It"^^xsd:string ;
     mel:totalTracks "8"^^xsd:positiveInteger ;
-    mel:winner mel:1989_b_f5a7a867 .
+    mel:winner mel:1989_b_346f68d2 .
 
 mel:6EIaI8vnR5OA8GJ6NorxtW a mel:Album ;
     mel:containsSong mel:2sHahlW8ib7C7GkuV39tKR ;
@@ -34920,7 +34920,7 @@ mel:6FoiXUlfC8amjO8yqmYZM5 a mel:Album ;
     mel:totalTracks "14"^^xsd:positiveInteger .
 
 mel:6Fr2rQkZ383FcMqFyT7yPr a mel:Album ;
-    mel:candidated mel:2017_a_c1e21a8d ;
+    mel:candidated mel:2017_a_18bd3552 ;
     mel:containsSong mel:00IH8ZjI9ZGB51WRX1Oesj,
         mel:09CtPGIpYB4BrO8qb1RGsF,
         mel:0SNIAtRCPVVLoGEPcuHSIc,
@@ -34956,7 +34956,7 @@ mel:6FvXuAABLLXqnvOul6TyVr a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:6GBu7GU6dztLYlZuUHiwA2 a mel:Album ;
-    mel:candidated mel:2019_b_d33d92c7 ;
+    mel:candidated mel:2019_b_22335ef5 ;
     mel:containsSong mel:16QN8cBubEq706vNtPpOME ;
     mel:isReleasedBy mel:3BmGtnKgCSGYIUhmivXKWX ;
     mel:name "Meaning Of Life"^^xsd:string ;
@@ -35126,7 +35126,7 @@ mel:6IGpQUt0KNi5rBUXZZOFI6 a mel:Album ;
     mel:isReleasedBy mel:70kkdajctXSbqSMJbQO424 ;
     mel:name "Same Trailer Different Park"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2014_b_f4b48e80 .
+    mel:winner mel:2014_b_02b2bff0 .
 
 mel:6IJq4UXwuTDgEihBeofvjq a mel:Album ;
     mel:containsSong mel:2rD9tU2bws0PgOPsI6aIZo ;
@@ -35340,7 +35340,7 @@ mel:6KT8x5oqZJl9CcnM66hddo a mel:Album ;
     mel:totalTracks "17"^^xsd:positiveInteger .
 
 mel:6KWsBlO7JuCY50F4StuSng a mel:Album ;
-    mel:candidated mel:2006_b_3084f294 ;
+    mel:candidated mel:2006_b_78736c7d ;
     mel:containsSong mel:6qdKKHh8r7N8nRYih2g7Pm ;
     mel:isReleasedBy mel:3XlIhgydjvC4EniPFZT20j ;
     mel:name "Jasper County"^^xsd:string ;
@@ -35939,7 +35939,7 @@ mel:6QCSrh0eusuJrRpYjnmtTN a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:6QPkyl04rXwTGlGlcYaRoW a mel:Album ;
-    mel:candidated mel:2004_a_b6a34e15 ;
+    mel:candidated mel:2004_a_21c52aeb ;
     mel:containsSong mel:0aj2QKJvz6CePykmlTApiD,
         mel:1AWQoqb9bSvzTjaLralEkT,
         mel:6W2Ef5Ph6ILTUAedoQ3QIv,
@@ -35947,7 +35947,7 @@ mel:6QPkyl04rXwTGlGlcYaRoW a mel:Album ;
     mel:isReleasedBy mel:31TPClRtHm23RisEBtV3X7 ;
     mel:name "Justified"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2004_b_1c2f0db8 .
+    mel:winner mel:2004_b_2b516295 .
 
 mel:6QRiOSB53KZEe22LfWr6EP a mel:Album ;
     mel:containsSong mel:23IK8TF2MSiLnuEjaYPfVV,
@@ -36017,7 +36017,7 @@ mel:6RCEPR3vf58GQTK2sT1cQP a mel:Album ;
     mel:isReleasedBy mel:35GL8Cu2GKTcHzKGi75xl5 ;
     mel:name "Jennifer Hudson"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2009_b_0619b9f5 .
+    mel:winner mel:2009_b_829fc87d .
 
 mel:6RJGvtqZgONNWbvSsRrbBq a mel:Album ;
     mel:containsSong mel:0ptRYs1lDuewLvhwTOLL1h,
@@ -36289,7 +36289,7 @@ mel:6TqRKHLjDu5QZuC8u5Woij a mel:Album ;
     mel:isReleasedBy mel:3DiDSECUqqY1AuBP8qtaIa ;
     mel:name "The Diary Of Alicia Keys"^^xsd:string ;
     mel:totalTracks "15"^^xsd:positiveInteger ;
-    mel:winner mel:2005_b_f017da04 .
+    mel:winner mel:2005_b_20ce2971 .
 
 mel:6Trb6MUN99WFIkgyaCnhXw a mel:Album ;
     mel:containsSong mel:2HerxRQish8VLHvu20oxz2,
@@ -36305,7 +36305,7 @@ mel:6TrguRnEqy2RL8mB1n3Z33 a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:6TvxpBzf9c8H1fsrAaQ8t3 a mel:Album ;
-    mel:candidated mel:2015_b_fe362bf0 ;
+    mel:candidated mel:2015_b_64de0da2 ;
     mel:containsSong mel:3Hx7RXqCS7Kzjy2ot2q1Gk ;
     mel:isReleasedBy mel:7mnBLXK823vNxN3UWB7Gfz ;
     mel:name "Turn Blue"^^xsd:string ;
@@ -36517,7 +36517,7 @@ mel:6WgGWYw6XXQyLTsWt7tXky a mel:Album ;
     mel:isReleasedBy mel:2CvCyf1gEVhI0mX6aFXmVI ;
     mel:name "Graceland (25th Anniversary Deluxe Edition)"^^xsd:string ;
     mel:totalTracks "17"^^xsd:positiveInteger ;
-    mel:winner mel:1987_a_a808383a .
+    mel:winner mel:1987_a_0c887f35 .
 
 mel:6WivmTXugLZLmAWnZhlz7g a mel:Album ;
     mel:containsSong mel:0Jh9EBGN205Yc7JN2zZ2f1,
@@ -36560,7 +36560,7 @@ mel:6X1x82kppWZmDzlXXK3y3q a mel:Album ;
     mel:isReleasedBy mel:3TVXtAsR1Inumwj472S9r4 ;
     mel:name "Take Care (Deluxe)"^^xsd:string ;
     mel:totalTracks "19"^^xsd:positiveInteger ;
-    mel:winner mel:2013_b_3c9e24fb .
+    mel:winner mel:2013_b_d63e4759 .
 
 mel:6X5nYddBsYWFHQvhN6SGDK a mel:Album ;
     mel:containsSong mel:1EsN2D481Q3E8vz68nkNoA,
@@ -36622,7 +36622,7 @@ mel:6YUCc2RiXcEKS9ibuZxjt0 a mel:Album ;
     mel:isReleasedBy mel:7guDJrEfX3qb6FEbdPA5qi ;
     mel:name "Songs In The Key Of Life"^^xsd:string ;
     mel:totalTracks "21"^^xsd:positiveInteger ;
-    mel:winner mel:1977_a_690fb4f1 .
+    mel:winner mel:1977_a_a385eb4f .
 
 mel:6YabPKtZAjxwyWbuO9p4ZD a mel:Album ;
     mel:containsSong mel:3AhXZa8sUQht0UEdBJgpGc ;
@@ -36664,7 +36664,7 @@ mel:6Yw7f0kqQ1gbt2OHa7fi1g a mel:Album ;
     mel:isReleasedBy mel:37NqXwtb6nIEqRt4EJSoIO ;
     mel:name "Rockferry"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:2009_b_8a6ea21d .
+    mel:winner mel:2009_b_1d0313d5 .
 
 mel:6Z00fsRJ8gLJdYoFcU50tU a mel:Album ;
     mel:containsSong mel:2obTnCmXErghJPwnXFw4tV ;
@@ -36689,7 +36689,7 @@ mel:6ZG5lRT77aJ3btmArcykra a mel:Album ;
     mel:isReleasedBy mel:4gzpq5DPGxSnKTe4SA8HAU ;
     mel:name "Parachutes"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:2002_b_b6ecfef4 .
+    mel:winner mel:2002_b_59dd1869 .
 
 mel:6ZIfULvfXHqu6jcNm6vfSl a mel:Album ;
     mel:containsSong mel:06ZDLodo1UDVavc3MXREZ3,
@@ -36828,7 +36828,7 @@ mel:6aWyXwtchaW4WQFApwlwu1 a mel:Album ;
     mel:totalTracks "51"^^xsd:positiveInteger .
 
 mel:6agmeioaDOBupymziJihgB a mel:Album ;
-    mel:candidated mel:2011_b_363b8dc9 ;
+    mel:candidated mel:2011_b_503a32c3 ;
     mel:containsSong mel:18PSaTJMLkFNWnW0NWdOAW,
         mel:1EoHEkVcysf4WVDx6r9WzQ,
         mel:1GxHeBvQ9935Dd3cSfsfBa,
@@ -36899,7 +36899,7 @@ mel:6bUxh58rYTL67FS8dyTKMN a mel:Album ;
     mel:isReleasedBy mel:0EmeFodog0BfCgMzAIvKQp ;
     mel:name "El Dorado"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2018_b_cedac72a .
+    mel:winner mel:2018_b_1d875a44 .
 
 mel:6bYqwLMVRQzwPQweVzCiry a mel:Album ;
     mel:containsSong mel:5xMNjx7uqCzMpJZSo4Wq55 ;
@@ -37034,7 +37034,7 @@ mel:6cuNyrSmRjBeekioLdLkvI a mel:Album ;
     mel:isReleasedBy mel:6tbjWDEIzxoDsBA1FuhfPW ;
     mel:name "Ray of Light (U.S. Version)"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:1999_b_64bc29a3 .
+    mel:winner mel:1999_b_1d9a46b6 .
 
 mel:6czdbbMtGbAkZ6ud2OMTcg a mel:Album ;
     mel:containsSong mel:6NmCCgnQcxKHPOAKgd9Nth ;
@@ -37049,7 +37049,7 @@ mel:6d9b6qTmzQ2WOOGB2cDCDq a mel:Album ;
     mel:totalTracks "52"^^xsd:positiveInteger .
 
 mel:6dC6J5qkPcJ1iGshEN5MpX a mel:Album ;
-    mel:candidated mel:2009_b_dfc38c1b ;
+    mel:candidated mel:2009_b_9df1bb9d ;
     mel:containsSong mel:0GX5oOKtU0nnx5OkhenW2i,
         mel:1yJ5fyqBusR7Verj8JGsKV,
         mel:4LxjagX6D8MxMaoTmqpQ8Y ;
@@ -37190,7 +37190,7 @@ mel:6ek7Y68IlB6CoFkkc2gEQb a mel:Album ;
     mel:isReleasedBy mel:4iHNK0tOyZPYnBU7nGAgpQ ;
     mel:name "The Emancipation of Mimi"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:2006_b_11d92891 .
+    mel:winner mel:2006_b_00c2d79d .
 
 mel:6ekKyPsmvoBnBxipuSPjqz a mel:Album ;
     mel:containsSong mel:0wpIfrGRlt7qeyW44n0A5i,
@@ -37383,7 +37383,7 @@ mel:6gHhunUztPgpyBmzeie6MH a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:6gKYZUK5BOMsaGCbJvNAYk a mel:Album ;
-    mel:candidated mel:2012_b_c3eca9df ;
+    mel:candidated mel:2012_b_322e0551 ;
     mel:containsSong mel:67UivNNJwBPb8XS7r4fGmf ;
     mel:isReleasedBy mel:2mxe0TnaNL039ysAj51xPQ ;
     mel:name "Love Letter"^^xsd:string ;
@@ -37422,7 +37422,7 @@ mel:6gggIDFEe8tfpJNIva57QP a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:6gkwOLmk0ALMOjWs5WhAEr a mel:Album ;
-    mel:candidated mel:2007_b_09512df9 ;
+    mel:candidated mel:2007_b_756d8432 ;
     mel:containsSong mel:10aWGOqSDBqvNzJ9NeKDbK,
         mel:5FXOEdfNW7nYQrBWtW49Cl,
         mel:6brl7bwOHmGFkNw3MBqssT ;
@@ -37513,7 +37513,7 @@ mel:6hmmX5UP4rIvOpGSaPerV8 a mel:Album ;
     mel:isReleasedBy mel:7oPgCQqMMXEXrNau5vxYZP ;
     mel:name "Tracy Chapman"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:1989_b_e225d14d .
+    mel:winner mel:1989_b_a628d424 .
 
 mel:6hn4a3mFIw3FTUIVQWGSEE a mel:Album ;
     mel:containsSong mel:01mWFDRL40UlnbOXya5gqm,
@@ -37551,7 +37551,7 @@ mel:6i3sZ5fdBwlPD9b1LVRD6M a mel:Album ;
     mel:isReleasedBy mel:47opbYEKDjXnRk9uLscp11 ;
     mel:name "Mountain High Valley Low (U.S. Version)"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:2000_b_806da8e9 .
+    mel:winner mel:2000_b_30ef7648 .
 
 mel:6i6folBtxKV28WX3msQ4FE a mel:Album ;
     mel:containsSong mel:1F9NVicWfNQA5ki8WmEtk8,
@@ -37611,7 +37611,7 @@ mel:6j1ewaeiw48zvPdaC3RK7m a mel:Album ;
     mel:isReleasedBy mel:4akybxRTGHJZ1DXjLhJ1qu ;
     mel:name "Hero"^^xsd:string ;
     mel:totalTracks "20"^^xsd:positiveInteger ;
-    mel:winner mel:2007_b_cd17a6b7 .
+    mel:winner mel:2007_b_862df311 .
 
 mel:6jOJARNCHTbV9dSNtOEPBJ a mel:Album ;
     mel:containsSong mel:2j78lPDRu9HcN3X817CmR2 ;
@@ -37658,7 +37658,7 @@ mel:6joEVcRAygVpcDBWh7extk a mel:Album ;
     mel:totalTracks "13"^^xsd:positiveInteger .
 
 mel:6js6AsbjWMdMXapWYkbVSm a mel:Album ;
-    mel:candidated mel:2006_b_09f9b51b ;
+    mel:candidated mel:2006_b_8456b365 ;
     mel:containsSong mel:1BFfvGcVL0CdnqWmZM3bH2 ;
     mel:isReleasedBy mel:4TKTii6gnOnUXQHyuo9JaD ;
     mel:name "Wildflower (Deluxe Edition)"^^xsd:string ;
@@ -38283,7 +38283,7 @@ mel:6pmoTLfsPpn0wisT3YFJSN a mel:Album ;
     mel:isReleasedBy mel:40LHVA5BTQp9RxHOQ9JPYj ;
     mel:name "Look Up Child"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2019_b_5db70a25 .
+    mel:winner mel:2019_b_8e6a6c2f .
 
 mel:6pmtghRWm6C8EsD48dKmTi a mel:Album ;
     mel:containsSong mel:6kSg0raJ0yEoHPZIVMeSmj ;
@@ -38522,7 +38522,7 @@ mel:6rrPmmb2lQd5pNRL6HKBZx a mel:Album ;
     mel:totalTracks "16"^^xsd:positiveInteger .
 
 mel:6rxtWZH5ua9eANwWdwwf9o a mel:Album ;
-    mel:candidated mel:1997_b_947cb73e ;
+    mel:candidated mel:1997_b_5e28f95d ;
     mel:containsSong mel:5Ihd9HrPvOADyVoonH9ZjB ;
     mel:isReleasedBy mel:3X458ddYA2YcVWuVIGGOYe ;
     mel:name "Secrets"^^xsd:string ;
@@ -38597,7 +38597,7 @@ mel:6t7956yu5zYf5A829XRiHC a mel:Album ;
     mel:isReleasedBy mel:7dGJo4pcD2V6oG8kP0tJRR ;
     mel:name "The Marshall Mathers LP"^^xsd:string ;
     mel:totalTracks "18"^^xsd:positiveInteger ;
-    mel:winner mel:2001_b_749b2008 .
+    mel:winner mel:2001_b_9cf9d506 .
 
 mel:6tBUJLHPFbzO665rhzFDg2 a mel:Album ;
     mel:containsSong mel:1IYaMVfidzSfvCUZYXhsU1 ;
@@ -38790,7 +38790,7 @@ mel:6vRYpHPfSa08GTh0LOt7af a mel:Album ;
     mel:totalTracks "9"^^xsd:positiveInteger .
 
 mel:6vV5UrXcfyQD1wu4Qo2I9K a mel:Album ;
-    mel:candidated mel:2006_b_49ada76b ;
+    mel:candidated mel:2006_b_f7c80691 ;
     mel:containsSong mel:0UaMYEvWZi0ZqiDOoHU3YI ;
     mel:isReleasedBy mel:2wIVse2owClT7go1WT98tk ;
     mel:name "The Cookbook"^^xsd:string ;
@@ -38878,7 +38878,7 @@ mel:6wxpS5o0ty5CLqyH5fIRln a mel:Album ;
     mel:isReleasedBy mel:4KDyYWR7IpxZ7xrdYbKrqY ;
     mel:name "Nick Of Time"^^xsd:string ;
     mel:totalTracks "11"^^xsd:positiveInteger ;
-    mel:winner mel:1990_a_24b90a46 .
+    mel:winner mel:1990_a_4fb239a4 .
 
 mel:6x2aHcC68KyfkmkEOeMozn a mel:Album ;
     mel:containsSong mel:6ZfTwIVeXIe5SmQPzLEhsW ;
@@ -38970,7 +38970,7 @@ mel:6yEuIwTQpciH1qtj7mP5GK a mel:Album ;
     mel:isReleasedBy mel:4KWTAlx2RvbpseOGMEmROg ;
     mel:name "Out Of Time (25th Anniversary Edition)"^^xsd:string ;
     mel:totalTracks "30"^^xsd:positiveInteger ;
-    mel:winner mel:1992_b_e6fd4be1 .
+    mel:winner mel:1992_b_13fe133c .
 
 mel:6yGTpAWDCY1aJ5hdavtI0n a mel:Album ;
     mel:containsSong mel:46E4di5YoT3Ab5bheoiEId,
@@ -39535,7 +39535,7 @@ mel:740t2GhGBLY6qIPRNhSo9M a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:748dZDqSZy6aPXKcI9H80u a mel:Album ;
-    mel:candidated mel:2014_b_dcf53319 ;
+    mel:candidated mel:2014_b_4682dcbd ;
     mel:containsSong mel:5h5tBFnbcVioFXiOixTn6E ;
     mel:isReleasedBy mel:2YZyLoL8N0Wb9xBt1NhZWg ;
     mel:name "good kid, m.A.A.d city (Deluxe)"^^xsd:string ;
@@ -39775,7 +39775,7 @@ mel:77dc8fS3O8FaQjhbNASpgM a mel:Album ;
     mel:isReleasedBy mel:4F84IBURUo98rz4r61KF70 ;
     mel:name "Icky Thump"^^xsd:string ;
     mel:totalTracks "13"^^xsd:positiveInteger ;
-    mel:winner mel:2008_b_92a27704 .
+    mel:winner mel:2008_b_c8a8954d .
 
 mel:77opKywcxPnBu5aBMASS2b a mel:Album ;
     mel:containsSong mel:0SPBrxOUEMIKugXR4bFhxs,
@@ -39790,7 +39790,7 @@ mel:77u9Ndnhi4raBZfnl22Jzg a mel:Album ;
     mel:isReleasedBy mel:3ipn9JLAPI5GUEo4y4jcoi ;
     mel:name "Release Therapy"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:2007_b_76388ed8 .
+    mel:winner mel:2007_b_811e5a6e .
 
 mel:77yG4Q7mW02y1AiujEUceu a mel:Album ;
     mel:containsSong mel:3aBNmGvg85AFXcvBXu6OJ6 ;
@@ -40370,7 +40370,7 @@ mel:7EpUpNUkkEGnaCvkcn1j4H a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:7Et3bSTLLqdABO1qCxUplS a mel:Album ;
-    mel:candidated mel:2015_b_7e3232d0 ;
+    mel:candidated mel:2015_b_4e47f3dc ;
     mel:containsSong mel:5SsR3wtCOafDmZgvIdRhSm ;
     mel:isReleasedBy mel:5IcR3N7QB1j6KBL8eImZ8m ;
     mel:name "Oxymoron (Deluxe)"^^xsd:string ;
@@ -40462,7 +40462,7 @@ mel:7Fztl07Vtpt1rxFYoHeZji a mel:Album ;
     mel:totalTracks "9"^^xsd:positiveInteger .
 
 mel:7G84Q2FcA43cjLeWBSIedv a mel:Album ;
-    mel:candidated mel:2009_b_931114a3 ;
+    mel:candidated mel:2009_b_4219640c ;
     mel:containsSong mel:77vYwoC7e3pVoPq8BA9CuL ;
     mel:isReleasedBy mel:0YrtvWJMgSdVrk3SfNjTbx ;
     mel:name "Narrow Stairs"^^xsd:string ;
@@ -40598,7 +40598,7 @@ mel:7HlZFlk0jJq3Bb03AOyMTE a mel:Album ;
     mel:totalTracks "13"^^xsd:positiveInteger .
 
 mel:7Ht6xQ80vFtSe2n2KjAAsA a mel:Album ;
-    mel:candidated mel:2019_b_f442dc43 ;
+    mel:candidated mel:2019_b_71c81050 ;
     mel:containsSong mel:6vlxmQGwmlyp07YjkugV6K ;
     mel:isReleasedBy mel:3RqBeV12Tt7A8xH3zBDDUF ;
     mel:name "Unapologetically (Deluxe Edition)"^^xsd:string ;
@@ -40928,7 +40928,7 @@ mel:7KmTLcEEcRCBIgCrLdwxhA a mel:Album ;
     mel:totalTracks "8"^^xsd:positiveInteger .
 
 mel:7Kmmw7Z5D2UD5MVwdm10sT a mel:Album ;
-    mel:candidated mel:2012_b_d979b8cd ;
+    mel:candidated mel:2012_b_9b1c913d ;
     mel:containsSong mel:4HRa9ZWcmZ8JD7UySPu0wT,
         mel:7w87IxuO7BDcJ3YUqCyMTT ;
     mel:isReleasedBy mel:7gP3bB2nilZXLfPHJhMdvc ;
@@ -41010,7 +41010,7 @@ mel:7LukcPnAOnV7MuJ6uIUe1s a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:7MEQdKzqoG2QJYcT2XEKsW a mel:Album ;
-    mel:candidated mel:2008_b_c1abb235 ;
+    mel:candidated mel:2008_b_a0da9fe6 ;
     mel:containsSong mel:0wIhWLNLIOmzQ89B3rtTd3,
         mel:2tVCFmn2zKg2wGXS1TCIIA,
         mel:7mXmxXLAnsvXKt4Q37KoMI ;
@@ -41042,7 +41042,7 @@ mel:7MZzYkbHL9Tk3O6WeD4Z0Z a mel:Album ;
     mel:isReleasedBy mel:7dGJo4pcD2V6oG8kP0tJRR ;
     mel:name "Relapse: Refill"^^xsd:string ;
     mel:totalTracks "29"^^xsd:positiveInteger ;
-    mel:winner mel:2010_b_506868e8 .
+    mel:winner mel:2010_b_52862266 .
 
 mel:7Mccdl5xR9mfqo00lgDVDA a mel:Album ;
     mel:containsSong mel:5JcaA4A9ZoXthwEnxOxWvP ;
@@ -41111,13 +41111,13 @@ mel:7a5966aOxUFTl2VCPmkgVS a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:7a5U0GPoAvT3gvEY66FRuN a mel:Album ;
-    mel:candidated mel:2002_a_2f83f149 ;
+    mel:candidated mel:2002_a_39a96735 ;
     mel:containsSong mel:0gzqZ9d1jIKo9psEIthwXe,
         mel:1klDPm7SfsS32hl7KHV9iy ;
     mel:isReleasedBy mel:51Blml2LZPmy7TTiAg47vQ ;
     mel:name "All That You Can't Leave Behind"^^xsd:string ;
     mel:totalTracks "12"^^xsd:positiveInteger ;
-    mel:winner mel:2002_b_5398b4ed .
+    mel:winner mel:2002_b_3e218b95 .
 
 mel:7a8mrq83VEf0PoFh6pvtsb a mel:Album ;
     mel:containsSong mel:1lkvpmrCaXK8QtliFDcHBO,
@@ -41394,7 +41394,7 @@ mel:7dHqbQZuHgDDiGiz0vm4U0 a mel:Album ;
     mel:totalTracks "11"^^xsd:positiveInteger .
 
 mel:7dK54iZuOxXFarGhXwEXfF a mel:Album ;
-    mel:candidated mel:2017_a_c1e21a8d ;
+    mel:candidated mel:2017_a_18bd3552 ;
     mel:containsSong mel:0lnIJmgcUpEpe4AZACjayW,
         mel:0rzNMzZsubFcXSEh7dnem7,
         mel:2FNPJWVdGxYhWaotd6rULS,
@@ -41421,7 +41421,7 @@ mel:7dsWupQRlFuhG8FGiQAUjC a mel:Album ;
     mel:totalTracks "8"^^xsd:positiveInteger .
 
 mel:7dtjpzbhRH1dc2gM0FLrqh a mel:Album ;
-    mel:candidated mel:2006_b_3084f294 ;
+    mel:candidated mel:2006_b_78736c7d ;
     mel:containsSong mel:2TmD4OyEl5WyhXR6wIia6m,
         mel:3H2PYvePtlKoErKnlP943M,
         mel:5tdbsJQ86BVvjmpTikVP7q,
@@ -41521,12 +41521,12 @@ mel:7exd88EAaZ9Of6wnzwApkJ a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:7eyQXxuf2nGj9d2367Gi5f a mel:Album ;
-    mel:candidated mel:2009_a_ece51146 ;
+    mel:candidated mel:2009_a_bcc5baaf ;
     mel:containsSong mel:5k7VKj1Xwy5DjO4B0PdAOb ;
     mel:isReleasedBy mel:4Z8W4fKeB5YxbusRsdQVPb ;
     mel:name "In Rainbows"^^xsd:string ;
     mel:totalTracks "10"^^xsd:positiveInteger ;
-    mel:winner mel:2009_b_931114a3 .
+    mel:winner mel:2009_b_4219640c .
 
 mel:7eyuQZCLG5tdjWpKZbDE8g a mel:Album ;
     mel:containsSong mel:0IGqnANwfZgUFpoPRXQxFj,
@@ -42090,7 +42090,7 @@ mel:7livVHQtTq6IuXtPxXPNIY a mel:Album ;
     mel:totalTracks "12"^^xsd:positiveInteger .
 
 mel:7lpbyGc4fHsQkBTsfWVBhp a mel:Album ;
-    mel:candidated mel:2014_a_a1396f94 ;
+    mel:candidated mel:2014_a_30d27d73 ;
     mel:containsSong mel:6Uy6K3KdmUdAfelUp0SeXn,
         mel:7jJH8F3PHlNvxfqEAAfFDl ;
     mel:isReleasedBy mel:2Sqr0DXoaYABbjBo9HaMkM ;
@@ -42117,7 +42117,7 @@ mel:7lw9tMKTtBIpNDGFs4yYu3 a mel:Album ;
     mel:totalTracks "8"^^xsd:positiveInteger .
 
 mel:7lxHnls3yQNl8B9bILmHj7 a mel:Album ;
-    mel:candidated mel:2016_a_8f70a8a0 ;
+    mel:candidated mel:2016_a_dadbd91f ;
     mel:containsSong mel:178OI1A3qjROeFeh8lmNwW,
         mel:3fqwjXwUGN6vbzIwvyFMhx,
         mel:4WRRCuJYRq7gUKiupxVH9W,
@@ -42125,7 +42125,7 @@ mel:7lxHnls3yQNl8B9bILmHj7 a mel:Album ;
     mel:isReleasedBy mel:4YLtscXsxbVgi031ovDDdh ;
     mel:name "Traveller"^^xsd:string ;
     mel:totalTracks "14"^^xsd:positiveInteger ;
-    mel:winner mel:2016_b_57e0213b .
+    mel:winner mel:2016_b_9a09c39a .
 
 mel:7lxPWM0F06HwejiYAroSha a mel:Album ;
     mel:containsSong mel:6b3CWHNAKiJRqmgz6ZcWaB ;
@@ -42140,8 +42140,8 @@ mel:7lzKMo3MHAz8Xuc0LBA4tG a mel:Album ;
     mel:totalTracks "10"^^xsd:positiveInteger .
 
 mel:7m7F7SQ3BXvIpvOgjW51Gp a mel:Album ;
-    mel:candidated mel:2013_a_6db6731a,
-        mel:2013_b_36239385 ;
+    mel:candidated mel:2013_a_1a33b99e,
+        mel:2013_b_f3fcf23f ;
     mel:containsSong mel:5xZjfKSfTooDP2rcAgjxlH,
         mel:67WTwafOMgegV6ABnBQxcE ;
     mel:isReleasedBy mel:5nCi3BB41mBaMH9gfr6Su0 ;
@@ -42553,7 +42553,7 @@ mel:7qqCw47pAWFzhwTpVRd0zE a mel:Album ;
     mel:totalTracks "15"^^xsd:positiveInteger .
 
 mel:7qtQYJc0H6s3CK4c7Gp8GR a mel:Album ;
-    mel:candidated mel:2010_b_b37b3066 ;
+    mel:candidated mel:2010_b_93912de7 ;
     mel:containsSong mel:1V4jC0vJ5525lEF1bFgPX2,
         mel:2sPva3d85R7yKf60y7QZpD ;
     mel:isReleasedBy mel:3sgFRtyBnxXD5ESfmbK4dl ;
@@ -42905,7 +42905,7 @@ mel:7uGmyYwDFJbSc1xs4hkEs2 a mel:Album ;
     mel:totalTracks "13"^^xsd:positiveInteger .
 
 mel:7uVimUILdzSZG4KKKWToq0 a mel:Album ;
-    mel:candidated mel:2013_b_f3f07ca8 ;
+    mel:candidated mel:2013_b_5f82ed51 ;
     mel:containsSong mel:1FRqLI971CD1QedTiJeL3c,
         mel:5a1iz510sv2W9Dt1MvFd5R ;
     mel:isReleasedBy mel:1GxkXlMwML1oSg5eLPiAz3 ;
@@ -42981,7 +42981,7 @@ mel:7vKm8mm9YghTt3P91ic6l1 a mel:Album ;
     mel:totalTracks "9"^^xsd:positiveInteger .
 
 mel:7vN82vd1Vq44fjlhjfvHJp a mel:Album ;
-    mel:candidated mel:2012_b_c9cbda74 ;
+    mel:candidated mel:2012_b_9e01d8bb ;
     mel:containsSong mel:0AH6WMe3OlAlUb5miXt2FQ,
         mel:0uIGzK6ukV0A5yWoCxPkRL,
         mel:1Bx0zEdVjkFlV27iKaePug,
@@ -43149,7 +43149,7 @@ mel:7xl50xr9NDkd3i2kBbzsNZ a mel:Album ;
     mel:isReleasedBy mel:0L8ExT028jH3ddEcZwqJJ5 ;
     mel:name "Stadium Arcadium"^^xsd:string ;
     mel:totalTracks "29"^^xsd:positiveInteger ;
-    mel:winner mel:2007_b_3f308e2e .
+    mel:winner mel:2007_b_a41a0043 .
 
 mel:7xlc8VKmPqZJ9m1Dphm6O5 a mel:Album ;
     mel:containsSong mel:4rxamav7i2lJexbuAxcvfe ;
@@ -43201,14 +43201,14 @@ mel:7yZHLfxqiGPbSQLrVJljah a mel:Album ;
     mel:totalTracks "45"^^xsd:positiveInteger .
 
 mel:7ycBtnsMtyVbbwTfJwRjSP a mel:Album ;
-    mel:candidated mel:2016_a_8f70a8a0 ;
+    mel:candidated mel:2016_a_dadbd91f ;
     mel:containsSong mel:0N3W5peJUQtI4eyR6GJT5O,
         mel:3iVcZ5G6tvkXZkZKlMpIUs,
         mel:5Mtt6tZSZA9cXTHGSGpyh0 ;
     mel:isReleasedBy mel:2YZyLoL8N0Wb9xBt1NhZWg ;
     mel:name "To Pimp A Butterfly"^^xsd:string ;
     mel:totalTracks "16"^^xsd:positiveInteger ;
-    mel:winner mel:2016_b_10bd00e9 .
+    mel:winner mel:2016_b_1e1ac0ba .
 
 mel:7ydMeYrv8bFFRkkHepoJM4 a mel:Album ;
     mel:containsSong mel:3yUcJwYu7fXAfqMj9krY6l ;
@@ -43244,7 +43244,7 @@ mel:7ysKTnHt4ve0MvIWm3vPdz a mel:Album ;
     mel:totalTracks "89"^^xsd:positiveInteger .
 
 mel:7z7iT4n1wEYDbNTr8FkgoR a mel:Album ;
-    mel:candidated mel:2014_b_f4b48e80 ;
+    mel:candidated mel:2014_b_02b2bff0 ;
     mel:containsSong mel:3cWzfoRxcAlfak10pLfM8v,
         mel:5I7oDuQDfhV0syRU3cU7zB,
         mel:6v45WySfJunAI6kTh3eCpc,
