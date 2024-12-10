@@ -361,6 +361,23 @@ mel:position rdf:type owl:DatatypeProperty ,
              rdfs:label "position"@en .
 
 
+###  http://www.dei.unipd.it/~gdb/ontology/melody#songType
+mel:songType rdf:type owl:DatatypeProperty ,
+                      owl:FunctionalProperty ;
+             rdfs:domain mel:Song ;
+             rdfs:range [ rdf:type rdfs:Datatype ;
+                          owl:oneOf [ rdf:type rdf:List ;
+                                      rdf:first "Collaboration"@en ;
+                                      rdf:rest [ rdf:type rdf:List ;
+                                                 rdf:first "Solo"@en ;
+                                                 rdf:rest rdf:nil
+                                               ]
+                                    ]
+                        ] ;
+             rdfs:comment "Whether a song is a solo song or a collaboration."@en ;
+             rdfs:label "songType"@en .
+
+
 ###  http://www.dei.unipd.it/~gdb/ontology/melody#totalTracks
 mel:totalTracks rdf:type owl:DatatypeProperty ,
                          owl:FunctionalProperty ;
@@ -386,23 +403,6 @@ mel:year rdf:type owl:DatatypeProperty ,
          rdfs:range xsd:gYear ;
          rdfs:comment "The year of a grammy"@en ;
          rdfs:label "year"@en .
-
-
-###  http://www.dei.unipd.it/~gdb/ontology/melody/songType
-<http://www.dei.unipd.it/~gdb/ontology/melody/songType> rdf:type owl:DatatypeProperty ,
-                                                                 owl:FunctionalProperty ;
-                                                        rdfs:domain mel:Song ;
-                                                        rdfs:range [ rdf:type rdfs:Datatype ;
-                                                                     owl:oneOf [ rdf:type rdf:List ;
-                                                                                 rdf:first "Collaboration"@en ;
-                                                                                 rdf:rest [ rdf:type rdf:List ;
-                                                                                            rdf:first "Solo"@en ;
-                                                                                            rdf:rest rdf:nil
-                                                                                          ]
-                                                                               ]
-                                                                   ] ;
-                                                        rdfs:comment "Whether a song is a solo song or a collaboration."@en ;
-                                                        rdfs:label "songType"@en .
 
 
 #################################################################
