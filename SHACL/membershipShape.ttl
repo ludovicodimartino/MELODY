@@ -1,0 +1,22 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mel:  <http://www.dei.unipd.it/~gdb/ontology/melody#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+mel:MembershipShape
+    a sh:NodeShape ;
+    sh:targetClass mel:Membership ;
+    sh:property [
+        sh:path mel:position ;
+        sh:datatype xsd:positiveInteger ;
+        sh:minCount 1 ;
+    ];
+    sh:property [
+        sh:path mel:classifiedIn ;
+        sh:minCount 1 ;
+    ];
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty ) ;
+.

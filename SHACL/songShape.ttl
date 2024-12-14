@@ -52,6 +52,14 @@ mel:SongShape
         sh:minInclusive 0.0 ;
         sh:maxInclusive 1.0 ;
     ];
+    sh:property [
+        sh:path mel:classified ;
+        sh:minCount 1 ;
+    ];
+    sh:property [
+        sh:path mel:sungBy ;
+        sh:minCount 1 ;
+    ];
     sh:closed true ;
-    sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty mel:key mel:isRemixOf mel:classified mel:isInAlbum mel:sungBy mel:winner mel:candidated ) ;
+    sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty mel:key mel:isRemixOf mel:isInAlbum mel:winner mel:candidated ) ;
 .

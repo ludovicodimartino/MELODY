@@ -1,0 +1,19 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mel:  <http://www.dei.unipd.it/~gdb/ontology/melody#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+mel:BillboardShape
+    a sh:NodeShape ;
+    sh:targetClass mel:BillboardHot100 ;
+    sh:property [
+        sh:path mel:date ;
+        sh:datatype xsd:date ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ];
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty ) ;
+.
