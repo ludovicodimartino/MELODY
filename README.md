@@ -20,7 +20,7 @@ The goal of the project is to create a graph database containing information abo
 ```
 MELODY repository
 │   
-└───csv               # the developed sketches for the Arduino board
+└───csv               # the csv datasets used
 │  
 └───OntologyDesign    # the ontology design diagram and turtle file
 │  
@@ -42,6 +42,15 @@ MELODY repository
 
 ## Ontology design
 ![](./OntologyDesign/melody_ontology.png)
+
+## How to run
+Download [melody-ontology.ttl](./OntologyDesign/melody-ontology.ttl) and import it in [Protégé](https://protege.stanford.edu/) to see the skeleton ontology (TBox).
+
+To see the populated ontology import [melody-ontology.ttl](./OntologyDesign/melody-ontology.ttl) in [GraphDB](https://www.ontotext.com/products/graphdb/) along with [melody-complete-rdf-dataset.ttl](./PopulateRDFdb/melody-complete-rdf-dataset.ttl) containing the data (ABox).
+
+Queries are in the file [Queries.txt](./Queries/Queries.txt) and can be run in GraphDB.
+
+*Optional*. If you want to validate the data with SHACL or add new data, enable the shacl validation in GraphDB and import the [SHACL shapes](./SHACL/) files in GraphDB (see https://graphdb.ontotext.com/documentation/10.8/shacl-validation.html). 
 
 ### License ###
 
