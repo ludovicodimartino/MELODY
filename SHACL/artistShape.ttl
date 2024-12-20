@@ -1,0 +1,41 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mel:  <http://www.dei.unipd.it/~gdb/ontology/melody#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+
+mel:ArtistShape
+    a sh:NodeShape ;
+    sh:targetClass mel:Artist ;
+    sh:property [
+        sh:path mel:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ];
+    sh:property [
+        sh:path mel:followers ;
+        sh:datatype xsd:nonNegativeInteger ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ];
+    sh:property [
+        sh:path mel:artisType ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ];
+    sh:property [
+        sh:path mel:hasGenre ;
+        sh:datatype mel:Genre ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ];
+    sh:property [
+        sh:path mel:hasPopularity ;
+        sh:datatype mel:Popularity ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ];
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty mel:sing mel:releasedAlbum mel:winner mel:candidated ).
