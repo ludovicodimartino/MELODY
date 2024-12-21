@@ -18,7 +18,6 @@ mel:ArtistShape
         sh:path mel:followers ;
         sh:datatype xsd:nonNegativeInteger ;
         sh:minCount 1 ;
-        sh:maxCount 1 ;
     ];
     sh:property [
         sh:path mel:artisType ;

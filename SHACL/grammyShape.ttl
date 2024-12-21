@@ -5,7 +5,7 @@
 @prefix mel:  <http://www.dei.unipd.it/~gdb/ontology/melody#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 
-mel:SongShape
+mel:GrammyShape
     a sh:NodeShape ;
     sh:targetClass mel:Grammy ;
     sh:property [
@@ -18,5 +18,7 @@ mel:SongShape
         sh:path mel:hasCategory ;
         sh:minCount 1 ;
         sh:maxCount 1 ;
-    ]
+    ] ;
+    sh:closed true ;
+    sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty ) ;
 .
