@@ -17,24 +17,18 @@ mel:ArtistShape
     sh:property [
         sh:path mel:followers ;
         sh:datatype xsd:nonNegativeInteger ;
-        sh:minCount 1 ;
-    ];
-    sh:property [
-        sh:path mel:artisType ;
-        sh:minCount 1 ;
-        sh:maxCount 1 ;
     ];
     sh:property [
         sh:path mel:hasGenre ;
-        sh:datatype mel:Genre ;
+        sh:node mel:Genre ;
         sh:minCount 1 ;
         sh:maxCount 1 ;
     ];
     sh:property [
         sh:path mel:hasPopularity ;
-        sh:datatype mel:Popularity ;
+        sh:node mel:Popularity ;
         sh:minCount 1 ;
         sh:maxCount 1 ;
     ];
     sh:closed true ;
-    sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty mel:sing mel:releasedAlbum mel:winner mel:candidated ).
+    sh:ignoredProperties ( rdf:type owl:topDataProperty owl:topObjectProperty mel:sing mel:releasedAlbum mel:winner mel:candidated mel:artistType ).
