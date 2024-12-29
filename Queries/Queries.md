@@ -145,3 +145,113 @@ This query counts the number of song titles in which occurs the word *love*.
     }
 
     # ANSWER: 1643
+
+## One-Hit Wonders (The Musical Comets)
+This query aims to identify artists who experienced a short moment of glory in the Top 50 of the Billboard charts. The query searchs for artists who had at least one song reach the Top 50 but never appeared in the Billboard charts again with any other song, even outside the Top 50.
+
+    PREFIX mel: <http://www.dei.unipd.it/~gdb/ontology/melody#>
+
+    SELECT ?artistName ?songName ?minPosition WHERE{
+        ?song mel:name ?songName ;
+                    mel:sungBy/mel:name ?artistName;
+        {
+            SELECT ?artistName ?songName (MIN(?position) AS ?minPosition)
+                WHERE {
+
+                ?song mel:name ?songName ;
+                    mel:sungBy/mel:name ?artistName;
+                mel:classified ?membership.
+
+                ?membership a mel:Membership ;
+                            mel:position ?position ;
+                            mel:classifiedIn ?billboard .
+                FILTER(?position < 51)
+                }
+            GROUP BY ?artistName ?songName
+            HAVING(COUNT(?songName) = 1)
+        }
+        FILTER NOT EXISTS {
+            ?song2 mel:name ?songName2 ;
+                    mel:sungBy/mel:name ?artistName;
+                    mel:classified ?membership2 .
+        ?membership2 a mel:Membership ;
+                            mel:position ?position2 ;
+                            mel:classifiedIn ?billboard2 .
+        FILTER(?position2 >= 51)
+       }
+    }
+
+| Song Title                                        | Artist Name(s)                                           | Peak Position |
+| ------------------------------------------------- | -------------------------------------------------------- | -------------: |
+| Christmas (Baby Please Come Home)                 | Darlene Love                                              | 50            |
+| Wasted Love                                       | Matt McAndrew                                             | 14            |
+| Don't Go Breaking My Heart                        | Ultra Trax                                                | 50            |
+| Hold Up My Heart                                  | Brooke White                                              | 47            |
+| Lucky                                             | Ultra Trax                                                | 27            |
+| Hey soul sister                                   | Glee Cast Karaoke's band                                 | 29            |
+| (There's No Place Like) Home for the Holidays     | Mitchell Ayres \& His Orchestra                          | 41            |
+| We Might Be Dead By Tomorrow                      | Soko                                                      | 9             |
+| White Christmas                                   | Ken Darby Singers, Bing Crosby, John Scott Trotter \& His Orchestra | 48            |
+| My Baby’s Got A Smile On Her Face                 | Craig Wayne Boyd                                          | 34            |
+| "River Deep, Mountain High"                       | Ultra Trax                                                | 41            |
+| 3AM (as made famous by Eminem)                    | Radio Killers                                             | 32            |
+| Wonderful Christmastime                           | Jimmy Fallon                                              | 47            |
+| Wonderful Summer                                  | Robin Ward                                                | 43            |
+
+## Comeback Songs
+This query explores the phenomenon of "comeback" songs, tracks that initially appeared on the Billboard charts, disappeared, and then made a reappearance at least a decade later.
+
+    PREFIX mel: <http://www.dei.unipd.it/~gdb/ontology/melody#>
+
+    SELECT DISTINCT ?songName ?artist ?earliestYear (YEAR(?date2) AS ?returnYear) (?returnYear - ?earliestYear AS ?distance)
+    WHERE {
+    ?song mel:name ?songName ;
+            mel:classified ?membership2 .
+
+    ?membership2 a mel:Membership ;
+                mel:classifiedIn ?billboard2 .
+    ?billboard2 mel:date ?date2 .
+
+    {
+        SELECT ?songName ?artist (MIN(YEAR(?date1)) AS ?earliestYear)
+        WHERE {
+        ?song mel:name ?songName ;
+                mel:classified ?membership1 ;
+                mel:sungBy ?art.
+        ?art mel:name ?artist.
+        ?membership1 a mel:Membership ;
+                    mel:classifiedIn ?billboard1 .
+        ?billboard1 mel:date ?date1 .
+        }
+        GROUP BY ?songName ?artist
+    }
+
+    FILTER (YEAR(?date2) > ?earliestYear)
+    FILTER (YEAR(?date2) - ?earliestYear >= 10)
+    }
+    ORDER BY DESC(?distance) ?songName ?artist ?earliestYear ?returnYear
+
+
+## Album Excellence
+This query identifies albums with a significant concentration of Grammy-nominated or winning songs, calculating the percentage of tracks within albums that contain more than two songs and that feature at least two Grammy-recognized songs.
+
+    PREFIX mel: <http://www.dei.unipd.it/~gdb/ontology/melody#>
+
+    SELECT distinct ?albumName ?totTracks ?artistName
+        (COUNT(distinct ?song) as ?songPerAlbum)
+        ((COUNT(distinct ?song) / ?totTracks) * 100 AS ?grammyPercentage)
+        (GROUP_CONCAT(distinct ?songName; SEPARATOR=", ") AS ?grammySongs)
+    WHERE {
+        ?song a mel:Song;
+            mel:winner|mel:candidated ?grammy;
+            mel:name ?songName;
+            mel:sungBy ?artist.
+        ?artist mel:name ?artistName.
+        ?album mel:containsSong ?song;
+            mel:name ?albumName;
+            mel:totalTracks ?totTracks.
+        FILTER(?totTracks>2)
+    }
+    GROUP BY ?albumName ?artistName ?totTracks
+    HAVING(?songPerAlbum >1)
+    ORDER BY DESC(?grammyPercentage)
