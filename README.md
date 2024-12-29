@@ -10,7 +10,7 @@ Repository of group *MELODY* for the "Graph Databases" course, A.Y. 2024/2025.
 |------------|------------|-----------|
 | Di Martino | Ludovico   | ludovico.dimartino@studenti.unipd.it   |
 | Galli      | Filippo    | filippo.galli@studenti.unipd.it   |
-| Rigobello  | Manuel    | rigobello.manuel@studenti.unipd.it   |
+| Rigobello  | Manuel    | manuel.rigobello@studenti.unipd.it   |
 
 ## Project Description ###
 
