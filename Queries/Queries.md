@@ -151,52 +151,45 @@ This query aims to identify artists who experienced a short moment of glory in t
 
     PREFIX mel: <http://www.dei.unipd.it/~gdb/ontology/melody#>
 
-    SELECT ?artistName ?songName ?minPosition WHERE{
-        ?song mel:name ?songName ;
-                    mel:sungBy/mel:name ?artistName;
-        {
-            SELECT ?artistName ?songName (MIN(?position) AS ?minPosition)
-                WHERE {
+    SELECT ?artistName ?songName ?position WHERE {
+    ?song mel:name ?songName ;
+            mel:sungBy/mel:name ?artistName ;
+            mel:classified ?membership .
+    ?membership mel:position ?position .
+    FILTER (?position < 51)
 
-                ?song mel:name ?songName ;
-                    mel:sungBy/mel:name ?artistName;
-                mel:classified ?membership.
-
-                ?membership a mel:Membership ;
-                            mel:position ?position ;
-                            mel:classifiedIn ?billboard .
-                FILTER(?position < 51)
-                }
-            GROUP BY ?artistName ?songName
-            HAVING(COUNT(?songName) = 1)
-        }
-        FILTER NOT EXISTS {
-            ?song2 mel:name ?songName2 ;
-                    mel:sungBy/mel:name ?artistName;
+    FILTER NOT EXISTS {
+        ?song2 mel:sungBy/mel:name ?artistName ;
                     mel:classified ?membership2 .
-        ?membership2 a mel:Membership ;
-                            mel:position ?position2 ;
-                            mel:classifiedIn ?billboard2 .
-        FILTER(?position2 >= 51)
-       }
+        FILTER (?song2 != ?song)
     }
 
-| Song Title                                        | Artist Name(s)                                           | Peak Position |
+    FILTER NOT EXISTS {
+        ?song mel:name ?songName ;
+            mel:sungBy/mel:name ?artistName ;
+            mel:classified ?membership3 .
+        ?membership3 mel:position ?position2 .
+        FILTER (?membership3 != ?membership)
+    }
+    }
+    GROUP BY ?artistName ?songName ?position 
+    ORDER BY(?position)
+
+
+| Song Title                                        | Artist Name                                           | Peak Position |
 | ------------------------------------------------- | -------------------------------------------------------- | -------------: |
-| Christmas (Baby Please Come Home)                 | Darlene Love                                              | 50            |
+| We Might Be Dead By Tomorrow                     | Soko                                                     | 9             |
 | Wasted Love                                       | Matt McAndrew                                             | 14            |
-| Don't Go Breaking My Heart                        | Ultra Trax                                                | 50            |
-| Hold Up My Heart                                  | Brooke White                                              | 47            |
-| Lucky                                             | Ultra Trax                                                | 27            |
-| Hey soul sister                                   | Glee Cast Karaoke's band                                 | 29            |
-| (There's No Place Like) Home for the Holidays     | Mitchell Ayres \& His Orchestra                          | 41            |
-| We Might Be Dead By Tomorrow                      | Soko                                                      | 9             |
-| White Christmas                                   | Ken Darby Singers, Bing Crosby, John Scott Trotter \& His Orchestra | 48            |
-| My Baby’s Got A Smile On Her Face                 | Craig Wayne Boyd                                          | 34            |
-| "River Deep, Mountain High"                       | Ultra Trax                                                | 41            |
-| 3AM (as made famous by Eminem)                    | Radio Killers                                             | 32            |
-| Wonderful Christmastime                           | Jimmy Fallon                                              | 47            |
-| Wonderful Summer                                  | Robin Ward                                                | 43            |
+| Hey soul sister                                  | Glee Cast Karaoke's band                                 | 29            |
+| 3AM (as made famous by Eminem)                   | Radio Killers                                            | 32            |
+| My Baby’s Got A Smile On Her Face                | Craig Wayne Boyd                                         | 34            |
+| (There's No Place Like) Home for the Holidays      | Mitchell Ayres & His Orchestra                            | 41            |
+| Wonderful Summer                                   | Robin Ward                                                | 43            |
+| Hold Up My Heart                                 | Brooke White                                              | 47            |
+| Wonderful Christmastime                           | Jimmy Fallon                                             | 47            |
+| White Christmas                                   | Ken Darby Singers & Bing Crosby & John Scott Trotter & His Orchestra  | 48            |
+| Christmas (Baby Please Come Home)                 | Darlene Love                                              | 50            |
+
 
 ## Comeback Songs
 This query explores the phenomenon of "comeback" songs, tracks that initially appeared on the Billboard charts, disappeared, and then made a reappearance at least a decade later.
@@ -231,6 +224,18 @@ This query explores the phenomenon of "comeback" songs, tracks that initially ap
     }
     ORDER BY DESC(?distance) ?songName ?artist ?earliestYear ?returnYear
 
+| Song Name | Artist | Earliest Year | Return Year | Distance |
+|---|---|---|---|---|
+| Money | The Kingsmen | 1964 | 2018 | 54 |
+| Stay | Frankie Valli & The Four Seasons | 1964 | 2018 | 54 |
+| Tequila | Bill Black's Combo | 1964 | 2018 | 54 |
+| Try Me | Jimmy Hughes | 1964 | 2018 | 54 |
+| Alone | Frankie Valli & The Four Seasons | 1964 | 2017 | 53 |
+| Everybody | Tommy Roe | 1964 | 2017 | 53 |
+| This Is It | Jim Reeves | 1965 | 2018 | 53 |
+| Today | The New Christy Minstrels | 1964 | 2017 | 53 |
+| Alone | Frankie Valli & The Four Seasons | 1964 | 2016 | 52 |
+| Love Me Now | Brook Benton | 1965 | 2017 | 52 |
 
 ## Album Excellence
 This query identifies albums with a significant concentration of Grammy-nominated or winning songs, calculating the percentage of tracks within albums that contain more than two songs and that feature at least two Grammy-recognized songs.
@@ -256,6 +261,18 @@ This query identifies albums with a significant concentration of Grammy-nominate
     HAVING(?songPerAlbum >1)
     ORDER BY DESC(?grammyPercentage)
 
+| Album Name                       | Total Tracks | Artist Name         | Songs Per Album | Grammy Percentage | Grammy Songs                                                   |
+|-----------------------------------|--------------|----------------------|-----------------|-------------------|-----------------------------------------------------------------|
+| Hotel California (2013 Remaster) | 9            | Eagles               | 2               | 22.2\%          | Hotel California - 2013 Remaster, New Kid in Town - 2013 Remaster |
+| 24K Magic                      | 9            | Bruno Mars           | 2               | 22.2\%          | That's What I Like, 24K Magic                                   |
+| From A Room: Volume 1          | 9            | Chris Stapleton      | 2               | 22.2\%          | Broken Halos, Either Way                                          |
+| Clapton Chronicles: The Best of Eric Clapton | 14           | Eric Clapton         | 3               | 21.4\%          | Bad Love, Change the World, Tears in Heaven                  |
+| Viva La Vida or Death and All His Friends | 10           | Coldplay             | 2               | 20.0\%          | Viva La Vida, Violet Hill                                       |
+| True Colors                     | 10           | Cyndi Lauper         | 2               | 20.0\%          | What's Going On, Change of Heart                               |
+| Talking Book                    | 10           | Stevie Wonder        | 2               | 20.0\%          | You Are The Sunshine Of My Life, Superstition                  |
+| Soul Provider                   | 10           | Michael Bolton       | 2               | 20.0\%          | How Am I Supposed to Live Without You, Georgia On My Mind      |
+| Minute By Minute                | 10           | The Doobie Brothers  | 2               | 20.0\%          | What a Fool Believes, Minute by Minute                         |
+| Monkey Business                  | 16           | The Black Eyed Peas | 3               | 18.7\%          | My Humps, Don't Phunk With My Heart, Don't Lie                  |
 
 ## Top 10 Grammy-winning artists, including songs and albums
 Our ontology divides the garmmy awards based on whether the category refers to a song, an album, or an artist. Knowing that a song is sung by an artist and that the artist has released an album, this query shows the artist with the highest number of Grammy wins also considering the songs and the albums. Note that the query does not precisely reflect the reality due to a dataset without well-defined fields that leads the team to do some simplification to the match logic between the Grammy and the winner.
