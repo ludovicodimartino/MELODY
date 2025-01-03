@@ -255,3 +255,119 @@ This query identifies albums with a significant concentration of Grammy-nominate
     GROUP BY ?albumName ?artistName ?totTracks
     HAVING(?songPerAlbum >1)
     ORDER BY DESC(?grammyPercentage)
+
+
+## Top 10 Grammy-winning artists, including songs and albums
+Our ontology divides the garmmy awards based on whether the category refers to a song, an album, or an artist. Knowing that a song is sung by an artist and that the artist has released an album, this query shows the artist with the highest number of Grammy wins also considering the songs and the albums. Note that the query does not precisely reflect the reality due to a dataset without well-defined fields that leads the team to do some simplification to the match logic between the Grammy and the winner.
+
+    PREFIX mel: <http://www.dei.unipd.it/~gdb/ontology/melody#>
+
+    SELECT ?name (SUM(?wins) AS ?totalWins)
+    WHERE {
+    {
+        SELECT ?name (COUNT(?albumGrammy) AS ?wins)
+        WHERE {
+        ?a a mel:Artist ;
+            mel:name ?name ;
+            mel:releasedAlbum ?album .
+        ?album mel:winner ?albumGrammy .
+        }
+        GROUP BY ?name
+    }
+    UNION
+    {
+        SELECT ?name (COUNT(?artistGrammy) AS ?wins)
+        WHERE {
+        ?a a mel:Artist ;
+            mel:name ?name ;
+            mel:winner ?artistGrammy .
+        }
+        GROUP BY ?name
+    }
+    UNION
+    {
+        SELECT ?name (COUNT(?songGrammy) AS ?wins)
+        WHERE {
+        ?artist a mel:Artist ;
+            mel:name ?name ;
+            mel:sing ?song .
+        ?song mel:winner ?songGrammy .
+        }
+        GROUP BY ?name
+    }
+    }
+    GROUP BY ?name
+    ORDER BY DESC(?totalWins)
+    limit 10
+
+| name            | totalWins |
+|-----------------|-----------|
+| Stevie Wonder   | 19        |
+| Eminem          | 14        |
+| Adele           | 11        |
+| Bruno Mars      | 11        |
+| Aretha Franklin | 11        |
+| Michael Jackson | 10        |
+| Dixie Chicks    | 10        |
+| Alicia Keys     | 10        |
+| U2              | 9         |
+| Foo Fighters    | 9         |
+
+
+## Total Grammy wins per artist popularity
+With this query the main focus is to check whether, given an artist, his or her popularity reflects the number of Grammys won. As we can see from the pie chart, this is verified: "High" popularity has a higher number of wins than "Medium" popularity, which, in turn, has a higher number of wins than "Low" popularity.
+
+    PREFIX mel: <http://www.dei.unipd.it/~gdb/ontology/melody#>
+
+    SELECT ?popularity (COUNT(?grammy) as ?totalGrammy) WHERE {
+        ?artist a mel:Artist ;
+            mel:hasPopularity ?popularity ;
+            mel:winner ?grammy .
+        {
+            SELECT (COUNT(?grammy) as ?totGrammy) WHERE {
+                ?artist a mel:Artist ;
+                    mel:winner ?grammy .
+            }
+        }
+    }
+    GROUP BY ?popularity
+
+![](./winsByPopularity.png)
+
+
+## Top 10 average weeks on Billboard Hot 100 for artists with ≥10 songs.
+The idea of this query is to figure out what is the top 10 of average number of weeks an artist's song have been on the Billboard Hot 100 chart. In order to eliminate some misleading results in case an artist have one song or, in general, too few songs, the artist must have at least 10 songs that have been included in the Hot 100.
+
+    PREFIX mel: <http://www.dei.unipd.it/~gdb/ontology/melody#>
+
+    SELECT ?artistName (COUNT(?song) AS ?totalSongs) (AVG(?totalWeeks) as ?average) WHERE {
+        ?artist a mel:Artist ;
+            mel:name ?artistName ;
+            mel:sing ?song .
+        {
+            SELECT ?song ?songName (COUNT(?membership) as ?totalWeeks) WHERE {
+                ?song a mel:Song ;
+                    mel:name ?songName ;
+                    mel:classified ?membership .
+            }
+            GROUP BY ?song ?songName
+            ORDER BY DESC(?totalWeeks)
+        }
+    }
+    GROUP BY ?artistName
+    HAVING (?totalSongs >= 10)
+    ORDER BY DESC(?average)
+    limit 10
+
+| Artist Name         | Total Songs | Average                     |
+|---------------------|-------------|-----------------------------|
+| Imagine Dragons     | 13          | 19.769230769230769230769231 |
+| The Karaoke Crew    | 29          | 19.517241379310344827586207 |
+| Matchbox Twenty     | 10          | 18.6                        |
+| 3 Doors Down        | 10          | 18.3                        |
+| OneRepublic         | 13          | 18.0                        |
+| Taylor Dayne        | 10          | 17.9                        |
+| Destiny's Child     | 13          | 17.846153846153846153846154 |
+| Bruno Mars          | 14          | 17.642857142857142857142857 |
+| The Black Eyed Peas | 16          | 17.1875                     |
+| Adele               | 12          | 16.916666666666666666666667 |
