@@ -50,7 +50,7 @@ Download [melody-ontology.ttl](./OntologyDesign/melody-ontology.ttl) and import 
 
 To see the populated ontology import [melody-ontology.ttl](./OntologyDesign/melody-ontology.ttl) in [GraphDB](https://www.ontotext.com/products/graphdb/) along with [melody-complete-rdf-dataset.ttl](./PopulateRDFdb/melody-complete-rdf-dataset.ttl) containing the data (ABox).
 
-Queries are in the folder [Queries](./Queries) and can be run in GraphDB.
+Some [example queries](./Queries/Queries.md) are provided and can be run in GraphDB.
 
 *Optional*. If you want to validate the data with SHACL or add new data, enable the shacl validation in GraphDB and import the [SHACL shapes](./SHACL/) files in GraphDB (see https://graphdb.ontotext.com/documentation/10.8/shacl-validation.html). 
 
