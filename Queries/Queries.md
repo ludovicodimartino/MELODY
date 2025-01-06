@@ -352,8 +352,10 @@ With this query the main focus is to check whether, given an artist, his or her 
 ![](./winsByPopularity.png)
 
 
-## Top 10 average weeks on Billboard Hot 100 for artists with ≥10 songs.
-The idea of this query is to figure out what is the top 10 of average number of weeks an artist's song have been on the Billboard Hot 100 chart. In order to eliminate some misleading results in case an artist have one song or, in general, too few songs, the artist must have at least 10 songs that have been included in the Hot 100.
+## Average weeks on Billboard Hot 100 for artists with at least 10 songs
+The idea of this query is to find out the average number of weeks an artist's song has been on the Billboard Hot 100 chart. In order to eliminate some misleading results in case an artist have one song or, in general, too few songs, the artist must have at least 10 songs that have been included in the Hot 100.
+
+For brevity, in the results, we only show the top 10 artists with the highest average.
 
     PREFIX mel: <http://www.dei.unipd.it/~gdb/ontology/melody#>
 
@@ -362,10 +364,11 @@ The idea of this query is to figure out what is the top 10 of average number of 
             mel:name ?artistName ;
             mel:sing ?song .
         {
-            SELECT ?song ?songName (COUNT(?membership) as ?totalWeeks) WHERE {
+            SELECT ?song ?songName (COUNT(?billboard) as ?totalWeeks) WHERE {
                 ?song a mel:Song ;
                     mel:name ?songName ;
                     mel:classified ?membership .
+                ?membership mel:classifiedIn ?billboard .
             }
             GROUP BY ?song ?songName
             ORDER BY DESC(?totalWeeks)
@@ -376,15 +379,15 @@ The idea of this query is to figure out what is the top 10 of average number of 
     ORDER BY DESC(?average)
     limit 10
 
-| Artist Name         | Total Songs | Average                     |
-|---------------------|-------------|-----------------------------|
-| Imagine Dragons     | 13          | 19.769230769230769230769231 |
-| The Karaoke Crew    | 29          | 19.517241379310344827586207 |
-| Matchbox Twenty     | 10          | 18.6                        |
-| 3 Doors Down        | 10          | 18.3                        |
-| OneRepublic         | 13          | 18.0                        |
-| Taylor Dayne        | 10          | 17.9                        |
-| Destiny's Child     | 13          | 17.846153846153846153846154 |
-| Bruno Mars          | 14          | 17.642857142857142857142857 |
-| The Black Eyed Peas | 16          | 17.1875                     |
-| Adele               | 12          | 16.916666666666666666666667 |
+| Artist Name         | Total Songs | Average                      |
+|---------------------|-------------|------------------------------|
+| Imagine Dragons     | 13          | 30.461538461538461538461538  |
+| Bruno Mars          | 14          | 27.214285714285714285714286  |
+| The Karaoke Crew    | 29          | 26.965517241379310344827586  |
+| 3 Doors Down        | 10          | 26.8                         |
+| Matchbox Twenty     | 10          | 26.5                         |
+| OneRepublic         | 13          | 24.923076923076923076923077  |
+| The Black Eyed Peas | 16          | 24.375                       |
+| Destiny's Child     | 13          | 24.076923076923076923076923  |
+| LeAnn Rimes         | 12          | 24.0                         |
+| Adele               | 12          | 23.416666666666666666666667  |
